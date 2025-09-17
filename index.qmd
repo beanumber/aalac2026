@@ -1,0 +1,24 @@
+---
+title: "AALAC 2026 Workshop"
+---
+
+# Welcome to the AALAC 2026 Workshop
+
+This is the official website for the AALAC 2026 workshop.
+
+## Overview
+
+The AALAC (American Association for Laboratory Animal Care) 2026 workshop will provide comprehensive training and resources for laboratory animal care professionals.
+
+## Getting Started
+
+This website contains materials, resources, and information for workshop participants.
+
+## Contents
+
+- Workshop schedule and agenda
+- Presentation materials
+- Resources and references
+- Contact information
+
+For more information, please visit our [About](about.qmd) page.
