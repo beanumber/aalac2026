@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Generative AI and Data Analysis: implications for data science curriculum and pedagogy",
+    "section": "",
+    "text": "Approved for funding"
+  },
+  {
+    "objectID": "index.html#status",
+    "href": "index.html#status",
+    "title": "Generative AI and Data Analysis: implications for data science curriculum and pedagogy",
+    "section": "",
+    "text": "Approved for funding"
+  },
+  {
+    "objectID": "index.html#proposal",
+    "href": "index.html#proposal",
+    "title": "Generative AI and Data Analysis: implications for data science curriculum and pedagogy",
+    "section": "Proposal",
+    "text": "Proposal\nThe release of ChatGPT on November 30th, 2022 was met by a global viral response, with excitement about the potential benefits of artificial intelligence (AI) for all aspects of our lives matched by equally significant concerns about its impact. Since then, development and refinement of generative AI (GenAI) and related technologies have accelerated, as have their adoption and integration. Increasingly these novel tools are deployed in the analysis of the data we generate to aid evidence-based decision making.\nThese changes are also disrupting our educational structures and practices. While some believe that GenAI tools can help facilitate a student-centric approach characterized by individualized adaptive learning, others fear the “cognitive atrophy” that may result from over-reliance on AI tools. On our liberal arts campuses attitudes towards this new disruption include a range of responses from “It is not for me” and “I wish it would go away,” to extensive use of it for scholarly work and course preparation but not allowing student use, to unchecked integration. This fluid, quickly changing, and somewhat anarchic situation (with student users often the more conversant group) has led to calls for institutional responses and updates to teaching guidelines and practices. We believe that future adaptations and changes to pedagogy must be informed by an expert discipline-specific examination of what and how we teach. While there are clearly impacts of AI that could be similar across many disciplines, deeper impact on content and pedagogy may be quite different based upon the specific context and learning outcomes.\nGenAI is inherently a data science product. Our students are positioned to be both the (current and future) consumers of these new tools as well as (future) producers of them. As such, how we integrate these tools into our curriculum and pedagogy is a paramount consideration. In the broadly defined fields of data analytics and data science, we need to balance teaching fundamentals while at the same time enabling our students to fluently use emerging tools to extract insights from data. The inappropriate use of AI tools at the introductory level may leave students unable to use and interpret more sophisticated techniques and models at the upper levels. At the same time, we cannot ignore the ubiquity of these tools. Therefore, we need to re-examine the content and pedagogy of our courses and find appropriate ways to adapt to it.\nThe goal of the workshop will be to examine current practices, outline appropriate AI integration and develop guidelines for data analysis courses applicable to a variety of levels and disciplines. We envision a participatory process working with the program committee to plan the workshop that would include 1) pre-workshop activities (e.g., virtual meetings), 2) collection of information on student perspectives and their GenAI use, 3) specific goals for the workshop sessions, and 4) follow-up information dissemination and assessment."
+  },
+  {
+    "objectID": "index.html#read-more",
+    "href": "index.html#read-more",
+    "title": "Generative AI and Data Analysis: implications for data science curriculum and pedagogy",
+    "section": "Read more",
+    "text": "Read more\nFor more information, please visit our About page."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Benjamin Baumer, Professor of Statistical and Data Sciences, Smith College\nNicholas Horton, Beitzel Professor of Technology and Society (Statistics and Data Science), Amherst College\nEmmanuel Kaparakis, Director, Hazel Quantitative Analysis Center & Centers for Advanced Computing, Wesleyan University\nSarah Supp, Associate Professor of Data Analytics and Sustainability & Environmental Studies, Denison University"
+  },
+  {
+    "objectID": "about.html#workshop-organizers",
+    "href": "about.html#workshop-organizers",
+    "title": "About",
+    "section": "",
+    "text": "Benjamin Baumer, Professor of Statistical and Data Sciences, Smith College\nNicholas Horton, Beitzel Professor of Technology and Society (Statistics and Data Science), Amherst College\nEmmanuel Kaparakis, Director, Hazel Quantitative Analysis Center & Centers for Advanced Computing, Wesleyan University\nSarah Supp, Associate Professor of Data Analytics and Sustainability & Environmental Studies, Denison University"
+  },
+  {
+    "objectID": "about.html#program-committee",
+    "href": "about.html#program-committee",
+    "title": "About",
+    "section": "Program committee",
+    "text": "Program committee\n\nMing-Wen An, Professor of Mathematics and Statistics on the Elizabeth Stillman Williams Chair, Vassar College\nSorelle Friedler, Shibulal Family Professor of Computer Science, Haverford College\nCassandra Pattanayak, Jack and Sandra Polk Guthman ’65 Director, Quantitative Analysis Institute, & Senior Lecturer in Quantitative Reasoning and Mathematics, Wellesley College\nAnna Plantinga, Associate Professor of Statistics, Williams College\nLynne Steuerle Schofield, Professor of Statistics and Chair of Department of Mathematics and Statistics, Swarthmore College\nMarc Schulz, Professor of Psychology on the Sue Kardas PhD 1971 Chair and Director of Data Science, Bryn Mawr College"
+  },
+  {
+    "objectID": "about.html#invited-plenary-speaker",
+    "href": "about.html#invited-plenary-speaker",
+    "title": "About",
+    "section": "Invited plenary speaker",
+    "text": "Invited plenary speaker\n\nAlex Reinhart, Associate Teaching Professor of Statistics & Data Science, Carnegie Mellon University.\nAlex is the author of recent research papers that compare the style and structure of student-, expert-, and LLM-written statistical reports, revealing unexpected biases in the writing style of LLMs, and considering the implications for students still learning to write like experts."
+  },
+  {
+    "objectID": "about.html#workshop-host",
+    "href": "about.html#workshop-host",
+    "title": "About",
+    "section": "Workshop host",
+    "text": "Workshop host\n\nHazel Quantitative Analysis Center\nWesleyan University"
+  },
+  {
+    "objectID": "about.html#workshop-liaison",
+    "href": "about.html#workshop-liaison",
+    "title": "About",
+    "section": "Workshop liaison",
+    "text": "Workshop liaison\n\nEmmanuel Kaparakis\nDirector, Hazel Quantitative Analysis Center & Centers for Advanced Computing\nWesleyan University\n222 Church Street\nMiddletown, CT 06459\n860-685-3795\nmkaparakis@wesleyan.edu"
+  }
+]
