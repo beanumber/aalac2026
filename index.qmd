@@ -2,7 +2,20 @@
 subtitle: "AALAC 2026 Workshop"
 title: "Generative AI and Data Analysis: implications for data science curriculum and pedagogy"
 date: "July 19-22, 2026"
-author: "Emmanuel Kaparakis, Benjamin Baumer, Nicholas Horton, Sarah Supp"
+author:
+  - name: Emmanuel Kaparakis
+    affiliation: 
+      - name: Wesleyan University
+  - name: "Benjamin S. Baumer"
+    orcid: 0000-0002-3279-0516
+    affiliation:
+      - name: "Smith College"
+  - name: "Nicholas Horton"
+    affiliation:
+      - name: "Amherst College" 
+  - name: "Sarah Supp"
+    affiliation:
+      - name: "Denison University"
 ---
 
 ## Status
