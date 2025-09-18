@@ -2,20 +2,38 @@
 title: "About"
 ---
 
-# About the AALAC 2026 Workshop
+## Workshop organizers
 
-## Workshop Information
+- **Benjamin Baumer**, Professor of Statistical and Data Sciences, Smith College
+- **Nicholas Horton**, Beitzel Professor of Technology and Society (Statistics and Data Science), Amherst College
+- **Emmanuel Kaparakis**, Director, Hazel Quantitative Analysis Center & Centers for Advanced Computing, Wesleyan University
+- **Sarah Supp**, Associate Professor of Data Analytics and Sustainability & Environmental Studies, Denison University
 
-The AALAC 2026 workshop is designed to provide comprehensive training for laboratory animal care professionals.
+## Program committee
 
-## Organizers
+- **Ming-Wen An**, Professor of Mathematics and Statistics on the Elizabeth Stillman Williams Chair, Vassar College
+- **Sorelle Friedler**, Shibulal Family Professor of Computer Science, Haverford College
+- **Cassandra Pattanayak**, Jack and Sandra Polk Guthman '65 Director, Quantitative Analysis Institute, & Senior Lecturer in Quantitative Reasoning and Mathematics, Wellesley College
+- **Anna Plantinga**, Associate Professor of Statistics, Williams College
+- **Lynne Steuerle Schofield**, Professor of Statistics and Chair of Department of Mathematics and Statistics, Swarthmore College
+- **Marc Schulz**, Professor of Psychology on the Sue Kardas PhD 1971 Chair and Director of Data Science, Bryn Mawr College
+ 
+## Invited plenary speaker
 
-Information about the workshop organizers and facilitators will be added here.
+- **Alex Reinhart**, Associate Teaching Professor of Statistics & Data Science, Carnegie Mellon University.  
+  Alex is the author of recent research papers that compare the style and structure of student-, expert-, and LLM-written statistical reports, revealing unexpected biases in the writing style of LLMs, and considering the implications for students still learning to write like experts.
 
-## Contact
+## Workshop host
 
-For questions or more information about the workshop, please contact the organizers.
+- [Hazel Quantitative Analysis Center](https://www.wesleyan.edu/qac/)  
+  Wesleyan University
 
-## Resources
+## Workshop liaison
 
-Additional resources and materials will be made available through this website as the workshop approaches.
+- Emmanuel Kaparakis  
+  Director, Hazel Quantitative Analysis Center & Centers for Advanced Computing  
+  Wesleyan University  
+  222 Church Street  
+  Middletown, CT 06459  
+  860-685-3795  
+  <mkaparakis@wesleyan.edu>

@@ -2,18 +2,30 @@ project:
   type: website
 
 website:
-  title: "AALAC 2026 Workshop"
+  title: "AALAC 2026: GenAI"
+  site-url: "https://beanumber.github.io/aalac2026/"
   navbar:
     left:
       - href: index.qmd
+        icon: house
         text: Home
-      - about.qmd
-
+      - href: about.qmd
+        icon: info-circle
+  repo-url: https://github.com/beanumber/aalac2026/
+  repo-actions: [edit, issue]
+  page-footer: 
+    left: "Created by Benjamin Baumer." 
+    right: 
+      - icon: github
+        href: https://github.com/beanumber/aalac2026/
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+
+date-format: long
+#bibliography: refs.bib
 
 execute:
   freeze: auto
