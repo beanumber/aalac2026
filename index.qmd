@@ -1,7 +1,6 @@
 ---
 subtitle: "AALAC 2026 Workshop"
 title: "Generative AI and Data Analysis: implications for data science curriculum and pedagogy"
-date: "July 19-22, 2026"
 author:
   - name: Emmanuel Kaparakis
     affiliation: 
@@ -21,6 +20,24 @@ author:
 ## Status
 
 Approved for funding
+
+## Workshop host
+
+::: {.grid}
+
+::: {.g-col-8}
+
+![](https://www.wesleyan.edu/about/news/images/1200x660-Witn.jpg?q=0)
+
+:::
+::: {.g-col-4}
+- [Hazel Quantitative Analysis Center](https://www.wesleyan.edu/qac/)  
+  Wesleyan University  
+  July 19-22, 2026
+:::
+
+:::
+
 
 ## Proposal
 
