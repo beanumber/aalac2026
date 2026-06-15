@@ -1,31 +1,72 @@
 ---
 title: "Reading"
+citeproc: true
+csl: apa-cv.csl
+suppress-bibliography: true
 ---
 
-- @schwarz2025use
-- @xing2024exploring
-- @ellis2023new
-- @xie2025comparing
-- @dunn2025generative
-- @valverde2024advanced
-- @dasilva2024chatgpt
-- @deluca2025developing
-- @smith2024early
-- @allabadi2025enhancing
-- @lepp2025does
-- @cooper2023examining
-- @lewis2022teaching
-- @wardat2023chatgpt
-- @avila2025curriculum
-- @tian2025practice
-- @stoyanovich2022teaching
-- @irvine2023opportunities
-- @neumann2023we
-- @allabadi2025ai
-- @ferguson2025researcher
-- @jeon2024staged
-- @bravo2024engineering
-- @bray2025tutorial
-- @trindade2025teaching
-- @hao2025research
-- @avendano2024impacto
+## AI and statistics education
+
+1. @schwarz2025use
+1. @xing2024exploring
+1. @ellis2023new
+1. @xie2025comparing
+1. @dunn2025generative
+1. @allabadi2025enhancing
+1. @allabadi2025ai
+
+## AI and data science education
+
+1. @valverde2024advanced
+1. @avila2025curriculum
+1. @irvine2023opportunities
+1. @jeon2024staged
+1. @bray2025tutorial
+1. @hao2025research
+1. @cui2026same
+
+## AI and programming education
+
+1. @dasilva2024chatgpt
+1. @lepp2025does
+
+## AI and statistical writing
+
+1. @deluca2025developing
+
+## AI and computer science education
+
+1. @smith2024early
+1. @shein2024
+1. @sarkar2024obey
+
+## AI and the humanities / general education
+
+1. @klein2025provocations
+1. @neumann2023we
+1. @fernandes2025ai
+1. @beers20102009
+
+## AI and science education
+
+1. @cooper2023examining
+1. @ferguson2025researcher
+
+## AI and data science ethics
+
+1. @lewis2022teaching
+1. @stoyanovich2022teaching
+
+## AI and mathematics education
+
+1. @wardat2023chatgpt
+1. @trindade2025teaching
+1. @avendano2024impacto
+
+## AI and engineering education
+
+1. @bravo2024engineering
+
+## Teaching neural networks
+
+1. @tian2025practice
