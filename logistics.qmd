@@ -1,0 +1,37 @@
+---
+title: "Logistics"
+---
+
+## Lodging and breakfast
+
+- [Middletown Inn](https://www.google.com/maps/place/Inn+at+Middletown/@41.5577898,-72.6498513,17z/data=!3m1!4b1!4m9!3m8!1s0x89e64a69e26e8c29:0x12d778f50867a00e!5m2!4m1!1i2!8m2!3d41.5577858!4d-72.6472764!16s%2Fg%2F1tl1jxx2?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D)  
+  70 Main St  
+  Middletown, CT 06457  
+  (860) 854-6300
+- Breakfast is *a la carte*; please charge it to your room
+
+## Workshop
+
+- [Frank Public Affairs Center and Allbritton Hall](https://www.google.com/maps/place/Allbritton+Center/@41.5548604,-72.6559398,17.12z/data=!4m15!1m8!3m7!1s0x89e64a6778ecb1f9:0x36ebc42ecf8ed04e!2s275+William+St,+Middletown,+CT+06457!3b1!8m2!3d41.555693!4d-72.654006!16s%2Fg%2F11fx0p2njg!3m5!1s0x89e64a6729d94fab:0x322b3682716dfc1!8m2!3d41.554216!4d-72.6559118!16s%2Fg%2F1q6bkbfk7?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D)  
+  222 Church St  
+  Middletown, CT 06459
+
+
+::: {#map}
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d11942.405320647998!2d-72.66127206663388!3d41.55622849739915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x89e64a6729d94fab%3A0x322b3682716dfc1!2sAllbritton%20Center%2C%20222%20Church%20St%2C%20Middletown%2C%20CT%2006457!3m2!1d41.5541135!2d-72.65584539999999!4m5!1s0x89e64a69e26e8c29%3A0x12d778f50867a00e!2sInn%20at%20Middletown%2C%2070%20Main%20St%2C%20Middletown%2C%20CT%2006457!3m2!1d41.5578017!2d-72.6472867!5e0!3m2!1sen!2sus!4v1781545986775!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+:::
+
+## Parking
+
+- [Lot B](https://www.google.com/maps/place/275+William+St,+Middletown,+CT+06457/@41.5548604,-72.6559398,17.12z/data=!4m6!3m5!1s0x89e64a6778ecb1f9:0x36ebc42ecf8ed04e!8m2!3d41.555693!4d-72.654006!16s%2Fg%2F11fx0p2njg?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D)  
+  275 William St  
+  Middletown, CT 06457
+
+## Restaurants
+
+- [Esca Restaurant & Wine Bar](https://www.google.com/maps/place/Esca+Restaurant+%26+Wine+Bar/@41.5621325,-72.6511528,17z/data=!3m1!5s0x89e64a5b370f1229:0xf0a9528b913bdbca!4m14!1m7!3m6!1s0x89e64a5b37abd481:0x34233e86ed54db3b!2sEsca+Restaurant+%26+Wine+Bar!8m2!3d41.5621325!4d-72.6511528!16s%2Fg%2F1tgxk1zp!3m5!1s0x89e64a5b37abd481:0x34233e86ed54db3b!8m2!3d41.5621325!4d-72.6511528!16s%2Fg%2F1tgxk1zp?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D)  
+  437 Main St  
+  Middletown, CT 06457
+- [Tate's](https://www.google.com/maps/place/Tate's/@41.5601175,-72.6474524,17z/data=!3m1!4b1!4m6!3m5!1s0x89e64b8624f9a053:0xcc30d892f03d5ed6!8m2!3d41.5601135!4d-72.6448775!16s%2Fg%2F11y44y87bt?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D)  
+  80 Harbor Dr  
+  Middletown, CT 06457
