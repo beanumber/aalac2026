@@ -1,0 +1,31 @@
+---
+title: "Reading"
+---
+
+- @schwarz2025use
+- @xing2024exploring
+- @ellis2023new
+- @xie2025comparing
+- @dunn2025generative
+- @valverde2024advanced
+- @dasilva2024chatgpt
+- @deluca2025developing
+- @smith2024early
+- @allabadi2025enhancing
+- @lepp2025does
+- @cooper2023examining
+- @lewis2022teaching
+- @wardat2023chatgpt
+- @avila2025curriculum
+- @tian2025practice
+- @stoyanovich2022teaching
+- @irvine2023opportunities
+- @neumann2023we
+- @allabadi2025ai
+- @ferguson2025researcher
+- @jeon2024staged
+- @bravo2024engineering
+- @bray2025tutorial
+- @trindade2025teaching
+- @hao2025research
+- @avendano2024impacto

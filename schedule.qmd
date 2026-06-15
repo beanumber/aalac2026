@@ -1,0 +1,169 @@
+---
+title: "Schedule"
+---
+
+
+```{r}
+#| message: false
+#| echo: false
+classes <- c(
+  as.Date("2026-07-19") + lubridate::ddays(0:4)
+) |>
+  sort()
+
+i <- 0
+echo_date <- function(...) {
+  i <<- i + 1
+  x <- classes[i] |>
+    format("%a, %b %e")
+  htmltools::div(
+    class = "card-header",
+    "data-date" = classes[i],
+    htmltools::h4(paste(i, ".", x, ...))
+  )
+}
+
+topic <- function() {
+  paste(fontawesome::fa("lightbulb"), "Topic:")
+}
+slides <- function() {
+  paste(fontawesome::fa("microphone"), "Speaker:")
+}
+discuss <- function() {
+  paste(fontawesome::fa("comment"), "Discussion:")
+}
+eat <- function() {
+  paste(fontawesome::fa("utensils"), "Meal:")
+}
+```
+
+::: {.grid}
+
+::: {.g-col-6 .card} 
+`r echo_date(emoji::emoji("train"))`
+
+::: {.callout-important title="Theme: What's going on?"} 
+- Lead: Manolis
+:::
+
+- \[4:00-5:00\]: Arrival and registration
+    - `r slides()` Keynote
+    - Location: Frank PAC forum #101
+- \[5:00-6:15\]: Plenary Session  
+    - `r slides()` Alex Reinhart  
+    - Location: Frank PAC forum #101
+- \[6:30-8:30\]: Welcome reception  
+    - `r eat()` Dinner  
+    - Location: Frank PAC forum
+
+
+::: {.callout-note title="Homework"} 
+
+- *Read* the GAISE principles
+    - [2016 published version](https://www.amstat.org/asa/files/pdfs/gaise/gaisecollege_full.pdf)
+    - [2026 draft version](https://amstat.quarto.pub/college-gaise/)
+
+:::
+
+::: 
+::: {.g-col-6 .card} 
+`r echo_date(emoji::emoji("list"))`
+
+::: {.callout-important title="Theme: What we teach"} 
+- Lead: Nick
+:::
+
+- \[7:30-8:30\]:   
+    - `r eat()` Breakfast  
+    - Location: Hotel
+- \[9:00-10:15\]:	Session 1
+    - `r topic()` Outline of GAISE principles  
+    - `r slides()` Nick Horton  
+- \[10:45-12:00\]: Session 2
+    - `r topic()` Effect of AI on GAISE principles as implemented in non-major/introductory courses  
+    - `r discuss()` in 3 groups
+- \[12:30-1:30\]:   
+    - `r eat()` Lunch  
+    - Location: 
+- \[1:45-3:00\]: Session 3
+    - `r topic()` Effect of AI on GAISE principles as implemented in major/upper-level courses  
+    - `r discuss()` in 3 groups
+- \[3:30-4:45\]: Session 4
+    - `r topic()` How would we update the guidelines in an AI age?  
+    - `r discuss()` plenary
+- \[6:30-8:00\] Dinner  
+    - `r eat()` [Esca](https://escact.com/)  
+    - Location: [Esca](https://www.google.com/maps/place/ESCA+middletown/data=!4m2!3m1!1s0x89e64a5b37abd481:0x34233e86ed54db3b?sa=X&ved=1t:242&ictx=111)
+
+
+
+::: {.callout-note title="Homework"}
+
+:::
+
+:::
+
+
+
+::: {.g-col-6 .card} 
+`r echo_date(emoji::emoji("student"))`
+
+
+::: {.callout-important title="Theme: How we teach"} 
+- Lead: Sarah
+:::
+
+- \[7:30-8:30\]:
+    - `r eat()` Breakfast  
+    - Location: Hotel
+- \[9:00-10:15\]:	Session 5
+    - `r topic()` What we know about how students are using AI and student attitudes toward AI
+- \[10:45-12:00\]: Session 6 
+    - `r topic()` Impact of AI on student learning
+- \[12:30-1:30\]:   
+    - `r eat()` Lunch  
+    - Location: 
+- \[1:45-3:00\]: Session 7
+    - `r topic()` Develop activities that use AI to accomplish learning goals
+    - `r discuss()` in 3 groups
+- \[3:30-4:45\]: Session 8
+    - `r topic()` Use of AI as tutor and/or productivity tool, ethics
+    - `r discuss()` in 3 groups
+- \[6:30-8:00\] Dinner  
+    - `r eat()` TBD  
+    - Location: TBD
+
+
+::: {.callout-note title="Homework"}
+
+:::
+
+
+:::
+::: {.g-col-6 .card} 
+`r echo_date(emoji::emoji("suitcase"))`
+
+::: {.callout-important title="Theme: What comes next?"} 
+- Lead: Ben
+:::
+
+- \[7:30-8:30\]:   
+    - `r eat()` Breakfast  
+    - Location: Hotel
+- \[9:00-10:15\]:	Session 9 
+    - `r fontawesome::fa("pencil")`: Collaborative writing
+- \[10:45-12:00\]: Session 10  
+    - `r fontawesome::fa("pencil")`: Collaborative writing
+- \[12:00-1:00\]:   
+    - `r eat()` Boxed lunch  
+- \[1:00\]: Departures   
+
+
+
+
+:::
+
+
+:::
+
+

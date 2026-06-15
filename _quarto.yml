@@ -11,6 +11,10 @@ website:
         text: Home
       - href: about.qmd
         icon: info-circle
+      - href: schedule.qmd
+        icon: calendar
+      - href: reading.qmd
+        icon: bookmark
   repo-url: https://github.com/beanumber/aalac2026/
   repo-actions: [edit, issue]
   page-footer: 
@@ -25,7 +29,7 @@ format:
     toc: true
 
 date-format: long
-#bibliography: refs.bib
+bibliography: refs.bib
 
 execute:
   freeze: auto
