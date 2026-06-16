@@ -5,6 +5,9 @@ csl: apa-cv.csl
 suppress-bibliography: true
 ---
 
+We have collected the following non-exhaustive list of articles about generative AI and education. 
+There are grouped roughly by topic, but are in no particular order. 
+
 ## AI and statistics education
 
 1. @schwarz2025use
@@ -14,6 +17,8 @@ suppress-bibliography: true
 1. @dunn2025generative
 1. @allabadi2025enhancing
 1. @allabadi2025ai
+1. @vilakati2026harnessing
+1. @hoerl2025future
 
 ## AI and data science education
 
@@ -24,28 +29,44 @@ suppress-bibliography: true
 1. @bray2025tutorial
 1. @hao2025research
 1. @cui2026same
+1. @bien2025generative
+1. @doleck2025generative
+1. @wilke2025teaching
 
 ## AI and programming education
 
 1. @dasilva2024chatgpt
 1. @lepp2025does
+1. @daniotti2026using
 
 ## AI and statistical writing
 
 1. @deluca2025developing
+1. @reinhart2025llms
 
 ## AI and computer science education
 
 1. @smith2024early
 1. @shein2024
 1. @sarkar2024obey
+1. @barr2025
 
-## AI and the humanities / general education
+## AI and the humanities / K-12 / general education
 
 1. @klein2025provocations
 1. @neumann2023we
 1. @fernandes2025ai
 1. @beers20102009
+1. @drozda2026
+1. @luckin2024double
+1. @darvishi2024impact
+1. @singer2025welcome
+1. @oberlinluddite2025luddite
+1. @shirky2025students
+1. @walsh2025everyone
+1. @eriksen2026prompt
+1. @barcelona2025development
+1. @koebler2025teachers
 
 ## AI and science education
 
@@ -54,6 +75,7 @@ suppress-bibliography: true
 
 ## AI and data science ethics
 
+1. @science2026aiagents
 1. @lewis2022teaching
 1. @stoyanovich2022teaching
 
@@ -66,6 +88,7 @@ suppress-bibliography: true
 ## AI and engineering education
 
 1. @bravo2024engineering
+1. @erez2025how
 
 ## Teaching neural networks
 

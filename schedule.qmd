@@ -59,8 +59,8 @@ eat <- function() {
 
 ::: {.callout-note title="Homework"} 
 
-- *Read* the GAISE principles
-    - [2016 published version](https://www.amstat.org/asa/files/pdfs/gaise/gaisecollege_full.pdf)
+- **Read** the GAISE report:
+    - @carver2016guidelines
     - [2026 draft version](https://amstat.quarto.pub/college-gaise/)
 
 :::
@@ -93,7 +93,10 @@ eat <- function() {
     - `r discuss()` plenary
 - \[6:30-8:00\] Dinner  
     - `r eat()` [Esca](https://escact.com/)  
-    - Location: [Esca](https://www.google.com/maps/place/ESCA+middletown/data=!4m2!3m1!1s0x89e64a5b37abd481:0x34233e86ed54db3b?sa=X&ved=1t:242&ictx=111)
+    - Location:  
+    [Esca Restaurant & Wine Bar](https://www.google.com/maps/place/Esca+Restaurant+%26+Wine+Bar/@41.5621325,-72.6511528,17z/data=!3m1!5s0x89e64a5b370f1229:0xf0a9528b913bdbca!4m14!1m7!3m6!1s0x89e64a5b37abd481:0x34233e86ed54db3b!2sEsca+Restaurant+%26+Wine+Bar!8m2!3d41.5621325!4d-72.6511528!16s%2Fg%2F1tgxk1zp!3m5!1s0x89e64a5b37abd481:0x34233e86ed54db3b!8m2!3d41.5621325!4d-72.6511528!16s%2Fg%2F1tgxk1zp?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D)  
+    437 Main St  
+    Middletown, CT 06457
 
 
 
@@ -130,8 +133,11 @@ eat <- function() {
     - `r topic()` Use of AI as tutor and/or productivity tool, ethics
     - `r discuss()` in 3 groups
 - \[6:30-8:00\] Dinner  
-    - `r eat()` TBD  
-    - Location: TBD
+    - `r eat()` [Tate's](https://www.tatesmiddletown.com/menu)  
+    - Location:  
+    [Tate's](https://www.google.com/maps/place/Tate's/@41.5601175,-72.6474524,17z/data=!3m1!4b1!4m6!3m5!1s0x89e64b8624f9a053:0xcc30d892f03d5ed6!8m2!3d41.5601135!4d-72.6448775!16s%2Fg%2F11y44y87bt?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D)  
+    80 Harbor Dr  
+    Middletown, CT 06457
 
 
 ::: {.callout-note title="Homework"}
