@@ -34,7 +34,9 @@ jobs:
             any::emoji
             any::fontawesome
             any::htmltools
+            any::knitr
             any::lubridate
+            any::rmarkdown
 
 
       - name: Render and Publish
