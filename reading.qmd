@@ -19,6 +19,7 @@ There are grouped roughly by topic, but are in no particular order.
 1. @allabadi2025ai
 1. @vilakati2026harnessing
 1. @hoerl2025future
+1. @furfaro2026
 
 ## AI and data science education
 
@@ -67,6 +68,7 @@ There are grouped roughly by topic, but are in no particular order.
 1. @eriksen2026prompt
 1. @barcelona2025development
 1. @koebler2025teachers
+1. @sarat2026
 
 ## AI and science education
 
