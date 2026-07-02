@@ -61,7 +61,7 @@ eat <- function() {
 
 - **Read** the GAISE report:
     - @carver2016guidelines
-    - @2025guidelines [link](https://amstat.quarto.pub/college-gaise/)
+    - @2025guidelines [link](https://asacollegegaise.org)
 
 :::
 
