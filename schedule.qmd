@@ -61,7 +61,7 @@ eat <- function() {
 
 - **Read** the GAISE report:
     - @carver2016guidelines
-    - [2026 draft version](https://amstat.quarto.pub/college-gaise/)
+    - @2025guidelines [link](https://amstat.quarto.pub/college-gaise/)
 
 :::
 
@@ -77,19 +77,18 @@ eat <- function() {
     - `r eat()` Breakfast  
     - Location: Hotel
 - \[9:00-10:15\]:	Session 1
-    - `r topic()` Outline of GAISE principles  
+    - `r topic()` Outline of the GAISE principles and recent data and computing initiatives
     - `r slides()` Nick Horton  
 - \[10:45-12:00\]: Session 2
-    - `r topic()` Effect of AI on GAISE principles as implemented in non-major/introductory courses  
-    - `r discuss()` in 3 groups
+    - `r topic()` AI and data analysis (lightning talks)
 - \[12:30-1:30\]:   
     - `r eat()` Lunch  
     - Location: 
 - \[1:45-3:00\]: Session 3
-    - `r topic()` Effect of AI on GAISE principles as implemented in major/upper-level courses  
+    - `r topic()` AI and the GAISE principles 
     - `r discuss()` in 3 groups
 - \[3:30-4:45\]: Session 4
-    - `r topic()` How would we update the guidelines in an AI age?  
+    - `r topic()` How might we update the GAISE College guidelines in an AI age?  
     - `r discuss()` plenary
 - \[6:30-8:00\] Dinner  
     - `r eat()` [Esca](https://escact.com/)  
@@ -173,3 +172,4 @@ eat <- function() {
 :::
 
 
+Last updated July 2, 2026
