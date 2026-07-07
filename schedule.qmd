@@ -46,15 +46,16 @@ eat <- function() {
 - Lead: Manolis
 :::
 
-- \[4:00-5:00\]: Arrival and registration
-    - `r slides()` Keynote
+- \[4:00-4:45\]: Arrival and registration (PAC, Frank Center for Public Affairs Forum)
+    - Location: Frank PAC forum #101
+- \[4:45-5:00\]: Welcome from Nicole Stanton (Provost and Senior Vice-President for Academic Affairs)
     - Location: Frank PAC forum #101
 - \[5:00-6:15\]: Plenary Session  
     - `r slides()` Alex Reinhart  
     - Location: Frank PAC forum #101
-- \[6:30-8:30\]: Welcome reception  
-    - `r eat()` Dinner  
-    - Location: Frank PAC forum
+- \[7:00-8:30\]: Dinner
+    - `r eat()` Dinner at the Armory
+    - Location: Middletown Inn
 
 
 ::: {.callout-note title="Homework"} 
