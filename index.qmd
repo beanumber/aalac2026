@@ -9,7 +9,7 @@ author:
     orcid: 0000-0002-3279-0516
     affiliation:
       - name: "Smith College"
-  - name: "Nicholas Horton"
+  - name: "Nicholas J. Horton"
     affiliation:
       - name: "Amherst College" 
   - name: "Sarah Supp"
