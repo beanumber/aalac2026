@@ -10,9 +10,11 @@ author:
     affiliation:
       - name: "Smith College"
   - name: "Nicholas J. Horton"
+    orcid: 0000-0003-3332-4311
     affiliation:
       - name: "Amherst College" 
   - name: "Sarah Supp"
+    orcid: 0000-0002-0072-029X
     affiliation:
       - name: "Denison University"
 ---
