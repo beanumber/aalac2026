@@ -6,7 +6,7 @@ suppress-bibliography: true
 ---
 
 We have collected the following non-exhaustive list of articles about generative AI and education. 
-There are grouped roughly by topic, but are in no particular order. 
+There are grouped roughly by topic and ordered by first author.
 
 ## AI and statistics education
 
