@@ -51,16 +51,15 @@ eat <- function() {
 - \[4:45-5:00\]: Welcome from Nicole Stanton (Provost and Senior Vice-President for Academic Affairs)
     - Location: Frank PAC forum #101
 - \[5:00-6:15\]: Plenary Session  
-    - `r slides()` Alex Reinhart  
+    - `r slides()` Alex Reinhart (Carnegie Mellon University): "The role of AI in statistics and data science education"
     - Location: Frank PAC forum #101
 - \[7:00-8:30\]: Dinner
     - `r eat()` Dinner at the Armory
     - Location: Middletown Inn
 
-
 ::: {.callout-note title="Homework"} 
 
-- **Read** the GAISE report:
+- **Skim** the GAISE College report:
     - @carver2016guidelines
     - @2025guidelines [link](https://asacollegegaise.org)
 
@@ -78,19 +77,23 @@ eat <- function() {
     - `r eat()` Breakfast  
     - Location: Hotel
 - \[9:00-10:15\]:	Session 1
-    - `r topic()` Outline of the GAISE principles and recent data and computing initiatives
+    - `r topic()` Overview of the GAISE principles and recent data and computing initiatives
     - `r slides()` Nick Horton  
+    - Location: Allbritton #103
 - \[10:45-12:00\]: Session 2
     - `r topic()` AI and data analysis (lightning talks)
+    - Location: Allbritton #103
 - \[12:30-1:30\]:   
     - `r eat()` Lunch  
-    - Location: 
+    - Location: Allbritton #311
 - \[1:45-3:00\]: Session 3
     - `r topic()` AI and the GAISE principles 
     - `r discuss()` in 3 groups
+    - Location: Allbritton #004, #103, and #304
 - \[3:30-4:45\]: Session 4
     - `r topic()` How might we update the GAISE College guidelines in an AI age?  
     - `r discuss()` plenary
+    - Location: Allbritton #311
 - \[6:30-8:00\] Dinner  
     - `r eat()` [Esca](https://escact.com/)  
     - Location:  
@@ -121,17 +124,21 @@ eat <- function() {
     - Location: Hotel
 - \[9:00-10:15\]:	Session 5
     - `r topic()` What we know about how students are using AI and student attitudes toward AI
+    - Location: Allbritton #103
 - \[10:45-12:00\]: Session 6 
     - `r topic()` Impact of AI on student learning
+    - Location: Allbritton #103
 - \[12:30-1:30\]:   
     - `r eat()` Lunch  
-    - Location: 
+    - Location: Allbritton #311
 - \[1:45-3:00\]: Session 7
     - `r topic()` Develop activities that use AI to accomplish learning goals
     - `r discuss()` in 3 groups
+    - Location: Allbritton #004, #103, and #304
 - \[3:30-4:45\]: Session 8
     - `r topic()` Use of AI as tutor and/or productivity tool, ethics
     - `r discuss()` in 3 groups
+    - Location: Allbritton #311
 - \[6:30-8:00\] Dinner  
     - `r eat()` [Tate's](https://www.tatesmiddletown.com/menu)  
     - Location:  
@@ -158,8 +165,10 @@ eat <- function() {
     - Location: Hotel
 - \[9:00-10:15\]:	Session 9 
     - `r fontawesome::fa("pencil")`: Collaborative writing
+    - Location: Allbritton #311 (and #004, #113, and #304 as needed)
 - \[10:45-12:00\]: Session 10  
     - `r fontawesome::fa("pencil")`: Collaborative writing
+    - Location: Allbritton #311 (and #004, #113, and #304 as needed)
 - \[12:00-1:00\]:   
     - `r eat()` Boxed lunch  
 - \[1:00\]: Departures   
@@ -172,4 +181,4 @@ eat <- function() {
 
 :::
 
-Last updated July 7, 2026
+Last updated July 8, 2026
