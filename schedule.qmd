@@ -81,7 +81,7 @@ eat <- function() {
     - `r slides()` Nick Horton  
     - Location: Allbritton #103
 - \[10:45-12:00\]: Session 2
-    - `r topic()` AI and data analysis (lightning talks)
+    - `r topic()` AI and data analysis (lightning talks by Sorelle Friedler, Marc Schulz, and Stephen Freund)
     - Location: Allbritton #103
 - \[12:30-1:30\]:   
     - `r eat()` Lunch  
@@ -123,7 +123,7 @@ eat <- function() {
     - `r eat()` Breakfast  
     - Location: Hotel
 - \[9:00-10:15\]:	Session 5
-    - `r topic()` What we know about how students are using AI and student attitudes toward AI
+    - `r topic()` What we know about how students are using AI and student attitudes toward AI (lightning talks by Rachel Barlow, Casey Pattanayak, Zhe Wang, and Alex Reinhart)
     - Location: Allbritton #103
 - \[10:45-12:00\]: Session 6 
     - `r topic()` Impact of AI on student learning
