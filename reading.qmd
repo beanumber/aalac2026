@@ -3,6 +3,7 @@ title: "Reading"
 citeproc: true
 csl: apa-cv.csl
 suppress-bibliography: true
+toc: true
 ---
 
 We have collected the following non-exhaustive list of articles about generative AI and education. 
@@ -29,6 +30,7 @@ There are grouped roughly by topic and ordered by first author.
 1. @cui2026same
 1. @doleck2025generative
 1. @hao2025research
+1. @hageman2025
 1. @irvine2023opportunities
 1. @jeon2024staged
 1. @valverde2024advanced
@@ -68,6 +70,7 @@ There are grouped roughly by topic and ordered by first author.
 1. @sarat2026
 1. @shirky2025students
 1. @singer2025welcome
+1. @stanford2023
 1. @walsh2025everyone
 
 
@@ -97,4 +100,8 @@ There are grouped roughly by topic and ordered by first author.
 
 1. @tian2025practice
 
-Last updated July 8, 2026
+## AI and research
+
+1. @runge2025
+
+Last updated July 9, 2026
