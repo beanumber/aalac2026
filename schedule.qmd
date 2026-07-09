@@ -83,13 +83,13 @@ eat <- function() {
 - \[10:45-12:00\]: Session 2
     - `r topic()` AI and data analysis (lightning talks by Sorelle Friedler, Marc Schulz, and Stephen Freund)
     - Location: Allbritton #103
-- \[12:30-1:30\]:   
+- \[12:10-1:30\]:   
     - `r eat()` Lunch  
     - Location: Allbritton #311
 - \[1:45-3:00\]: Session 3
     - `r topic()` AI and the GAISE principles 
     - `r discuss()` in 3 groups
-    - Location: Allbritton #004, #113, and #304
+    - Location: Allbritton #004, #103, and #304
 - \[3:30-4:45\]: Session 4
     - `r topic()` How might we update the GAISE College guidelines in an AI age?  
     - `r discuss()` plenary
@@ -128,13 +128,13 @@ eat <- function() {
 - \[10:45-12:00\]: Session 6 
     - `r topic()` Impact of AI on student learning
     - Location: Allbritton #103
-- \[12:30-1:30\]:   
+- \[12:10-1:30\]:   
     - `r eat()` Lunch  
     - Location: Allbritton #311
 - \[1:45-3:00\]: Session 7
     - `r topic()` Develop activities that use AI to accomplish learning goals
     - `r discuss()` in 3 groups
-    - Location: Allbritton #004, #113, and #304
+    - Location: Allbritton #004, #103, and #304
 - \[3:30-4:45\]: Session 8
     - `r topic()` Use of AI as tutor and/or productivity tool, ethics
     - `r discuss()` in 3 groups
@@ -181,4 +181,4 @@ eat <- function() {
 
 :::
 
-Last updated July 8, 2026
+Last updated July 9, 2026
