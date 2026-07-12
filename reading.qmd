@@ -64,6 +64,7 @@ There are grouped roughly by topic and ordered by first author.
 1. @fernandes2025ai
 1. @klein2025provocations
 1. @koebler2025teachers
+1. @lehmann2025
 1. @luckin2024double
 1. @neumann2023we
 1. @oberlinluddite2025luddite
