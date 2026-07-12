@@ -135,8 +135,8 @@ eat <- function() {
     - `r topic()` Develop activities that use AI to accomplish learning goals, as tutor, and/or productivity tools
     - `r discuss()` in 3 groups
     - Location: Allbritton #004, #103, and #304
-
-- \[3:15-6:45\]: Free time: Optional walk/hike at [Wadsworth falls park](https://ctparks.com/parks/wadsworth-falls-state-park). (No need for hiking boots, just walking shoes.)
+- \[3:15-6:45\]: Free time
+    - Optional walk/hike at [Wadsworth falls park](https://ctparks.com/parks/wadsworth-falls-state-park). (No need for hiking boots, just walking shoes.)
 - \[6:45-8:00\] Dinner  
     - `r eat()` [Tate's](https://www.tatesmiddletown.com/menu)  
     - Location:  
