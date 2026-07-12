@@ -131,15 +131,13 @@ eat <- function() {
 - \[12:10-1:30\]:   
     - `r eat()` Lunch  
     - Location: Allbritton #311
-- \[1:45-3:00\]: Session 7
-    - `r topic()` Develop activities that use AI to accomplish learning goals
+- \[1:45-3:15\]: Session 7
+    - `r topic()` Develop activities that use AI to accomplish learning goals, as tutor, and/or productivity tools
     - `r discuss()` in 3 groups
     - Location: Allbritton #004, #103, and #304
-- \[3:30-4:45\]: Session 8
-    - `r topic()` Use of AI as tutor and/or productivity tool, ethics
-    - `r discuss()` in 3 groups
-    - Location: Allbritton #311
-- \[6:30-8:00\] Dinner  
+
+- \[3:15-6:45\]: Free time: Optional walk/hike at [Wadsworth falls park](https://ctparks.com/parks/wadsworth-falls-state-park). (No need for hiking boots, just walking shoes.)
+- \[6:45-8:00\] Dinner  
     - `r eat()` [Tate's](https://www.tatesmiddletown.com/menu)  
     - Location:  
     [Tate's](https://www.google.com/maps/place/Tate's/@41.5601175,-72.6474524,17z/data=!3m1!4b1!4m6!3m5!1s0x89e64b8624f9a053:0xcc30d892f03d5ed6!8m2!3d41.5601135!4d-72.6448775!16s%2Fg%2F11y44y87bt?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D)  
@@ -181,4 +179,4 @@ eat <- function() {
 
 :::
 
-Last updated July 9, 2026
+Last updated July 11, 2026
