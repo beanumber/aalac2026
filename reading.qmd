@@ -9,6 +9,8 @@ toc: true
 We have collected the following non-exhaustive list of articles about generative AI and education. 
 There are grouped roughly by topic and ordered by first author.
 
+Suggestions for additions welcomed at [https://github.com/beanumber/aalac2026/issues](https://github.com/beanumber/aalac2026/issues).
+
 ## AI and statistics education
 
 1. @allabadi2025ai
