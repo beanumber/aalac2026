@@ -37,6 +37,33 @@ eat <- function() {
 }
 ```
 
+
+## Pre-workshop Homework
+
+- **Watch**:   
+  "y code when ai?"  
+  [Hadley Wickham](https://en.wikipedia.org/wiki/Hadley_Wickham), Chief Scientist, Posit  
+  (~ 45 minutes): In this webinar, Hadley Wickham illustrates how he uses AI to do most of his actual coding work these days. 
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oi5mopOO4_Y?si=sJdVgw8f4UxqbrsG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- **Read**:
+    - In the popular press:
+        - @stanford2023: Review of an AI Summit at Stanford. 
+        - @walsh2025everyone: An investigate piece from *New York Magazine* detailing the use of generative AI tools by college students. 
+        - @shirky2025students: An editorial by the vice provost at NYU advocating a return to oral and in-person assessment methods. 
+        - @oberlinluddite2025luddite: An editorial written by students at Oberlin College asking their president to "terminate the College’s contract with Google Gemini and OpenAI".
+    - Scholarly papers:
+        - `r emoji::emoji("eight-pointed-star")` @deluca2025developing: An article showing that while generative AI is able to complete statistics assignments to a reasonable degree, there are detectable differences in the use of language across different LLMs and groups of people.  
+          **Note**: [Sunday's plenary speaker](schedule.qmd#workshop-schedule) Alex Reinhart is a co-author on this paper! 
+        - @daniotti2026using: An article in *Science* showing that while generative AI tools help more experienced programmers improve their productivity, the same gains are not observed among entry-level developers. 
+        - @bien2025generative: A reflection on having students code with GitHub Copilot in a data science MBA course. 
+        - @fernandes2025ai: A study showing that while performance on the LSAT improved with AI use, metacognitive accuracy declined. 
+
+There are many, many more things to read on [our reading list](reading.qmd)!
+
+## Workshop schedule
+
 ::: {.grid}
 
 ::: {.g-col-6 .card} 
