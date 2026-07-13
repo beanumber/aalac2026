@@ -49,6 +49,7 @@ eat <- function() {
 
 - **Read**:
     - In the popular press:
+        - @stanford2023: Review of an AI Summit at Stanford. 
         - @walsh2025everyone: An investigate piece from *New York Magazine* detailing the use of generative AI tools by college students. 
         - @shirky2025students: An editorial by the vice provost at NYU advocating a return to oral and in-person assessment methods. 
         - @oberlinluddite2025luddite: An editorial written by students at Oberlin College asking their president to "terminate the College’s contract with Google Gemini and OpenAI".
