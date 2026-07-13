@@ -6,19 +6,29 @@ suppress-bibliography: true
 toc: true
 ---
 
+```{r}
+#| eval: false
+#| include: false
+Sys.Date()
+```
+
+
+
 We have collected the following non-exhaustive list of articles about generative AI and education. 
 There are grouped roughly by topic and ordered by first author.
+
+A `r emoji::emoji("pushpin")` emoji designates an article that has been recommended by a member of the organizing committee as particularly relevant reading for this group. 
 
 Suggestions for additions welcomed at [https://github.com/beanumber/aalac2026/issues](https://github.com/beanumber/aalac2026/issues).
 
 ## AI and statistics education
 
 1. @allabadi2025ai
-1. @allabadi2025enhancing
+1. `r emoji::emoji("pushpin")` @allabadi2025enhancing
 1. @dunn2025generative
 1. @ellis2023new
 1. @furfaro2026
-1. @hoerl2025future
+1. `r emoji::emoji("pushpin")` @hoerl2025future
 1. @schwarz2025use
 1. @vilakati2026harnessing
 1. @xie2025comparing
@@ -27,12 +37,12 @@ Suggestions for additions welcomed at [https://github.com/beanumber/aalac2026/is
 ## AI and data science education
 
 1. @avila2025curriculum
-1. @bien2025generative
+1. `r emoji::emoji("pushpin")` @bien2025generative
 1. @bray2025tutorial
 1. @cui2026same
-1. @doleck2025generative
+1. `r emoji::emoji("pushpin")` @doleck2025generative
 1. @hao2025research
-1. @hageman2025
+1. `r emoji::emoji("pushpin")` @hageman2025
 1. @irvine2023opportunities
 1. @jeon2024staged
 1. @valverde2024advanced
@@ -40,19 +50,19 @@ Suggestions for additions welcomed at [https://github.com/beanumber/aalac2026/is
 
 ## AI and programming education
 
-1. @daniotti2026using
+1. `r emoji::emoji("pushpin")` @daniotti2026using
 1. @lepp2025does
 1. @dasilva2024chatgpt
 
 ## AI and statistical writing
 
-1. @deluca2025developing
+1. `r emoji::emoji("pushpin")` @deluca2025developing
 1. @reinhart2025llms
 
 ## AI and computer science education
 
 1. @barr2025
-1. @sarkar2024obey
+1. `r emoji::emoji("pushpin")` @sarkar2024obey
 1. @shein2024
 1. @smith2024early
 
@@ -63,18 +73,18 @@ Suggestions for additions welcomed at [https://github.com/beanumber/aalac2026/is
 1. @darvishi2024impact
 1. @drozda2026
 1. @eriksen2026prompt
-1. @fernandes2025ai
+1. `r emoji::emoji("pushpin")` @fernandes2025ai
 1. @klein2025provocations
 1. @koebler2025teachers
 1. @lehmann2025
 1. @luckin2024double
 1. @neumann2023we
-1. @oberlinluddite2025luddite
+1. `r emoji::emoji("pushpin")` @oberlinluddite2025luddite
 1. @sarat2026
-1. @shirky2025students
+1. `r emoji::emoji("pushpin")` @shirky2025students
 1. @singer2025welcome
-1. @stanford2023
-1. @walsh2025everyone
+1. `r emoji::emoji("pushpin")` @stanford2023
+1. `r emoji::emoji("pushpin")` @walsh2025everyone
 
 
 ## AI and science education
@@ -105,6 +115,7 @@ Suggestions for additions welcomed at [https://github.com/beanumber/aalac2026/is
 
 ## AI and research
 
-1. @runge2025
+1. `r emoji::emoji("pushpin")` @runge2025
 
-Last updated July 12, 2026
+Last updated `r format(Sys.Date(), "%B %e, %Y")`
+
