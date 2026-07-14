@@ -66,12 +66,14 @@ There are many, many more things to read on [our reading list](reading.qmd)!
 
 ::: {.grid}
 
-::: {.g-col-6 .card} 
+::: {.g-col-12 .card} 
 `r echo_date(emoji::emoji("train"))`
 
 ::: {.callout-important title="Theme: What's going on?"} 
 - Lead: Manolis
 :::
+
+![](https://www.wesleyan.edu/pac/_internal/files/images/pac-2023.jpg)
 
 - \[4:00-4:45\]: Arrival and registration (PAC, Frank Center for Public Affairs Forum)
     - Location: Frank PAC forum #101
@@ -93,7 +95,7 @@ There are many, many more things to read on [our reading list](reading.qmd)!
 :::
 
 ::: 
-::: {.g-col-6 .card} 
+::: {.g-col-12 .card} 
 `r echo_date(emoji::emoji("list"))`
 
 ::: {.callout-important title="Theme: What we teach"} 
@@ -128,6 +130,7 @@ There are many, many more things to read on [our reading list](reading.qmd)!
     437 Main St  
     Middletown, CT 06457
 
+![](https://static.spotapps.co/website_images/ab_websites/111936_website_v1/about_02.jpg)
 
 
 ::: {.callout-note title="Homework"}
@@ -138,11 +141,11 @@ There are many, many more things to read on [our reading list](reading.qmd)!
 
 
 
-::: {.g-col-6 .card} 
+::: {.g-col-12 .card} 
 `r echo_date(emoji::emoji("student"))`
 
 
-::: {.callout-important title="Theme: How we teach"} 
+::: {.callout-important title="Theme: Pedagogy in practice"} 
 - Lead: Sarah
 :::
 
@@ -150,20 +153,36 @@ There are many, many more things to read on [our reading list](reading.qmd)!
     - `r eat()` Breakfast  
     - Location: Hotel
 - \[9:00-10:15\]:	Session 5
-    - `r topic()` What we know about how students are using AI and student attitudes toward AI (lightning talks by Rachel Barlow, Casey Pattanayak, Zhe Wang, and Alex Reinhart)
-    - Location: Allbritton #103
+    - `r topic()` Student perspectives on AI
+        - 9:15-9:45: What are student attitudes towards AI? Wesleyan students  
+          `r slides()` Rachel Barlow
+        - 9:45-10:15: How are students using AI? Coding and screen capture videos  
+          `r slides()` Casey Pattanayak
+   - Location: Allbritton #103
 - \[10:45-12:00\]: Session 6 
     - `r topic()` Impact of AI on student learning
+        - 10:50-11:10 session intro with qualitative findings from Data Analytics sophomores through seniors  
+          `r slides()` Zhe Wang
+        - 11:10-11:30 LLM vs student writing and overview of student writing  
+          `r slides()` Alex Reinhart
+        - 11:30-11:50: Discussion with Q&A for both speakers and the general group
+        - 11:50-12:00: Plan for post-lunch conversation and activities
+
     - Location: Allbritton #103
 - \[12:10-1:30\]:   
     - `r eat()` Lunch  
     - Location: Allbritton #311
 - \[1:45-3:15\]: Session 7
-    - `r topic()` Develop activities that use AI to accomplish learning goals, as tutor, and/or productivity tools
+    - `r topic()` [Soapbox](https://docs.google.com/document/d/1ekwwrMD5AFAzreMggekmQCyErJGDeRDEO1GCcj2IdTg/edit?usp=sharing)
+    - `r topic()` Develop activities that use AI to accomplish learning goals
     - `r discuss()` in 3 groups
     - Location: Allbritton #004, #103, and #304
 - \[3:15-6:45\]: Free time
-    - Optional walk/hike at [Wadsworth falls park](https://ctparks.com/parks/wadsworth-falls-state-park). (No need for hiking boots, just walking shoes.)
+    - Optional walk/hike at [Wadsworth Falls State Park](https://ctparks.com/parks/wadsworth-falls-state-park)  
+      No need for hiking boots, just walking shoes.
+
+![](https://ctparks.com/sites/default/files/styles/hero_1600x645/public/images/2023-06/WadsworthFalls-Flickr%40.jpg?h=9a8fc3da&itok=c36crnb_)
+
 - \[6:45-8:00\] Dinner  
     - `r eat()` [Tate's](https://www.tatesmiddletown.com/menu)  
     - Location:  
@@ -178,7 +197,7 @@ There are many, many more things to read on [our reading list](reading.qmd)!
 
 
 :::
-::: {.g-col-6 .card} 
+::: {.g-col-12 .card} 
 `r echo_date(emoji::emoji("suitcase"))`
 
 ::: {.callout-important title="Theme: What comes next?"} 
