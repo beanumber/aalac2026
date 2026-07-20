@@ -119,7 +119,7 @@ There are many, many more things to read on [our reading list](reading.qmd)!
     - `r topic()` AI and the GAISE principles 
     - `r discuss()` in 3 groups for 45 minutes, then regather in Allbritton #103
     - Location: Allbritton #004, #103, and #304, then Albritton #103
-- \[3:00-6:15\]: Free time
+- \[3:15-6:15\]: Free time
     - Optional walk/hike at [Wadsworth Falls State Park](https://ctparks.com/parks/wadsworth-falls-state-park)  
       No need for hiking boots, just walking shoes.
 
@@ -225,4 +225,4 @@ There are many, many more things to read on [our reading list](reading.qmd)!
 
 :::
 
-Last updated July 19, 2026
+Last updated July 20, 2026
