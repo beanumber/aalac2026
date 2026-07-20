@@ -77,8 +77,6 @@ There are many, many more things to read on [our reading list](reading.qmd)!
 
 - \[4:00-4:45\]: Arrival and registration (PAC, Frank Center for Public Affairs Forum)
     - Location: Frank PAC forum #101
-- \[4:45-5:00\]: Welcome from Nicole Stanton (Provost and Senior Vice-President for Academic Affairs)
-    - Location: Frank PAC forum #101
 - \[5:00-6:15\]: Plenary Session  
     - `r slides()` Alex Reinhart (Carnegie Mellon University): "The role of AI in statistics and data science education"
     - Location: Frank PAC forum #101
@@ -105,7 +103,9 @@ There are many, many more things to read on [our reading list](reading.qmd)!
 - \[7:30-8:30\]:   
     - `r eat()` Breakfast  
     - Location: Hotel
-- \[9:00-10:15\]:	Session 1
+- \[9:00-9:15\]: Welcome from Nicole Stanton (Provost and Senior Vice-President for Academic Affairs)
+    - Location: Allbritton #103
+- \[9:15-10:15\]:	Session 1
     - `r topic()` Overview of the GAISE principles and recent data and computing initiatives
     - `r slides()` Nick Horton  
     - Location: Allbritton #103
@@ -117,12 +117,14 @@ There are many, many more things to read on [our reading list](reading.qmd)!
     - Location: Allbritton #311
 - \[1:45-3:00\]: Session 3
     - `r topic()` AI and the GAISE principles 
-    - `r discuss()` in 3 groups
-    - Location: Allbritton #004, #103, and #304
-- \[3:30-4:45\]: Session 4
-    - `r topic()` How might we update the GAISE College guidelines in an AI age?  
-    - `r discuss()` plenary
-    - Location: Allbritton #311
+    - `r discuss()` in 3 groups for 45 minutes, then regather in Allbritton #103
+    - Location: Allbritton #004, #103, and #304, then Albritton #103
+- \[3:00-6:15\]: Free time
+    - Optional walk/hike at [Wadsworth Falls State Park](https://ctparks.com/parks/wadsworth-falls-state-park)  
+      No need for hiking boots, just walking shoes.
+
+![](https://ctparks.com/sites/default/files/styles/hero_1600x645/public/images/2023-06/WadsworthFalls-Flickr%40.jpg?h=9a8fc3da&itok=c36crnb_)
+
 - \[6:30-8:00\] Dinner  
     - `r eat()` [Esca](https://escact.com/)  
     - Location:  
@@ -177,12 +179,10 @@ There are many, many more things to read on [our reading list](reading.qmd)!
     - `r topic()` Develop activities that use AI to accomplish learning goals
     - `r discuss()` in 3 groups
     - Location: Allbritton #004, #103, and #304
-- \[3:15-6:45\]: Free time
-    - Optional walk/hike at [Wadsworth Falls State Park](https://ctparks.com/parks/wadsworth-falls-state-park)  
-      No need for hiking boots, just walking shoes.
-
-![](https://ctparks.com/sites/default/files/styles/hero_1600x645/public/images/2023-06/WadsworthFalls-Flickr%40.jpg?h=9a8fc3da&itok=c36crnb_)
-
+- \[3:45-5:00\]: Session 4 (rescheduled)
+    - `r topic()` TBD
+    - `r discuss()` plenary
+    - Location: Allbritton #311
 - \[6:45-8:00\] Dinner  
     - `r eat()` [Tate's](https://www.tatesmiddletown.com/menu)  
     - Location:  
@@ -225,4 +225,4 @@ There are many, many more things to read on [our reading list](reading.qmd)!
 
 :::
 
-Last updated July 11, 2026
+Last updated July 19, 2026
