@@ -2,6 +2,8 @@
 title: "About"
 ---
 
+![](aalac2026_group_photo.png)
+
 ## Workshop organizers
 
 - [**Benjamin Baumer**](https://www.smith.edu/people/ben-baumer), Professor of Statistical and Data Sciences, Smith College
