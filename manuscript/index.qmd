@@ -8,7 +8,7 @@ author:
   - name: Benjamin S. Baumer
     email: bbaumer@smith.edu
     orcid: 0000-0002-3279-0516
-    corresponding: true         # Mark who the corresponding author is
+    corresponding: true
     affiliations:
       - ref: smith
   - name: Logan Dancey
@@ -96,6 +96,7 @@ author:
     affiliations:
       - name: Carnegie Mellon University
         department: Statistics and Data Science
+        country: USA
   - name: Jennifer Rose
     email: jrose01@wesleyan.edu
     affiliations:
@@ -134,42 +135,66 @@ affiliations:
     department: Mathematics and Statistics
     city: Poughkeepsie
     state: NY
+    country: USA
   - id: smith
     name: Smith College
     department: Statistical and Data Sciences
+    country: USA
   - id: williams
     name: Williams College
+    country: USA
   - id: haverford
     name: Haverford College
     department: Computer Science
+    country: USA
   - id: wesleyan
     name: Wesleyan University
+    country: USA
   - id: wesleyan_qac
     name: Wesleyan University    
     department: Hazel Quantitative Analysis Center
+    country: USA
   - id: bryn_mawr
     name: Bryn Mawr College
     department: Psychology
+    country: USA
   - id: denison
     name: Denison University
     department: Data Analytics
+    country: USA
   - id: amherst
     name: Amherst College
+    country: USA
   - id: macalester
     name: Macalester College
     department: Mathematics, Statistics, and Computer Science
+    country: USA
   - id: wellesley
     name: Wellesley College
     department: Quantitative Analysis Institute
+    country: USA
   - id: swarthmore
     name: Swarthmore College
     department: Mathematics and Statistics
+    country: USA
 
 bibliography: references.bib
 keywords: Generative AI, higher education, learning science, data science education
 abstract: |
   Generative AI is having a substantial impact on higher education. Amid a growing body of research about that impact, we articulate an emerging consensus about how generative AI affects student learning that is supported by established educational theories. Specifically, we find that while generative AI appears to be helpful to experts, it is not similarly helpful to novices in helping them build the expertise. Students (novices) need a foundation of disciplinary knowledge to become experts and even critical thinkers, and their use of generative AI to provide answers, rather than help them refine their understanding, hinders their progress on the path from novice to expert. We connect these dots, communicate this view to various constituencies, and discuss paths forward for higher education. While we write from our perspective as statisticians, data scientists, and computer scientists at liberal arts colleges, we believe that our findings will resonate across other disciplines and higher education institutions. 
 
+acm-metadata:
+  final: true
+  copyright-year: 2026
+  acm-year: 2026
+  copyright: acmcopyright
+  doi: XXXXXXX.XXXXXXX
+  conference-acronym: "Conference acronym 'AALAC"
+  conference-name: "Generative AI and Data Analysis: implications for data science curriculum and pedagogy"
+  conference-date: July 19--22, 2026
+  conference-location: Middletown, CT
+  price: "0"
+  isbn: 978-1-4503-XXXX-X/18/06
 ---
 
 # Introduction

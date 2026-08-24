@@ -9,7 +9,7 @@ format:
     comments:
       hypothesis: true
   docx: default
-  pdf: 
+  acm-pdf: 
     keep-tex: true
 
 execute:
