@@ -1,0 +1,378 @@
+---
+title: "Generative AI hasn't changed learning: It's still hard to become an expert"
+author:
+  - name: Ming-Wen An
+    email: mian@vassar.edu
+    affiliations:
+      - ref: vassar
+  - name: Benjamin S. Baumer
+    email: bbaumer@smith.edu
+    orcid: 0000-0002-3279-0516
+    corresponding: true         # Mark who the corresponding author is
+    affiliations:
+      - ref: smith
+  - name: Logan Dancey
+    email: ldancey@wesleyan.edu
+    department: Government
+    affiliations:
+      - ref: wesleyan
+  - name: Richard De Veaux
+    email: rdeveaux@williams.edu
+    department: Statistics
+    affiliations:
+      - ref: williams
+  - name: Daryl Deford
+    email: ddeford@vassar.edu
+    affiliations:
+      - ref: vassar
+  - name: Erika Franklin Fowler
+    email: efowler@wesleyan.edu
+    department: Government
+    affiliations:
+      - ref: wesleyan
+  - name: Stephen Freund
+    email: sfreund@williams.edu
+    department: Computer Science
+    affiliations:
+      - ref: williams
+  - name: Sorelle Friedler
+    email: sorelle@cs.haverford.edu
+    affiliations:
+      - ref: haverford
+  - name: Maryam Gooyabadi
+    email: mgooyabadi@wesleyan.edu
+    affiliations:
+      - ref: wesleyan_qac
+  - name: Douglas Hall
+    email: dhall@amherst.edu
+    department: Research Computing
+    affiliations:
+      - ref: amherst
+  - name: Brianna Heggeseth
+    email: bheggese@macalester.edu
+    affiliations:
+      - ref: macalester
+  - name: Nicholas J. Horton
+    email: nhorton@amherst.edu
+    orcid: 0000-0003-3332-4311
+    affiliations:
+      - ref: amherst
+  - name: Emmanuel Kaparakis
+    email: mkaparakis@wesleyan.edu
+    affiliations:
+      - ref: wesleyan_qac
+  - name: Antonio Laverghetta
+    email: alaverghetta@wesleyan.edu
+    affiliations:
+      - ref: wesleyan_qac
+  - name: Victoria Manfredi
+    email: vumanfredi@wesleyan.edu
+    department: Computer Science
+    affiliations:
+      - ref: wesleyan
+  - name: Valerie Nazzaro
+    email: vnazzaro@wesleyan.edu
+    affiliations:
+      - ref: wesleyan_qac
+  - name: Thao Nguyen
+    email: tnguyen3@haverford.edu
+    affiliations:
+      - ref: haverford
+  - name: Pavel Oleinikov
+    email: poleinikov@wesleyan.edu
+    affiliations:
+      - ref: wesleyan_qac
+  - name: Cassandra Pattanayak
+    email: cpattanayak@wellesley.edu
+    affiliations:
+      - ref: wellesley
+  - name: Anna Plantinga
+    email: amp9@williams.edu
+    department: Statistics
+    affiliations:
+      - ref: williams
+  - name: Alex Reinhart
+    email: areinhar@stat.cmu.edu
+    affiliations:
+      - name: Carnegie Mellon University
+        department: Statistics and Data Science
+  - name: Jennifer Rose
+    email: jrose01@wesleyan.edu
+    affiliations:
+      - ref: wesleyan_qac
+  - name: Lynne Steuerle Schofield
+    email: lschofi1@swarthmore.edu
+    affiliations:
+      - ref: swarthmore
+  - name: Marc Schulz
+    email: mschulz@brynmawr.edu
+    affiliations:
+      - ref: bryn_mawr
+  - name: Sarah Supp
+    email: supps@denison.edu
+    department: Data Analytics and Sustainability and Environmental Studies
+    orcid: 0000-0002-0072-029X
+    affiliations:
+      - ref: denison
+  - name: Anjali Thapar
+    email: athapar@brynmawr.edu
+    affiliations:
+      - ref: bryn_mawr
+  - name: Elizabeth Upton
+    email: emu1@williams.edu
+    department: Statistics
+    affiliations:
+      - ref: williams
+  - name: Zhe Wang
+    email: wangz@denison.edu
+    affiliations:
+      - ref: denison
+
+affiliations:
+  - id: vassar
+    name: Vassar College
+    department: Mathematics and Statistics
+    city: Poughkeepsie
+    state: NY
+  - id: smith
+    name: Smith College
+    department: Statistical and Data Sciences
+  - id: williams
+    name: Williams College
+  - id: haverford
+    name: Haverford College
+    department: Computer Science
+  - id: wesleyan
+    name: Wesleyan University
+  - id: wesleyan_qac
+    name: Wesleyan University    
+    department: Hazel Quantitative Analysis Center
+  - id: bryn_mawr
+    name: Bryn Mawr College
+    department: Psychology
+  - id: denison
+    name: Denison University
+    department: Data Analytics
+  - id: amherst
+    name: Amherst College
+  - id: macalester
+    name: Macalester College
+    department: Mathematics, Statistics, and Computer Science
+  - id: wellesley
+    name: Wellesley College
+    department: Quantitative Analysis Institute
+  - id: swarthmore
+    name: Swarthmore College
+    department: Mathematics and Statistics
+
+bibliography: references.bib
+keywords: Generative AI, higher education, learning science, data science education
+abstract: |
+  Generative AI is having a substantial impact on higher education. Amid a growing body of research about that impact, we articulate an emerging consensus about how generative AI affects student learning that is supported by established educational theories. Specifically, we find that while generative AI appears to be helpful to experts, it is not similarly helpful to novices in helping them build the expertise. Students (novices) need a foundation of disciplinary knowledge to become experts and even critical thinkers, and their use of generative AI to provide answers, rather than help them refine their understanding, hinders their progress on the path from novice to expert. We connect these dots, communicate this view to various constituencies, and discuss paths forward for higher education. While we write from our perspective as statisticians, data scientists, and computer scientists at liberal arts colleges, we believe that our findings will resonate across other disciplines and higher education institutions. 
+
+---
+
+# Introduction
+
+We write as a group of 26 statistics, data science, and computer science educators at 10 liberal arts colleges and one R1 university. 
+We convened in July 2026 to discuss the opportunities and challenges facing undergraduate higher education brought on by the rapid adoption of generative artificial intelligence (GenAI, hereafter) tools, and their impact upon our students. 
+Our goal in this paper is to present a research-informed view of how GenAI is affecting our educational objectives -- for better and for worse -- and to communicate that perspective succinctly to important stakeholders, including students, colleagues, trustees, and parents. 
+As statistics, data science, and computer science educators from liberal arts colleges, we focus our attention on the environments that we know best, but we believe that what we write will resonate across much of higher education. 
+While we recognize that our disciplines and our institutions do not fully represent higher education at large, we hope our careful thinking will have value to everyone connected to these enterprises. 
+As liberal arts college educators, we feel well-positioned to lead on this notable challenge, and suggest that liberal arts colleges, where faculty are deeply engaged with both research and teaching, can serve as ideal incubators for novel pedagogical strategies to address GenAI. 
+
+While we are critical of the most optimistic claims about GenAI's role in undergraduate education, we are not technophobes. 
+Neither do we have our heads buried in the proverbial sand, nor are we afraid of change. Most of us have doctorates in statistics, computer science, or closely-related fields, some of us have research interests that include subdomains of artificial intelligence, and all of us use, create, or examine GenAI to some extent in our work. 
+Many of us have been recognized as classroom innovators within our disciplines. 
+We are not of one mind: our approaches to dealing with GenAI in our classes run the gamut from "let’s ban it" to "let’s embrace it." 
+And yet, after three and a half days of discussion, we arrived at a largely shared conception of *how* GenAI is currently affecting our students, our classes, and our profession. 
+
+In what follows, we articulate that shared conception, which is supported by peer-reviewed research and rooted in longstanding theories of learning. 
+Our analysis hinges on the differential utility of GenAI for novices versus experts:
+
+> **In short, generative AI amplifies existing expertise, but its unchecked adoption by students hinders their ability to develop that expertise.**  
+
+
+## Our vision of a liberal arts education 
+
+An undergraduate education is an investment in the student to whom it pays lifelong dividends. 
+Our students are the product of our classes, not only as future professionals or scholars, but as human members of society. 
+We assert that the lasting artifact(s) of a collegiate course is not the homework assignment, group project, or final exam completed by the student, but rather the multifaceted development that occurred within the student during the creation and process of doing the course work. 
+Within our respective disciplines, our responsibility as educators is to help our students move along a path from novice to expert. 
+
+This focus on the holistic development of the student is explicit in the mission statements of our respective institutions, which exhort us to guide students to "lead lives of meaning and purpose" ([Williams College](https://www.williams.edu/about/mission-values/)), to "educate women of promise for lives of distinction and purpose" ([Smith College](https://www.smith.edu/discover-smith/history-traditions)), and to "educate our students to become autonomous thinkers, discerning moral agents and active citizens of a democratic society" ([Denison University](https://catalog.denison.edu/catalog/history-mission-values/mission/)), while emphasizing "holistic individual and community development, student leadership, individual responsibility, advocacy of academic inquiry, and freedom of thought, opinion and expression in the spirit of mutual respect" ([Wesleyan University](https://www.wesleyan.edu/reslife/office/Mission%20Statement1.html)). 
+(All of our institutions have similar themes in their mission statements). 
+While graduates of liberal arts colleges have fantastic employment prospects relative to their peers [@gray2025measuring], their employability is as much a by-product of a well-rounded, humanistic education as it is an end in itself. 
+Setting students up to have better options and make better choices is a foreground priority. 
+
+Moreover, the skills that make liberal arts graduates such valuable employees are not limited to the course content they absorbed. 
+Instead, it is their ability and determination to solve difficult problems, to deploy multiple analytical approaches, to pose trenchant questions, to summon the collective wisdom of previous scholars, to apply moral and ethical reasoning from an informed perspective, to collaborate and communicate effectively across multiple audiences with multiple viewpoints, to adapt to new situations, and perhaps above all else, to continue to learn on their own and to value the expertise of themselves and others that make them such valuable employees [@holmes2026ai]. 
+Rather than being confined to a single application, their skills translate across adjacent domains. 
+
+The world continues to change ever more rapidly (higher education is no different\!) and at this moment in time, GenAI is in the eye of the storm. 
+Other moments in time brought the advent of the Internet and the arrival of cell phones, and we do not know what future developments will require. 
+We convened to discuss the impact of GenAI on the teaching of statistics, data science, and computer science at liberal arts colleges in the present moment, and left convinced that while GenAI will disrupt some of our practices (as other inventions have), it will not alter the fundamental relationship between our students and the world that we have just described. 
+Just as with other new technological changes, we will continue to help our students develop as whole persons belonging to a lineage and community of thinkers, and prepare them for the unknowable challenges of tomorrow, as best we can. 
+
+To do so requires an in-depth conversation about how generative AI impacts learning. 
+
+# How is generative AI affecting learning?
+
+## What is learning?
+
+We know from the learning sciences that what people need to understand their world is a working mental model of the systems with which they interact [@disessa1982unlearning; @schauble1991causal]. 
+This is true for everyone: the doctor and the physician’s assistant, the receptionist and the executive, the plumber and the chemist. 
+These mental models allow people to employ causal reasoning, such as making a prediction about what will happen and then testing that prediction against reality, an act that may result in an update to the mental model. 
+The more accurate the mental model of the system, the more competent the professional is. 
+
+Moreover, humans develop expertise by committing their working understanding (i.e., schemas) to long-term memory, such that routine tasks become automated [@van2010cognitive]. 
+Learning is the result of this automation. 
+Think of the way you can brush your teeth, tie your shoes, or work the foot pedals in a car without thinking about what you are doing, or further, while thinking about something else entirely. 
+Building these automated schemas requires deliberate, repeated practice [@ericsson2016peak].
+
+In statistics and data science, we often work with a variety of systems that include the data context, statistical models (e.g., a linear regression model), and computational software (e.g., R or Python). 
+Because fitting and interpreting linear regression models is a standard practice in scientific literature, GenAI can produce many factually accurate statements about linear regression models. 
+It can also write the R code necessary to fit and visualize these models. 
+We are not blind to the fact that it can do nearly all of the tasks that we ask our introductory statistics students to do [@deluca2025developing; @lu2025stateval].
+
+What then is the value of learning statistics when GenAI can "do data analysis" for you? 
+Let’s first recognize that there is a difference between a person who understands statistics (i.e., has a working mental model of regression committed to long-term memory) and a person who can use GenAI to perform statistical tasks (i.e., knows how to prompt AI to get the requested information). 
+We might call the former "human intelligence" and the latter "human-guided artificial intelligence".
+
+An analogy to music might help. GenAI amplifies existing skills [@wickham2026ai] the same way an incredible new amp could have expanded Jimi Hendrix’s or B. B. King’s (possibly two of the greatest guitarists to ever play) sounds and techniques in a way that would have been prohibitively expensive in terms of time, money, or both when they were alive. 
+However, for the novice who is just learning to play, having a fancy amp might be cool, but it doesn’t really help them play any better. 
+The evidence for the efficacy of GenAI-based tutoring is mixed at best [@kestin2025ai; @bastani2025generative], and there is simply no substitute for good old-fashioned practice [@ericsson2016peak]. 
+Without an automated mental model of scales, chord progressions, timing, and without the physical ability to repeat accurate fingerings and strumming, the novice will never be able to play in a band, let alone improvise and jam the way Hendrix or King could. 
+Even a promising high school or college musician with the new amp won’t be at the level of Hendrix or King *without simultaneous and rigorous dedication to practice and learning*. 
+Nobody gets better at playing a musical instrument[^1] by sitting on the couch -- you have to put in the work, and the work is hard. 
+
+We also know from the learning sciences that while "critical thinking" is perhaps the most durable skill that we can help our students develop, it is really a complex collection of skills that cannot be developed in the absence of methodological content and subject matter context [@willingham2008critical; @pithers2000critical; @tricot2014domain]. 
+That is, students need both fundamental disciplinary knowledge and domain expertise in order to apply critical thinking.
+Thus, it’s not possible to think critically about a regression model for home sales until you know something about regression models *and* something about the real estate market. 
+You can’t be [surprised by a symphony](https://en.wikipedia.org/wiki/Symphony_No._94_\(Haydn\)) until you’ve developed a mental model for what symphonies are supposed to sound like. 
+You can’t be fooled by a curveball until you’ve learned to hit a fastball by anticipating its trajectory and coordinating your swing to meet that expectation. 
+
+Proponents of GenAI would have you believe that interacting with a chatbot can help you build these foundational skills, but these claims would require strong experimental evidence (which is scant), and if you accept our analogy, they defy logic. 
+As educators, we have been helping students develop foundational skills much in the manner that music teachers have: first we explain, then we demonstrate, then students practice and receive feedback. 
+As any music teacher will tell you, this process doesn’t work if students don’t build muscle memory (i.e., automate their schema) through practice. 
+For many students, the use of GenAI is impeding that practice -- not enhancing it -- by giving them a largely effortless way to accomplish tasks without actually refining their mental models and muscle memories.
+
+## Early returns on learning with generative AI 
+
+The students who most recently graduated from our institutions began their college experience shortly before ChatGPT kicked off the current wave of chatbot-based GenAI. 
+If the loftiest claims about GenAI were true, we might expect that student work would have improved noticeably in this period. 
+However, we can say anecdotally, but confidently, that we are not seeing such an improvement in what they are submitting. While it is difficult to untangle all of the cohort effects these students have experienced—the COVID-19 pandemic disrupting their high school experience, growing up with smartphones and social media, and now the rapid expansion of GenAI—lessons from the learning sciences can help us unpack the real-world impact of GenAI on student learning processes. 
+
+A growing body of research supports the conclusion that for a variety of reasons, while GenAI can help experts leverage their knowledge and experience to perform tasks faster and more efficiently, the opposite is true for novices [@daniotti2026using]. 
+By definition, novices don’t have the background knowledge that prepares them to ask the right questions or identify the structure of a problem, and thus chatbots often lead them on a circuitous path to an answer to the wrong question. Because they lack the knowledge that allows them to accurately judge the veracity of GenAI output, novices are generally ill-equipped to navigate chatbot responses that produce false statements. 
+Novices also lack the experience that helps experts quickly triage promising and doomed suggested routes to solve a problem. 
+Moreover, novices suffer from metacognitive failures that experts escape: they are more likely to believe that conversations with GenAI are deepening their understanding, even while their assessed performance is declining [@prather2023s; @prather2024widening; @fan2025beware]. 
+These insights help to explain why novices often end up chasing their tail when using GenAI. 
+
+Furthermore, reliance on GenAI inures novices with habits that erode the development of the skills of liberal arts graduates we identified above that set them up for success post-college. 
+GenAI’s ability to provide quick, easy answers to difficult problems is alluring to novices in the short-term, but it may impede their ability to build persistence, a far more important quality for their long-term success [@liu2026ai]. 
+Novices who rely heavily on GenAI assistance may also fail to cultivate the mentoring and peer relationships that reinforce learning and propel them into future career success [@silva2025ai; @hou2025all]---relationships which experts have already had the time and experience to develop. 
+As they become more dependent on GenAI, students concomitantly become less likely to seek out human-centric supports for learning (e.g., office hours, tutoring, study groups, etc.), leaving them even more isolated and disconnected from their learning community [@hou2025all; @glickman2026tutor]. 
+
+This disjunction in the usefulness of GenAI between experts and novices offers an explanation of how two seemingly contradictory observations can simultaneously be true. 
+GenAI *is* useful to those with experience and training, and it may very well lead to a realization of many of the claims being made by AI companies and its proponents. 
+Long-stubborn [math problems *are* being solved](https://www.nytimes.com/2026/07/23/science/fields-medals-pardon-deng-wang-tsimerman.html) thanks to assistance from GenAI. [New possibilities for entrepreneurship](https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html) *are* being fueled by GenAI. 
+And yet the critics of AI also stand on firm ground. 
+Rampant, ill-advised use of GenAI is *not* helping a generation of students build the very expertise that they will need to benefit from this newly ubiquitous technology, even as we and they are well-aware of its growing role in their future careers [@imundo2024expert].  
+
+Thus, GenAI is working primarily as an amplifier (or multiplier) of the skills that one already has. 
+
+We see mounting evidence that GenAI is hindering our students’ ability to move along the path from novice to expert, thus delaying, or even preventing, their ability to access both the level of students' historical achievements and growth as well as the increased productivity that GenAI promises. 
+Students are beginning to realize this [@gaines2026ai; @schwartz2026more], and we observe increasing signs of their resentment towards GenAI, in the [heckling of graduation speakers](https://www.npr.org/2026/05/20/nx-s1-5822419/ai-colleges-commencement-booing), the formation of [student clubs](https://oberlinreview.org/35718/opinions/luddite-club-implores-oberlin-to-opt-out-of-ai/) and [protests against AI](https://www.bloomberg.com/news/articles/2026-05-19/ai-on-college-campuses-sparks-pushback-protests-booing-at-graduation), and outright refusal to use AI [@mcmurtrie2025ai]. Rather than using GenAI because they see it as the best tool for their learning, many students report feeling compelled [@yang2026ai] to use GenAI due to shifting norms, competition with peers, stress, desperation, or what we view as a misguided attempt to prepare themselves for a workplace in which they will inevitably be asked to use GenAI. 
+
+# What our key constituencies need to know about learning with GenAI
+
+In this rapidly changing landscape, we hope that this document will help all of us (students, faculty, trustees, parents, administrators, alums, and industry professionals) re-center our perspectives on higher education and GenAI’s role within it. 
+The remainder of this paper addresses four key constituencies separately, building upon the state-of-the-world we have articulated in this Introduction. 
+
+## Students
+
+We want our students to understand that we care about them, their future, and their learning. 
+We don’t want to have adversarial relationships with them as the cheating police. 
+As articulated above, our goal is to move them along the path from novice to expert and help them develop as humans. 
+
+The evidence and our experience tell us that in order to develop expertise, students need to build accurate mental models of the systems they are studying atop a foundation of facts, and then continue to refine and adorn those models through repeated practice and exposure to new material. 
+This practice has many forms, both newfangled and old-fashioned, including homework problem sets, in-class lectures and activities, and textbook readings. 
+This practice may be difficult and occasionally tedious, but it is a necessary component of the learning process. 
+
+While GenAI may be useful for some students in some cases, especially in more advanced courses where some expertise has already been developed, the evidence is mounting that the vast majority of GenAI use among college students is hindering their ability to build and refine their understanding of the material they are studying, which in turn, perhaps ironically, leaves them *less* well-prepared to access the benefits of GenAI that experienced professionals report. 
+
+As a consequence, we are re-orienting our courses around assessments that take place in AI-free environments: oral presentations and exams, in-class pencil-and-paper quizzes and tests. 
+We want our students to understand that this shift in assessment aligns with our learning goals for them, and is designed to best prepare them for success in their future endeavors, which we acknowledge will likely involve GenAI.
+
+Lastly, we encourage students to cultivate strong relationships with faculty and peers. 
+The community you build creates lifelong bonds while supporting the learning process and unlocking unexpected future paths. 
+Ultimately, these interpersonal dynamics foster human-centered capabilities that GenAI simply cannot replicate. 
+
+## Parents
+
+We want parents to understand that we know why they are asking hard questions about the value of a college education amid the current headwinds of skyrocketing costs, an uncertain job market, and new technology (including GenAI) that is rapidly changing virtually every industry. 
+We know that parents want their children to be "successful" in life (however that is defined). 
+We affirm that our goal is to set their children up for adult lives in which they have better choices and make better decisions. 
+We can do this by filling their minds, bodies, and spirits with knowledge, the ability to think critically about the world, and the courage to apply moral and ethical reasoning to the unknowable challenges they will face. 
+
+We understand that most of our graduates will be hired into positions in which they will be expected to leverage GenAI in the workplace. 
+But because of the argument we have laid out above, we don’t believe that allowing them unfettered access to GenAI during their undergraduate years is the best way to prepare them for that future. 
+To the contrary, we believe that the best way to prepare them for a future in which they will use GenAI productively is to concentrate our efforts on leveraging our expertise to develop their mental models, primarily in AI-free environments. 
+We believe that welcoming them, as whole persons, into our existing communities of scholarship and learning is the best way to position them for a lifetime of success, happiness, and gratification. 
+
+## Colleagues
+
+We want our colleagues to know that we share their frustration with and worry about the challenges that GenAI is bringing to our jobs. 
+We acknowledge that GenAI is having a profound impact on our teaching, our relationships with our students, and our sense of satisfaction with our jobs. 
+We, too, experience moments of deep unease about the contours of the future of higher education, and what that means for us as teachers, scholars, and employees. 
+
+However, we also want our colleagues to understand that we see a research-driven consensus emerging about the way that GenAI is affecting the learning that we facilitate in our courses. 
+As we gain a clearer understanding of the role that GenAI plays in higher education, we see several paths forward that, in the best-case scenario, could lead to a reinvigoration of the liberal arts mission and leave us in a place where students and faculty are aligned on their respective goals about learning. 
+It is up to us to delineate the boundaries of GenAI’s role in that world and to conduct the education research that shows how it can and cannot productively be used. 
+If we fail to act, others will do this work for us. 
+While we don’t agree (constructively and collegially) about how best to adapt our courses to GenAI, we do agree about what is going on and what we want for our students, and we hope this unity can sustain us as we tackle the oncoming challenges.  
+
+## Trustees and administrators
+
+We want our trustees and administrators to know that we are grateful for their support of our institutions and our core educational missions. 
+We recognize the value of their experiences beyond academia and our joint commitment to educating our students. 
+We value what they love about our liberal arts colleges and the education they received: deep and critical engagement with complex and challenging ideas, the ability to express oneself fully, lifelong friendships with fellow students and mentorship from professors, and the cultivation of a love of learning. 
+These core values at the center of a liberal arts education endure even as technology continues to evolve.
+
+Our aim -- as we consider how best to teach our students -- is to preserve these values and the spirit of learning that our institutions cultivate. We're confident that future generations of graduates can and will go on to lives of purpose and meaning, successful careers, and important leadership positions. 
+Because of the research-informed view described above, we believe that in order for students to realize their potential they must move towards mastering the core ideas of our subjects without the compromises to their learning brought on by GenAI.   
+
+We recognize that trustees and administrators are hearing from all sides that GenAI is revolutionizing many industries, and that they are feeling pressure to adapt our curricula to prepare graduates to enter that world. 
+We *are* doing this adaptive work, and we won’t abdicate our responsibility and authority to determine learning goals and curricula to other constituencies. 
+As teacher-scholars and career educators, we need the support of our trustees and administrators now more than ever as we meet the new challenges and opportunities that accompany GenAI.
+
+# Conclusion and Paths Forward
+
+For many students, the use of GenAI early in their educational careers is impeding -- not enhancing -- their development from novice to expert. 
+GenAI gives them a largely effortless way to accomplish tasks that diminishes their ability to refine their mental models of complex systems. 
+Reliance on GenAI decreases their efforts in building learning communities (professors, peers, and friends) that will support them in the long term. Using GenAI to quickly answer hard problems that would have previously taken them hours, days, or even weeks to solve, stunts the development of their persistence and endurance that they will likely need in their careers and lives post-schooling. 
+
+In fairness, it is likely we, teachers, have failed to impress upon students this philosophy of practice and the benefits of educational communities. 
+Students may feel that some of our more tedious assignments (e.g., problem sets with by-hand calculations) are pointless "busywork". 
+We must do more to both align our assignments with our learning goals, and to convince our students that practice, especially with their peers and with us, while occasionally tedious, is a necessary component of learning. 
+The question then, is how we redirect student behavior so that sufficient practice continues to occur. 
+
+We also may need to rethink how we distribute time in relation to the assessments that we give. 
+*All of us* are increasingly interested in implementing in-person assessments that take place in AI-free environments (e.g., oral exams, in-class proctored exams, etc.). 
+Emphasizing in-classroom assessments balanced with fewer summative assessments outside of class raises challenges about effective teaching strategiesAs we think through when to assess, we must also reimagine what we assess. 
+Just as our classwork and homework assignments should align to our learning goals, so too must our assessments match that which we claim to believe is important. 
+
+Ultimately, our imperative is to re-incentivize the student behaviors that will help them move from novice to expert so that they can eventually use GenAI and/or any future technological advancement to amplify their skills as intellectually independent contributors to the wider world. 
+
+## Acknowledgements
+
+This paper was incubated at the [*Generative AI and Data Analysis: implications for data science curriculum and pedagogy* workshop](https://beanumber.github.io/aalac2026/) sponsored by the Alliance to Advance Liberal Arts Colleges (AALAC) and held at Wesleyan University from June 19-22, 2026\. 
+
+Participants included: Ming-Wen An, Benjamin Baumer, Logan Dancey, Richard De Veaux, Daryl Deford, Erika Franklin Fowler, Stephen Freund, Sorelle Friedler, Maryam Gooyabadi, Douglas Hall, Brianna Heggeseth, Nicholas Horton, Emmanuel Kaparakis, Antonio Laverghetta Jr., Victoria Manfredi, Valerie Nazzaro, Thao Nguyen, Pavel Oleinikov, Cassandra Pattanayak, Anna Plantinga, Alex Reinhart, Jennifer Rose, Lynne Steuerle Schofield, Marc Schulz, Sarah Supp, Anjali Thapar, Elizabeth Upton, and Zhe Wang.
+
+We are grateful to Martha Besade for extensive administrative and logistical support for the workshop. 
+
+# References
+
+[^1]:  We chose the guitar-playing analogy for alignment and accessibility, but considered many others, including playing the violin, hitting a baseball, composing a photograph, drawing/painting/sculpting a work of art, crafting a piece of furniture, scaling a mountain, etc. These are all activities in which expensive equipment can help experts achieve their goals more efficiently, but will not help novices achieve theirs. 
