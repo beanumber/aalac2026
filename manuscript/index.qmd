@@ -23,6 +23,7 @@ author:
       - ref: williams
   - name: Daryl Deford
     email: ddeford@vassar.edu
+    orcid: 0000-0003-2032-3168
     affiliations:
       - ref: vassar
   - name: Erika Franklin Fowler
@@ -68,6 +69,7 @@ author:
   - name: Victoria Manfredi
     email: vumanfredi@wesleyan.edu
     department: Computer Science
+    orcid: 0000-0003-2792-6287
     affiliations:
       - ref: wesleyan
   - name: Valerie Nazzaro
@@ -93,6 +95,7 @@ author:
       - ref: williams
   - name: Alex Reinhart
     email: areinhar@stat.cmu.edu
+    orcid: 0000-0002-6658-514X
     affiliations:
       - name: Carnegie Mellon University
         department: Statistics and Data Science
@@ -122,6 +125,7 @@ author:
   - name: Elizabeth Upton
     email: emu1@williams.edu
     department: Statistics
+    orcid: 0000-0002-1219-846X
     affiliations:
       - ref: williams
   - name: Zhe Wang
@@ -199,7 +203,7 @@ acm-metadata:
 
 # Introduction
 
-We write as a group of 26 statistics, data science, and computer science educators at 10 liberal arts colleges and one R1 university. 
+We write as a group of 26 statistics, data science, and computer science educators at 11 liberal arts colleges and one R1 university. 
 We convened in July 2026 to discuss the opportunities and challenges facing undergraduate higher education brought on by the rapid adoption of generative artificial intelligence (GenAI, hereafter) tools, and their impact upon our students. 
 Our goal in this paper is to present a research-informed view of how GenAI is affecting our educational objectives -- for better and for worse -- and to communicate that perspective succinctly to important stakeholders, including students, colleagues, trustees, and parents. 
 As statistics, data science, and computer science educators from liberal arts colleges, we focus our attention on the environments that we know best, but we believe that what we write will resonate across much of higher education. 
@@ -385,7 +389,8 @@ The question then, is how we redirect student behavior so that sufficient practi
 
 We also may need to rethink how we distribute time in relation to the assessments that we give. 
 *All of us* are increasingly interested in implementing in-person assessments that take place in AI-free environments (e.g., oral exams, in-class proctored exams, etc.). 
-Emphasizing in-classroom assessments balanced with fewer summative assessments outside of class raises challenges about effective teaching strategiesAs we think through when to assess, we must also reimagine what we assess. 
+Emphasizing in-classroom assessments balanced with fewer summative assessments outside of class raises challenges about effective teaching strategies.
+As we think through when to assess, we must also reimagine what we assess. 
 Just as our classwork and homework assignments should align to our learning goals, so too must our assessments match that which we claim to believe is important. 
 
 Ultimately, our imperative is to re-incentivize the student behaviors that will help them move from novice to expert so that they can eventually use GenAI and/or any future technological advancement to amplify their skills as intellectually independent contributors to the wider world. 
