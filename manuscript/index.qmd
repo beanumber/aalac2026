@@ -13,14 +13,12 @@ author:
       - ref: smith
   - name: Logan Dancey
     email: ldancey@wesleyan.edu
-    department: Government
     affiliations:
-      - ref: wesleyan
+      - ref: wesleyan_gov
   - name: Richard De Veaux
     email: rdeveaux@williams.edu
-    department: Statistics
     affiliations:
-      - ref: williams
+      - ref: williams_stats
   - name: Daryl Deford
     email: ddeford@vassar.edu
     orcid: 0000-0003-2032-3168
@@ -28,14 +26,13 @@ author:
       - ref: vassar
   - name: Erika Franklin Fowler
     email: efowler@wesleyan.edu
-    department: Government
     affiliations:
-      - ref: wesleyan
+      - ref: wesleyan_gov
   - name: Stephen Freund
     email: sfreund@williams.edu
-    department: Computer Science
+    orcid: 0009-0000-6992-199X
     affiliations:
-      - ref: williams
+      - ref: williams_cs
   - name: Sorelle Friedler
     email: sorelle@cs.haverford.edu
     affiliations:
@@ -46,9 +43,8 @@ author:
       - ref: wesleyan_qac
   - name: Douglas Hall
     email: dhall@amherst.edu
-    department: Research Computing
     affiliations:
-      - ref: amherst
+      - ref: amherst_rc
   - name: Brianna Heggeseth
     email: bheggese@macalester.edu
     affiliations:
@@ -57,7 +53,7 @@ author:
     email: nhorton@amherst.edu
     orcid: 0000-0003-3332-4311
     affiliations:
-      - ref: amherst
+      - ref: amherst_stats
   - name: Emmanuel Kaparakis
     email: mkaparakis@wesleyan.edu
     affiliations:
@@ -68,10 +64,9 @@ author:
       - ref: wesleyan_qac
   - name: Victoria Manfredi
     email: vumanfredi@wesleyan.edu
-    department: Computer Science
     orcid: 0000-0003-2792-6287
     affiliations:
-      - ref: wesleyan
+      - ref: wesleyan_cs
   - name: Valerie Nazzaro
     email: vnazzaro@wesleyan.edu
     affiliations:
@@ -90,9 +85,8 @@ author:
       - ref: wellesley
   - name: Anna Plantinga
     email: amp9@williams.edu
-    department: Statistics
     affiliations:
-      - ref: williams
+      - ref: williams_stats
   - name: Alex Reinhart
     email: areinhar@stat.cmu.edu
     orcid: 0000-0002-6658-514X
@@ -114,20 +108,20 @@ author:
       - ref: bryn_mawr
   - name: Sarah Supp
     email: supps@denison.edu
-    department: Data Analytics and Sustainability and Environmental Studies
     orcid: 0000-0002-0072-029X
     affiliations:
       - ref: denison
+      - name: Denison University
+        department: Sustainability and Environmental Studies
   - name: Anjali Thapar
     email: athapar@brynmawr.edu
     affiliations:
       - ref: bryn_mawr
   - name: Elizabeth Upton
     email: emu1@williams.edu
-    department: Statistics
     orcid: 0000-0002-1219-846X
     affiliations:
-      - ref: williams
+      - ref: williams_stats
   - name: Zhe Wang
     email: wangz@denison.edu
     affiliations:
@@ -143,43 +137,91 @@ affiliations:
   - id: smith
     name: Smith College
     department: Statistical and Data Sciences
+    city: Northampton
+    state: MA
     country: USA
-  - id: williams
+  - id: williams_stats
     name: Williams College
+    department: Statistics
+    city: Williamstown
+    state: MA
+    country: USA
+  - id: williams_cs
+    name: Williams College
+    department: Computer Science
+    city: Williamstown
+    state: MA
     country: USA
   - id: haverford
     name: Haverford College
     department: Computer Science
+    city: Haverford
+    region: PA
     country: USA
   - id: wesleyan
     name: Wesleyan University
+    city: Middletown
+    state: CT
     country: USA
   - id: wesleyan_qac
     name: Wesleyan University    
     department: Hazel Quantitative Analysis Center
+    city: Middletown
+    state: CT
+    country: USA
+  - id: wesleyan_gov
+    name: Wesleyan University    
+    department: Government
+    city: Middletown
+    state: CT
+    country: USA
+  - id: wesleyan_cs
+    name: Wesleyan University    
+    department: Computer Science
+    city: Middletown
+    state: CT
     country: USA
   - id: bryn_mawr
     name: Bryn Mawr College
     department: Psychology
+    city: Bryn Mawr
+    state: PA
     country: USA
   - id: denison
     name: Denison University
     department: Data Analytics
+    city: Granville
+    state: OH
     country: USA
-  - id: amherst
+  - id: amherst_rc
     name: Amherst College
+    department: Research Computing
+    city: Amherst
+    state: MA
+    country: USA
+  - id: amherst_stats
+    name: Amherst College
+    department: Statistics
+    city: Amherst
+    state: MA
     country: USA
   - id: macalester
     name: Macalester College
     department: Mathematics, Statistics, and Computer Science
+    city: St. Paul
+    state: MN
     country: USA
   - id: wellesley
     name: Wellesley College
     department: Quantitative Analysis Institute
+    city: Wellesley
+    state: MA
     country: USA
   - id: swarthmore
     name: Swarthmore College
     department: Mathematics and Statistics
+    city: Swarthmore
+    state: PA
     country: USA
 
 bibliography: references.bib
@@ -187,18 +229,6 @@ keywords: Generative AI, higher education, learning science, data science educat
 abstract: |
   Generative AI is having a substantial impact on higher education. Amid a growing body of research about that impact, we articulate an emerging consensus about how generative AI affects student learning that is supported by established educational theories. Specifically, we find that while generative AI appears to be helpful to experts, it is not similarly helpful to novices in helping them build the expertise. Students (novices) need a foundation of disciplinary knowledge to become experts and even critical thinkers, and their use of generative AI to provide answers, rather than help them refine their understanding, hinders their progress on the path from novice to expert. We connect these dots, communicate this view to various constituencies, and discuss paths forward for higher education. While we write from our perspective as statisticians, data scientists, and computer scientists at liberal arts colleges, we believe that our findings will resonate across other disciplines and higher education institutions. 
 
-acm-metadata:
-  final: true
-  copyright-year: 2026
-  acm-year: 2026
-  copyright: acmcopyright
-  doi: XXXXXXX.XXXXXXX
-  conference-acronym: "Conference acronym 'AALAC"
-  conference-name: "Generative AI and Data Analysis: implications for data science curriculum and pedagogy"
-  conference-date: July 19--22, 2026
-  conference-location: Middletown, CT
-  price: "0"
-  isbn: 978-1-4503-XXXX-X/18/06
 ---
 
 # Introduction

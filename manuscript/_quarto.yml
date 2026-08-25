@@ -9,11 +9,26 @@ format:
     comments:
       hypothesis: true
   docx: default
-  acm-pdf: 
+#  acm-pdf: 
+  arxiv-pdf:
     keep-tex: true
+    authorcols: true
+    linenumbers: true
+#  pdf:
 
 execute:
   freeze: true
 
-
+acm-metadata:
+  final: true
+  copyright-year: 2026
+  acm-year: 2026
+  copyright: acmcopyright
+  doi: XXXXXXX.XXXXXXX
+  conference-acronym: "Conference acronym 'AALAC"
+  conference-name: "Generative AI and Data Analysis: implications for data science curriculum and pedagogy"
+  conference-date: July 19--22, 2026
+  conference-location: Middletown, CT
+  price: "0"
+  isbn: 978-1-4503-XXXX-X/18/06
 
