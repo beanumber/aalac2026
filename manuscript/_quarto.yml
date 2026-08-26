@@ -10,10 +10,11 @@ format:
       hypothesis: true
   docx: default
 #  acm-pdf: 
-  arxiv-pdf:
+  jasa-pdf:
     keep-tex: true
-    authorcols: true
-    linenumbers: true
+#  arxiv-pdf:
+#    authorcols: true
+#    linenumbers: true
 #  pdf:
 
 execute:
