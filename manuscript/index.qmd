@@ -328,7 +328,7 @@ Thus, it’s not possible to think critically about a regression model for home 
 You can’t be [surprised by a symphony](https://en.wikipedia.org/wiki/Symphony_No._94_\(Haydn\)) until you’ve developed a mental model for what symphonies are supposed to sound like. 
 You can’t be fooled by a curveball until you’ve learned to hit a fastball by anticipating its trajectory and coordinating your swing to meet that expectation. 
 
-Proponents of GenAI would have you believe that interacting with a chatbot can help you build these foundational skills, but these claims would require strong experimental evidence (which is scant), and if you accept our analogy, they defy logic. 
+Proponents of GenAI would have you believe that interacting with a chatbot can help you build these foundational skills, but these claims would require strong experimental evidence (which is scant [@gerlich2025ai]), and if you accept our analogy, they defy logic. 
 As educators, we have been helping students develop foundational skills much in the manner that music teachers have: first we explain, then we demonstrate, then students practice and receive feedback. 
 As any music teacher will tell you, this process doesn’t work if students don’t build muscle memory (i.e., automate their schema) through practice. 
 For many students, the use of GenAI is impeding that practice -- not enhancing it -- by giving them a largely effortless way to accomplish tasks without actually refining their mental models and muscle memories.
