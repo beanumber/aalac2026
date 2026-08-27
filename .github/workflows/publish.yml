@@ -49,7 +49,7 @@ jobs:
       - name: Place manuscript output under website root
         run: |
           mkdir -p _site/manuscript
-          cp -a manuscript/_site/. _site/manuscript/
+          cp -a manuscript/_manuscript/. _site/manuscript/
 
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@v4
