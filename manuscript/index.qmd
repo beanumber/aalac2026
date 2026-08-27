@@ -3,6 +3,7 @@ title: "Generative AI hasn't changed learning: It's still hard to become an expe
 author:
   - name: Ming-Wen An
     email: mian@vassar.edu
+    orcid: 0000-0001-9064-3189
     affiliations:
       - ref: vassar
   - name: Benjamin S. Baumer
@@ -13,6 +14,7 @@ author:
       - ref: smith
   - name: Logan Dancey
     email: ldancey@wesleyan.edu
+    orcid: 0000-0002-5348-5369
     affiliations:
       - ref: wesleyan_gov
   - name: Richard De Veaux
@@ -26,6 +28,7 @@ author:
       - ref: vassar
   - name: Erika Franklin Fowler
     email: efowler@wesleyan.edu
+    orcid: 0000-0003-3141-572X
     affiliations:
       - ref: wesleyan_gov
   - name: Stephen Freund
@@ -35,10 +38,12 @@ author:
       - ref: williams_cs
   - name: Sorelle Friedler
     email: sorelle@cs.haverford.edu
+    orcid: 0000-0001-6023-1597
     affiliations:
       - ref: haverford
   - name: Maryam Gooyabadi
     email: mgooyabadi@wesleyan.edu
+    orcid: 0009-0004-1269-4633
     affiliations:
       - ref: wesleyan_qac
   - name: Douglas Hall
@@ -48,6 +53,7 @@ author:
       - ref: amherst_rc
   - name: Brianna Heggeseth
     email: bheggese@macalester.edu
+    orcid: 0000-0002-3946-1715
     affiliations:
       - ref: macalester
   - name: Nicholas J. Horton
@@ -75,10 +81,12 @@ author:
       - ref: wesleyan_qac
   - name: Thao Nguyen
     email: tnguyen3@haverford.edu
+    orcid: 0000-0002-5016-2230
     affiliations:
       - ref: haverford
   - name: Pavel Oleinikov
     email: poleinikov@wesleyan.edu
+    orcid: 0009-0002-5558-427X
     affiliations:
       - ref: wesleyan_qac
   - name: Cassandra Pattanayak
@@ -88,6 +96,7 @@ author:
       - ref: wellesley
   - name: Anna Plantinga
     email: amp9@williams.edu
+    orcid: 0000-0001-6281-7727
     affiliations:
       - ref: williams_stats
   - name: Alex Reinhart
@@ -103,6 +112,7 @@ author:
       - ref: wesleyan_qac
   - name: Lynne Steuerle Schofield
     email: lschofi1@swarthmore.edu
+    orcid: 0000-0002-2961-8213
     affiliations:
       - ref: swarthmore
   - name: Marc Schulz
@@ -118,6 +128,7 @@ author:
         country: USA
   - name: Anjali Thapar
     email: athapar@brynmawr.edu
+    orcid: 0000-0002-4384-5228
     affiliations:
       - ref: bryn_mawr
   - name: Elizabeth Upton
