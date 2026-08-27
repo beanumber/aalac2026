@@ -376,7 +376,7 @@ The evidence and our experience tell us that in order to develop expertise, stud
 This practice has many forms, both newfangled and old-fashioned, including homework problem sets, in-class lectures and activities, and textbook readings. 
 This practice may be difficult and occasionally tedious, but it is a necessary component of the learning process. 
 
-While GenAI may be useful for some students in some cases, especially in more advanced courses where some expertise has already been developed, the evidence is mounting that the vast majority of GenAI use among college students is hindering their ability to build and refine their understanding of the material they are studying, which in turn, perhaps ironically, leaves them *less* well-prepared to access the benefits of GenAI that experienced professionals report. 
+While GenAI may be useful for some students in some cases, especially in more advanced courses where some expertise has already been developed, the evidence is mounting that the vast majority of GenAI use among college students is hindering their ability to build and refine their understanding of the material they are studying, which in turn, perhaps ironically, leaves them *less* well-prepared to access the benefits of GenAI that experienced professionals report [@gates2026ai]. 
 
 As a consequence, we are re-orienting our courses around assessments that take place in AI-free environments: oral presentations and exams, in-class pencil-and-paper quizzes and tests. 
 We want our students to understand that this shift in assessment aligns with our learning goals for them, and is designed to best prepare them for success in their future endeavors, which we acknowledge will likely involve GenAI.
