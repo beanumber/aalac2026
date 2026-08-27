@@ -84,11 +84,11 @@ author:
     orcid: 0000-0002-5016-2230
     affiliations:
       - ref: haverford
-  - name: Pavel Oleinikov
-    email: poleinikov@wesleyan.edu
-    orcid: 0009-0002-5558-427X
-    affiliations:
-      - ref: wesleyan_qac
+#  - name: Pavel Oleinikov
+#    email: poleinikov@wesleyan.edu
+#    orcid: 0009-0002-5558-427X
+#    affiliations:
+#      - ref: wesleyan_qac
   - name: Cassandra Pattanayak
     email: cpattanayak@wellesley.edu
     orcid: 0009-0008-5400-7028
@@ -106,10 +106,10 @@ author:
       - name: Carnegie Mellon University
         department: Statistics and Data Science
         country: USA
-  - name: Jennifer Rose
-    email: jrose01@wesleyan.edu
-    affiliations:
-      - ref: wesleyan_qac
+#  - name: Jennifer Rose
+#    email: jrose01@wesleyan.edu
+#    affiliations:
+#      - ref: wesleyan_qac
   - name: Lynne Steuerle Schofield
     email: lschofi1@swarthmore.edu
     orcid: 0000-0002-2961-8213
