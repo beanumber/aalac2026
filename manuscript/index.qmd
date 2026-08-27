@@ -363,7 +363,7 @@ Students are beginning to realize this [@gaines2026ai; @schwartz2026more], and w
 
 ## What our key constituencies need to know about learning with GenAI
 
-In this rapidly changing landscape, we hope that this document will help all of us (students, faculty, trustees, parents, administrators, alums, and industry professionals) re-center our perspectives on higher education and GenAI’s role within it. 
+In this rapidly changing landscape, we hope that this document will help all of us (students, faculty, trustees, parents, administrators, alums, and industry professionals) re-center our perspectives on higher education and GenAI’s role within it [@mit2026ai]. 
 The remainder of this paper addresses four key constituencies separately, building upon the state-of-the-world we have articulated in this Introduction. 
 
 ### Students
