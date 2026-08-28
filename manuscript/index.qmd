@@ -262,7 +262,7 @@ Many of us have been recognized as classroom innovators within our disciplines.
 We are not of one mind: our approaches to dealing with GenAI in our classes run the gamut from "let’s ban it" to "let’s embrace it." 
 And yet, after three and a half days of discussion, we arrived at a largely shared conception of *how* GenAI is currently affecting our students, our classes, and our profession. 
 
-In what follows, we articulate that shared conception, which is supported by peer-reviewed research and rooted in longstanding theories of learning. 
+In what follows, we articulate that shared conception -- which is supported by peer-reviewed research and rooted in longstanding theories of learning -- and reflect on pedagogical alignment in the presence of GenAI. 
 Our analysis hinges on the differential utility of GenAI for novices versus experts:
 
 > **Generative AI amplifies existing expertise, but its unchecked adoption by students hinders their ability to develop that expertise.**  
@@ -365,6 +365,7 @@ Students are beginning to realize this [@gaines2026ai; @schwartz2026more], and w
 ## What our key constituencies need to know about learning with GenAI
 
 In this rapidly changing landscape, we hope that this document will help all of us (students, faculty, trustees, parents, administrators, alums, and industry professionals) re-center our perspectives on higher education and GenAI’s role within it [@mit2026ai]. 
+This will require realignment from all parties, most notably including students and faculty. 
 The remainder of this paper addresses four key constituencies separately, building upon the state-of-the-world we have articulated in this Introduction. 
 
 ### Students
