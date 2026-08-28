@@ -250,7 +250,7 @@ abstract: |
 ## Introduction
 
 We write as a group of 26 statistics, data science, and computer science educators at 11 liberal arts colleges and one R1 university. 
-We convened in July 2026 to discuss the opportunities and challenges facing undergraduate higher education brought on by the rapid adoption of generative artificial intelligence (GenAI, hereafter) tools, and their impact upon our students. 
+We convened in July 2026 (see @sec-workshop) to discuss the opportunities and challenges facing undergraduate higher education brought on by the rapid adoption of generative artificial intelligence (GenAI, hereafter) tools, and their impact upon our students. 
 Our goal in this paper is to present a research-informed view of how GenAI is affecting our educational objectives -- for better and for worse -- and to communicate that perspective succinctly to important stakeholders, including students, colleagues, trustees, and parents. 
 As statistics, data science, and computer science educators from liberal arts colleges, we focus our attention on the environments that we know best, but we believe that what we write will resonate across much of higher education. 
 While we recognize that our disciplines and our institutions do not fully represent higher education at large, we hope our careful thinking will have value to everyone connected to these enterprises. 
@@ -444,9 +444,16 @@ Just as our classwork and homework assignments should align to our learning goal
 
 Ultimately, our imperative is to re-incentivize the student behaviors that will help them move from novice to expert so that they can eventually use GenAI and/or any future technological advancement to amplify their skills as intellectually independent contributors to the wider world. 
 
-### Acknowledgements
+### Acknowledgements {#sec-workshop}
 
 This paper was incubated at the [*Generative AI and Data Analysis: implications for data science curriculum and pedagogy* workshop](https://beanumber.github.io/aalac2026/) sponsored by the Alliance to Advance Liberal Arts Colleges (AALAC) and held at Wesleyan University from June 19-22, 2026\. 
+
+Workshop participants were provided with a reading list of nearly 60 items, most of which were recently published studies about GenAI in higher education. 
+During the workshop, participants heard from various speakers about how GenAI use was affecting higher education. 
+This including a plenary talk given by Alex Reinhart of Carnegie Mellon University entitled "The role of AI in statistics and data science education."
+We also heard from Nicole Stanton (Provost and Senior Vice-President for Academic Affairs at Wesleyan) about the administration's perspective on GenAI, Rachel Barlow (Director for the Center for Faculty Career Development at Wesleyan) about how students are using and feeling about GenAI, Casey Pattanayak (Jack and Sandra Polk Guthman '65 Director of the Quantitative Analysis Institute at Wellesley) about student use of AI in statistics and data science courses, Zhe Wang (Denison) about AI Sentiment in the Classroom, and Alex Reinhart again about the differences between student writing and LLM writing. 
+Each day, participants reacted to written statements about GenAI, and those results were shared with the group the following day, which helped us build consensus around some ideas while laying bare a lack of consensus on others. 
+Many conversations, breakout sessions, and debates occurred in both formal and informal settings. 
 
 Participants included: Ming-Wen An, Benjamin Baumer, Logan Dancey, Richard De Veaux, Daryl Deford, Erika Franklin Fowler, Stephen Freund, Sorelle Friedler, Maryam Gooyabadi, Douglas Hall, Brianna Heggeseth, Nicholas Horton, Emmanuel Kaparakis, Antonio Laverghetta Jr., Victoria Manfredi, Valerie Nazzaro, Thao Nguyen, Pavel Oleinikov, Cassandra Pattanayak, Anna Plantinga, Alex Reinhart, Jennifer Rose, Lynne Steuerle Schofield, Marc Schulz, Sarah Supp, Anjali Thapar, Elizabeth Upton, and Zhe Wang.
 
