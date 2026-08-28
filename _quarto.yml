@@ -17,6 +17,9 @@ website:
         icon: bookmark
       - href: logistics.qmd
         icon: map
+      - href: manuscript/
+        icon: newspaper
+        text: Paper
   repo-url: https://github.com/beanumber/aalac2026/
   repo-actions: [edit, issue]
   page-footer: 
