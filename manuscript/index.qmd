@@ -368,7 +368,7 @@ In this rapidly changing landscape, we hope that this document will help all of 
 This will require realignment from all parties, most notably including students and faculty. 
 The remainder of this paper addresses four key constituencies separately, building upon the state-of-the-world we have articulated in this Introduction. 
 
-### Students
+### Students {#sec-students}
 
 We want our students to understand that we care about them, their future, and their learning. 
 We don’t want to have adversarial relationships with them as the cheating police. 
@@ -376,15 +376,16 @@ As articulated above, our goal is to move them along the path from novice to exp
 
 The evidence and our experience tell us that in order to develop expertise, students need to build accurate mental models of the systems they are studying atop a foundation of facts, and then continue to refine and adorn those models through repeated practice and exposure to new material. 
 This practice has many forms, both newfangled and old-fashioned, including homework problem sets, in-class lectures and activities, and textbook readings. 
-This practice may be difficult and occasionally tedious, but it is a necessary component of the learning process. 
+This practice may be difficult and time consuimg, but it is a necessary component of the learning process. 
 
 While GenAI may be useful for some students in some cases, especially in more advanced courses where some expertise has already been developed, the evidence is mounting that the vast majority of GenAI use among college students is hindering their ability to build and refine their understanding of the material they are studying, which in turn, perhaps ironically, leaves them *less* well-prepared to access the benefits of GenAI that experienced professionals report [@gates2026ai]. 
 
 As a consequence, we are re-orienting our courses around assessments that take place in AI-free environments: oral presentations and exams, in-class pencil-and-paper quizzes and tests. 
 We want our students to understand that this shift in assessment aligns with our learning goals for them, and is designed to best prepare them for success in their future endeavors, which we acknowledge will likely involve GenAI.
 
-Lastly, we encourage students to cultivate strong relationships with faculty and peers. 
-The community you build creates lifelong bonds while supporting the learning process and unlocking unexpected future paths. 
+Lastly, we want our students to come to class and office hours, work with their classmates, and engage fully in the challenging process of learning. 
+We encourage them to be active partners in their education and cultivate strong relationships with faculty and peers. 
+The community we build creates lifelong bonds while supporting the learning process and unlocking unexpected future paths. 
 Ultimately, these interpersonal dynamics foster human-centered capabilities that GenAI simply cannot replicate. 
 
 ### Parents
@@ -398,6 +399,8 @@ We understand that most of our graduates will be hired into positions in which t
 But because of the argument we have laid out above, we don’t believe that allowing them unfettered access to GenAI during their undergraduate years is the best way to prepare them for that future. 
 To the contrary, we believe that the best way to prepare them for a future in which they will use GenAI productively is to concentrate our efforts on leveraging our expertise to develop their mental models, primarily in AI-free environments. 
 We believe that welcoming them, as whole persons, into our existing communities of scholarship and learning is the best way to position them for a lifetime of success, happiness, and gratification. 
+
+Encouraging your children to be fully present, active partners in their education (see @sec-students) is the best way to help them navigate this challenging period of their lives. 
 
 ### Colleagues
 
@@ -432,8 +435,8 @@ GenAI gives them a largely effortless way to accomplish tasks that diminishes th
 Reliance on GenAI decreases their efforts in building learning communities (professors, peers, and friends) that will support them in the long term. Using GenAI to quickly answer hard problems that would have previously taken them hours, days, or even weeks to solve, stunts the development of their persistence and endurance that they will likely need in their careers and lives post-schooling. 
 
 In fairness, it is likely we, teachers, have failed to impress upon students this philosophy of practice and the benefits of educational communities. 
-Students may feel that some of our more tedious assignments (e.g., problem sets with by-hand calculations) are pointless "busywork". 
-We must do more to both align our assignments with our learning goals, and to convince our students that practice, especially with their peers and with us, while occasionally tedious, is a necessary component of learning. 
+Students may feel that some of our more time-consuming assignments (e.g., problem sets with by-hand calculations) are pointless "busywork". 
+We must do more to both align our assignments with our learning goals, and to convince our students that practice, especially with their peers and with us, while occasionally repetitive, is a necessary component of learning. 
 The question then, is how we redirect student behavior so that sufficient practice continues to occur. 
 
 We also may need to rethink how we distribute time in relation to the assessments that we give. 
