@@ -376,7 +376,7 @@ As articulated above, our goal is to move them along the path from novice to exp
 
 The evidence and our experience tell us that in order to develop expertise, students need to build accurate mental models of the systems they are studying atop a foundation of facts, and then continue to refine and adorn those models through repeated practice and exposure to new material. 
 This practice has many forms, both newfangled and old-fashioned, including homework problem sets, in-class lectures and activities, and textbook readings. 
-This practice may be difficult and time consuimg, but it is a necessary component of the learning process. 
+This practice may be difficult and time consuming, but it is a necessary component of the learning process. 
 
 While GenAI may be useful for some students in some cases, especially in more advanced courses where some expertise has already been developed, the evidence is mounting that the vast majority of GenAI use among college students is hindering their ability to build and refine their understanding of the material they are studying, which in turn, perhaps ironically, leaves them *less* well-prepared to access the benefits of GenAI that experienced professionals report [@gates2026ai]. 
 
@@ -454,7 +454,7 @@ This paper was incubated at the [*Generative AI and Data Analysis: implications 
 
 Workshop participants were provided with a reading list of nearly 60 items, most of which were recently published studies about GenAI in higher education. 
 During the workshop, participants heard from various speakers about how GenAI use was affecting higher education. 
-This including a plenary talk given by Alex Reinhart of Carnegie Mellon University entitled "The role of AI in statistics and data science education."
+This included a plenary talk given by Alex Reinhart of Carnegie Mellon University entitled "The role of AI in statistics and data science education."
 We also heard from Nicole Stanton (Provost and Senior Vice-President for Academic Affairs at Wesleyan) about the administration's perspective on GenAI, Rachel Barlow (Director for the Center for Faculty Career Development at Wesleyan) about how students are using and feeling about GenAI, Casey Pattanayak (Jack and Sandra Polk Guthman '65 Director of the Quantitative Analysis Institute at Wellesley) about student use of AI in statistics and data science courses, Zhe Wang (Denison) about AI Sentiment in the Classroom, and Alex Reinhart again about the differences between student writing and LLM writing. 
 Each day, participants reacted to written statements about GenAI, and those results were shared with the group the following day, which helped us build consensus around some ideas while laying bare a lack of consensus on others. 
 Many conversations, breakout sessions, and debates occurred in both formal and informal settings. 
