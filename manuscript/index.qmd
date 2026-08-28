@@ -21,7 +21,7 @@ author:
     email: rdeveaux@williams.edu
     affiliations:
       - ref: williams_stats
-  - name: Daryl Deford
+  - name: Daryl DeFord
     email: ddeford@vassar.edu
     orcid: 0000-0003-2032-3168
     affiliations:
@@ -459,7 +459,7 @@ We also heard from Nicole Stanton (Provost and Senior Vice-President for Academi
 Each day, participants reacted to written statements about GenAI, and those results were shared with the group the following day, which helped us build consensus around some ideas while laying bare a lack of consensus on others. 
 Many conversations, breakout sessions, and debates occurred in both formal and informal settings. 
 
-Participants included: Ming-Wen An, Benjamin Baumer, Logan Dancey, Richard De Veaux, Daryl Deford, Erika Franklin Fowler, Stephen Freund, Sorelle Friedler, Maryam Gooyabadi, Douglas Hall, Brianna Heggeseth, Nicholas Horton, Emmanuel Kaparakis, Antonio Laverghetta Jr., Victoria Manfredi, Valerie Nazzaro, Thao Nguyen, Pavel Oleinikov, Cassandra Pattanayak, Anna Plantinga, Alex Reinhart, Jennifer Rose, Lynne Steuerle Schofield, Marc Schulz, Sarah Supp, Anjali Thapar, Elizabeth Upton, and Zhe Wang.
+Participants included: Ming-Wen An, Benjamin Baumer, Logan Dancey, Richard De Veaux, Daryl DeFord, Erika Franklin Fowler, Stephen Freund, Sorelle Friedler, Maryam Gooyabadi, Douglas Hall, Brianna Heggeseth, Nicholas Horton, Emmanuel Kaparakis, Antonio Laverghetta Jr., Victoria Manfredi, Valerie Nazzaro, Thao Nguyen, Pavel Oleinikov, Cassandra Pattanayak, Anna Plantinga, Alex Reinhart, Jennifer Rose, Lynne Steuerle Schofield, Marc Schulz, Sarah Supp, Anjali Thapar, Elizabeth Upton, and Zhe Wang.
 
 We are grateful to Martha Besade for extensive administrative and logistical support for the workshop. 
 
