@@ -240,6 +240,7 @@ affiliations:
     country: USA
 
 bibliography: references.bib
+biblio-style: plainnat
 keywords: Generative AI, higher education, learning science, data science education
 abstract: |
   Generative AI is having a substantial impact on higher education. Amid a growing body of research about that impact, we articulate an emerging consensus about how generative AI affects student learning that is supported by established educational theories. Specifically, we find that while generative AI appears to be helpful to experts, it is not similarly helpful to novices in suporting the development of their expertise. Students (novices) need a foundation of disciplinary knowledge to become experts and even critical thinkers, and their use of generative AI to provide answers, rather than help them refine their understanding, hinders their progress on the path from novice to expert. We connect these dots, communicate this view to various constituencies, and discuss paths forward for higher education. While we write from our perspective as statisticians, data scientists, and computer scientists at liberal arts colleges, we believe that our findings will resonate across other disciplines and higher education institutions. 
@@ -345,7 +346,7 @@ Novices also lack the experience that helps experts quickly triage promising and
 Moreover, novices suffer from metacognitive failures that experts escape: they are more likely to believe that conversations with GenAI are deepening their understanding, even while their assessed performance is declining [@prather2023s; @prather2024widening; @fan2025beware]. 
 These insights help to explain why novices often end up chasing their tail when using GenAI. 
 
-Furthermore, reliance on GenAI inures novices with habits that erode the development of the skills of liberal arts graduates we identified above that set them up for success post-college. 
+Furthermore, reliance on GenAI accustoms novices with habits that erode the development of the skills of liberal arts graduates we identified above that set them up for success post-college. 
 GenAI’s ability to provide quick, easy answers to difficult problems is alluring to novices in the short-term, but it may impede their ability to build persistence, a far more important quality for their long-term success [@liu2026ai]. 
 Novices who rely heavily on GenAI assistance may also fail to cultivate the mentoring and peer relationships that reinforce learning and propel them into future career success [@silva2025ai; @hou2025all]---relationships which experts have already had the time and experience to develop. 
 As they become more dependent on GenAI, students concomitantly become less likely to seek out human-centric supports for learning (e.g., office hours, tutoring, study groups, etc.), leaving them even more isolated and disconnected from their learning community [@hou2025all; @glickman2026tutor]. 
