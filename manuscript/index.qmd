@@ -117,6 +117,7 @@ author:
       - ref: swarthmore
   - name: Marc Schulz
     email: mschulz@brynmawr.edu
+    orcid: 0000-0002-5179-2584
     affiliations:
       - ref: bryn_mawr
   - name: Sarah Supp
