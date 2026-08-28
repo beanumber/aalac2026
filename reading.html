@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Reading – AALAC 2026: GenAI</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e3adbaa939bcd423dddc8c8a834270b4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">AALAC 2026: GenAI</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
+</i> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> <i class="bi bi-info-circle" role="img">
+</i> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./schedule.html"> <i class="bi bi-calendar" role="img">
+</i> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./reading.html" aria-current="page"> <i class="bi bi-bookmark" role="img">
+</i> 
+<span class="menu-text">Reading</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./logistics.html"> <i class="bi bi-map" role="img">
+</i> 
+<span class="menu-text">Logistics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./manuscript/"> <i class="bi bi-newspaper" role="img">
+</i> 
+<span class="menu-text">Paper</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#ai-and-statistics-education" id="toc-ai-and-statistics-education" class="nav-link active" data-scroll-target="#ai-and-statistics-education">AI and statistics education</a></li>
+  <li><a href="#ai-and-data-science-education" id="toc-ai-and-data-science-education" class="nav-link" data-scroll-target="#ai-and-data-science-education">AI and data science education</a></li>
+  <li><a href="#ai-and-programming-education" id="toc-ai-and-programming-education" class="nav-link" data-scroll-target="#ai-and-programming-education">AI and programming education</a></li>
+  <li><a href="#ai-and-statistical-writing" id="toc-ai-and-statistical-writing" class="nav-link" data-scroll-target="#ai-and-statistical-writing">AI and statistical writing</a></li>
+  <li><a href="#ai-and-computer-science-education" id="toc-ai-and-computer-science-education" class="nav-link" data-scroll-target="#ai-and-computer-science-education">AI and computer science education</a></li>
+  <li><a href="#ai-and-the-humanities-k-12-general-education" id="toc-ai-and-the-humanities-k-12-general-education" class="nav-link" data-scroll-target="#ai-and-the-humanities-k-12-general-education">AI and the humanities / K-12 / general education</a></li>
+  <li><a href="#ai-and-science-education" id="toc-ai-and-science-education" class="nav-link" data-scroll-target="#ai-and-science-education">AI and science education</a></li>
+  <li><a href="#ai-and-data-science-ethics" id="toc-ai-and-data-science-ethics" class="nav-link" data-scroll-target="#ai-and-data-science-ethics">AI and data science ethics</a></li>
+  <li><a href="#ai-and-mathematics-education" id="toc-ai-and-mathematics-education" class="nav-link" data-scroll-target="#ai-and-mathematics-education">AI and mathematics education</a></li>
+  <li><a href="#ai-and-engineering-education" id="toc-ai-and-engineering-education" class="nav-link" data-scroll-target="#ai-and-engineering-education">AI and engineering education</a></li>
+  <li><a href="#teaching-neural-networks" id="toc-teaching-neural-networks" class="nav-link" data-scroll-target="#teaching-neural-networks">Teaching neural networks</a></li>
+  <li><a href="#ai-and-research" id="toc-ai-and-research" class="nav-link" data-scroll-target="#ai-and-research">AI and research</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/beanumber/aalac2026/edit/main/reading.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/beanumber/aalac2026/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Reading</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>We have collected the following non-exhaustive list of articles about generative AI and education. There are grouped roughly by topic and ordered by first author.</p>
+<p>A 📌 emoji designates an article that has been recommended by a member of the organizing committee as particularly relevant reading for this group.</p>
+<p>Suggestions for additions welcomed at <a href="https://github.com/beanumber/aalac2026/issues">https://github.com/beanumber/aalac2026/issues</a>.</p>
+<section id="ai-and-statistics-education" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-statistics-education">AI and statistics education</h2>
+<ol type="1">
+<li><span class="citation" data-cites="allabadi2025ai">Al-Labadi, L., Aghababaei Jazi, O., Ataei, M., Bao, K., &amp; Yu, R. (2025). <span>AI</span> meets academia: Enhancing statistics education with <span>C</span>hat<span>GPT</span> in undergraduate courses. <em>TechTrends</em>. <a href="https://doi.org/10.1007/s11528-025-01112-x">https://doi.org/10.1007/s11528-025-01112-x</a></span></li>
+<li>📌 <span class="citation" data-cites="allabadi2025enhancing">Al Labadi, L., &amp; Ly, A. (2025). Enhancing statistics education through <span>P</span>roject-<span>B</span>ased <span>L</span>earning (<span>P</span>b<span>L</span>) and the emergence of <span>C</span>hat<span>GPT</span>. <em>Teaching Statistics</em>, <em>47</em>(3), 200–218. <a href="https://doi.org/10.1111/test.12405">https://doi.org/10.1111/test.12405</a></span></li>
+<li><span class="citation" data-cites="dunn2025generative">Dunn, P. K. (2025). Generative <span>AI</span> may impact students’ marks: A case study from a large first-year statistics course. <em>International Journal of Mathematical Education in Science and Technology</em>. <a href="https://doi.org/10.1080/0020739X.2025.2539711">https://doi.org/10.1080/0020739X.2025.2539711</a></span></li>
+<li><span class="citation" data-cites="ellis2023new">Ellis, A. R., &amp; Slade, E. (2023). A new era of learning: Considerations for <span>C</span>hat<span>GPT</span> as a tool to enhance statistics and data science education. <em>Journal of Statistics and Data Science Education</em>, <em>31</em>(2), 128–133. <a href="https://doi.org/10.1080/26939169.2023.2223609">https://doi.org/10.1080/26939169.2023.2223609</a></span></li>
+<li><span class="citation" data-cites="furfaro2026">Furfaro, E., &amp; Mosciatti, S. (2026). LLteacher: A tool for the integration of generative AI into statistics assignments. <em>Technology Innovations in Statistics Education</em>, <em>17</em>(1), 1–27. <a href="https://doi.org/10.5070/T5.50756">https://doi.org/10.5070/T5.50756</a></span></li>
+<li>📌 <span class="citation" data-cites="hoerl2025future">Hoerl, R. W. (2025). The future of statistics in an AI era. <em>Quality Engineering</em>, 1–13. <a href="https://doi.org/10.1080/08982112.2025.2556222">https://doi.org/10.1080/08982112.2025.2556222</a></span></li>
+<li><span class="citation" data-cites="schwarz2025use">Schwarz, J. (2025). The use of generative <span>AI</span> in <span>S</span>tatistical <span>D</span>ata <span>A</span>nalysis and its impact on teaching statistics at universities of <span>A</span>pplied <span>S</span>ciences. <em>Teaching Statistics</em>, <em>47</em>(2), 118–128. <a href="https://doi.org/10.1111/test.12398">https://doi.org/10.1111/test.12398</a></span></li>
+<li><span class="citation" data-cites="vilakati2026harnessing">Vilakati, S. (2026). Harnessing generative artificial intelligence for teaching statistics in medical research: Strategies for accurate hypothesis testing. <em>Teaching Statistics</em>. <a href="https://doi.org/10.1111/test.70019">https://doi.org/10.1111/test.70019</a></span></li>
+<li><span class="citation" data-cites="xie2025comparing">Xie, X., Zhang, L. J., &amp; Wilson, A. J. (2025). Comparing <span>C</span>hat<span>GPT</span> feedback and peer feedback in shaping students’ evaluative judgement of statistical analysis: A case study. <em>Behavioral Sciences</em>, <em>15</em>(7), 884. <a href="https://doi.org/10.3390/bs15070884">https://doi.org/10.3390/bs15070884</a></span></li>
+<li><span class="citation" data-cites="xing2024exploring">Xing, Y. (2024). Exploring the use of <span>C</span>hat<span>GPT</span> in learning and instructing statistics and data analytics. <em>Teaching Statistics</em>, <em>46</em>(2), 95–104. <a href="https://doi.org/10.1111/test.12367">https://doi.org/10.1111/test.12367</a></span></li>
+</ol>
+</section>
+<section id="ai-and-data-science-education" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-data-science-education">AI and data science education</h2>
+<ol type="1">
+<li><span class="citation" data-cites="avila2025curriculum">Avila-Garzon, C., &amp; Bacca-Acosta, J. (2025). Curriculum, pedagogy, and teaching/learning strategies in data science education. <em>Education Sciences</em>, <em>15</em>(2), 186. <a href="https://doi.org/10.3390/educsci15020186">https://doi.org/10.3390/educsci15020186</a></span></li>
+<li>📌 <span class="citation" data-cites="bien2025generative">Bien, J., &amp; Mukherjee, G. (2025). Generative AI for data science 101: Coding without learning to code. <em>Journal of Statistics and Data Science Education</em>, <em>33</em>(2), 129–142. https://doi.org/<a href="https://doi.org/10.1080/26939169.2024.2432397">https://doi.org/10.1080/26939169.2024.2432397</a></span></li>
+<li><span class="citation" data-cites="bray2025tutorial">Bray, R. L. (2025). A tutorial on teaching data analytics with generative <span>AI</span>. <em>INFORMS Journal on Applied Analytics</em>, <em>55</em>(4), 319–343. <a href="https://doi.org/10.1287/inte.2023.0053">https://doi.org/10.1287/inte.2023.0053</a></span></li>
+<li><span class="citation" data-cites="cui2026same">Cui, J., &amp; Alexander, R. (2026). Same prompt, different outcomes: Evaluating the reproducibility of data analysis by LLMs. <em>arXiv Preprint arXiv:2602.14349</em>. <a href="https://doi.org/10.48550/arXiv.2602.14349">https://doi.org/10.48550/arXiv.2602.14349</a></span></li>
+<li>📌 <span class="citation" data-cites="doleck2025generative">Doleck, T., Agand, P., &amp; Pirrotta, D. (2025). Generative AI in data science programming: Differences in performance between groups with and without AI-assistance. <em>Education and Information Technologies</em>, 1–19. <a href="https://doi.org/10.1007/s10639-025-13801-4">https://doi.org/10.1007/s10639-025-13801-4</a></span></li>
+<li><span class="citation" data-cites="hao2025research">Hao, H., &amp; Chen, W. (2025). Research on the application effect of <span>BOPPPS</span> and <span>C</span>hat<span>GPT</span>-based <span>AI</span>-assisted teaching in the machine learning course. <em>The Asia-Pacific Education Researcher</em>. <a href="https://doi.org/10.1007/s40299-025-01026-5">https://doi.org/10.1007/s40299-025-01026-5</a></span></li>
+<li>📌 <span class="citation" data-cites="hageman2025">Hageman, J. A., &amp; Peeters, C. F. W. (2025). <em>AI in data science education: Experiences from the classroom</em>. <a href="https://arxiv.org/abs/2510.00793">https://arxiv.org/abs/2510.00793</a></span></li>
+<li><span class="citation" data-cites="irvine2023opportunities">Irvine, D. J., Halloran, L. J. S., &amp; Brunner, P. (2023). Opportunities and limitations of the <span>C</span>hat<span>GPT</span> advanced data analysis plugin for hydrological analyses. <em>Hydrological Processes</em>, <em>37</em>(10), e15015. <a href="https://doi.org/10.1002/hyp.15015">https://doi.org/10.1002/hyp.15015</a></span></li>
+<li><span class="citation" data-cites="jeon2024staged">Jeon, I., Kang, S.-J., &amp; Kang, S. (2024). A staged framework for computer vision education: Integrating <span>AI</span>, data science, and computational thinking. <em>Applied Sciences</em>, <em>14</em>(21), 9792. <a href="https://doi.org/10.3390/app14219792">https://doi.org/10.3390/app14219792</a></span></li>
+<li><span class="citation" data-cites="valverde2024advanced">Valverde-Rebaza, J., González, A., Navarro-Hinojosa, O., &amp; Noguez, J. (2024). Advanced large language models and visualization tools for data analytics learning. <em>Frontiers in Education</em>, <em>9</em>, 1418006. <a href="https://doi.org/10.3389/feduc.2024.1418006">https://doi.org/10.3389/feduc.2024.1418006</a></span></li>
+<li><span class="citation" data-cites="wilke2025teaching">Wilke, C. O. (2025). <em>Teaching data visualization in the time of generative <span>AI</span></em>. Genes, Minds, Machines. <a href="https://blog.genesmindsmachines.com/p/teaching-data-visualization-in-the">https://blog.genesmindsmachines.com/p/teaching-data-visualization-in-the</a></span></li>
+</ol>
+</section>
+<section id="ai-and-programming-education" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-programming-education">AI and programming education</h2>
+<ol type="1">
+<li>📌 <span class="citation" data-cites="daniotti2026using">Daniotti, S., Wachs, J., Feng, X., &amp; Neffke, F. (2026). Who is using AI to code? Global diffusion and impact of generative AI. <em>Science</em>, eadz9311. <a href="https://doi.org/10.1126/science.adz9311">https://doi.org/10.1126/science.adz9311</a></span></li>
+<li><span class="citation" data-cites="lepp2025does">Lepp, M., &amp; Kaimre, J. (2025). Does generative <span>AI</span> help in learning programming: Students’ perceptions, reported use and relation to performance. <em>Computers in Human Behavior Reports</em>, <em>12</em>, 100346. <a href="https://doi.org/10.1016/j.chbr.2025.100642">https://doi.org/10.1016/j.chbr.2025.100642</a></span></li>
+<li><span class="citation" data-cites="dasilva2024chatgpt">Silva, C. A. G. da, Ramos, F. N., Moraes, R. V. de, &amp; Santos, E. L. dos (2024). <span>C</span>hat<span>GPT</span>: Challenges and benefits in software programming for higher education. <em>Sustainability</em>, <em>16</em>(3), 1245. <a href="https://doi.org/10.3390/su16031245">https://doi.org/10.3390/su16031245</a></span></li>
+</ol>
+</section>
+<section id="ai-and-statistical-writing" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-statistical-writing">AI and statistical writing</h2>
+<ol type="1">
+<li>📌 <span class="citation" data-cites="deluca2025developing">DeLuca, L. S., Reinhart, A., Weinberg, G., Laudenbach, M., Miller, S., &amp; Brown, D. W. (2025). Developing students’ statistical expertise through writing in the age of <span>AI</span>. <em>Journal of Statistics and Data Science Education</em>, <em>33</em>(3), 266–278. <a href="https://doi.org/10.1080/26939169.2025.2497547">https://doi.org/10.1080/26939169.2025.2497547</a></span></li>
+<li><span class="citation" data-cites="reinhart2025llms">Reinhart, A., Markey, B., Laudenbach, M., Pantusen, K., Yurko, R., Weinberg, G., &amp; Brown, D. W. (2025). Do LLMs write like humans? Variation in grammatical and rhetorical styles. <em>Proceedings of the National Academy of Sciences</em>, <em>122</em>(8), e2422455122. <a href="https://doi.org/10.1073/pnas.2422455122">https://doi.org/10.1073/pnas.2422455122</a></span></li>
+</ol>
+</section>
+<section id="ai-and-computer-science-education" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-computer-science-education">AI and computer science education</h2>
+<ol type="1">
+<li><span class="citation" data-cites="barr2025">Barr, V. (2025). <em>Feeling cranky about AI and CS education</em>. Communications of the ACM. <a href="https://cacm.acm.org/blogcacm/feeling-cranky-about-ai-and-cs-education/">https://cacm.acm.org/blogcacm/feeling-cranky-about-ai-and-cs-education/</a></span></li>
+<li>📌 <span class="citation" data-cites="sarkar2024obey">Sarkar, A. (2024). AI should challenge, not obey. <em>Commun. ACM</em>, <em>67</em>(10), 18–21. <a href="https://doi.org/10.1145/3649404">https://doi.org/10.1145/3649404</a></span></li>
+<li><span class="citation" data-cites="shein2024">Shein, E. (2024). The impact of AI on computer science education. <em>Commun. ACM</em>, <em>67</em>(9), 13–15. <a href="https://doi.org/10.1145/3673428">https://doi.org/10.1145/3673428</a></span></li>
+<li><span class="citation" data-cites="smith2024early">Smith, C. E., Shiekh, K., Fierro, G., Ohene-Agyei, B., Ruz, M., Nandi, A., &amp; Ahmad, N. (2024). Early adoption of generative artificial intelligence in computing education: Emergent student use cases and perspectives in 2023. <em>Proceedings of the 2024 Conference on Innovation and Technology in Computer Science Education v. 1</em>, 3–9. <a href="https://doi.org/10.1145/3649217.3653554">https://doi.org/10.1145/3649217.3653554</a></span></li>
+</ol>
+</section>
+<section id="ai-and-the-humanities-k-12-general-education" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-the-humanities-k-12-general-education">AI and the humanities / K-12 / general education</h2>
+<ol type="1">
+<li><span class="citation" data-cites="barcelona2025development">Barcelona, A., &amp; Cruz, S. R. D. (2025). Development and validation of a scale measuring students’ use of generative artificial intelligence tools. <em>International Journal of Evaluation and Research in Education</em>, <em>14</em>(5). <a href="https://doi.org/10.11591/ijere.v14i5.34809">https://doi.org/10.11591/ijere.v14i5.34809</a></span></li>
+<li><span class="citation" data-cites="beers20102009">Beers, K. (2010). The 2009 presidential address: Sailing over the edge: Navigating the uncharted waters of a world gone flat. <em>Council Chronicle</em>, <em>19</em>(3), 14–14. <a href="https://www.jstor.org/stable/27784366">https://www.jstor.org/stable/27784366</a></span></li>
+<li><span class="citation" data-cites="darvishi2024impact">Darvishi, A., Khosravi, H., Sadiq, S., Gašević, D., &amp; Siemens, G. (2024). Impact of AI assistance on student agency. <em>Computers &amp; Education</em>, <em>210</em>, 104967. <a href="https://doi.org/10.1016/j.compedu.2023.104967">https://doi.org/10.1016/j.compedu.2023.104967</a></span></li>
+<li><span class="citation" data-cites="drozda2026">Drozda, Z. (2026). <em>The <span>U.K.</span> Is putting critical thinking at the center of AI education. America should too.</em> Substack. <a href="https://zarekdrozda.substack.com/p/the-uk-is-putting-critical-thinking">https://zarekdrozda.substack.com/p/the-uk-is-putting-critical-thinking</a></span></li>
+<li><span class="citation" data-cites="eriksen2026prompt">Eriksen, C., &amp; Hurlburt, G. D. (2026). From prompt to practice: A framework for transparent <span>GenAI</span> use in higher education. <em>EDUCAUSE Review</em>. <a href="https://er.educause.edu/articles/2026/3/from-prompt-to-practice-a-framework-for-transparent-genai-use-in-higher-education">https://er.educause.edu/articles/2026/3/from-prompt-to-practice-a-framework-for-transparent-genai-use-in-higher-education</a></span></li>
+<li>📌 <span class="citation" data-cites="fernandes2025ai">Fernandes, D., Villa, S., Nicholls, S., Haavisto, O., Buschek, D., Schmidt, A., Kosch, T., Shen, C., &amp; Welsch, R. (2025). AI makes you smarter but none the wiser: The disconnect between performance and metacognition. <em>Computers in Human Behavior</em>, 108779. <a href="https://doi.org/10.1016/j.chb.2025.108779">https://doi.org/10.1016/j.chb.2025.108779</a></span></li>
+<li><span class="citation" data-cites="klein2025provocations">Klein, L., Martin, M., Brock, A., Antoniak, M., Walsh, M., Johnson, J. M., Tilton, L., &amp; Mimno, D. (2025). Provocations from the humanities for generative AI research. <em>arXiv Preprint arXiv:2502.19190</em>. <a href="https://doi.org/10.48550/arXiv.2502.19190">https://doi.org/10.48550/arXiv.2502.19190</a></span></li>
+<li><span class="citation" data-cites="koebler2025teachers">Koebler, J. (2025). <em>Teachers are not <span>OK</span>: <span>AI</span>, <span>ChatGPT</span>, and <span>LLMs</span> <span>“have absolutely blown up what i try to accomplish with my teaching”</span></em>. 404 Media. <a href="https://www.404media.co/teachers-are-not-ok-ai-chatgpt/">https://www.404media.co/teachers-are-not-ok-ai-chatgpt/</a></span></li>
+<li><span class="citation" data-cites="lehmann2025">Lehmann, M., Cornelius, P. B., &amp; Sting, F. J. (2025). <em>AI meets the classroom: When do large language models harm learning?</em> <a href="https://arxiv.org/abs/2409.09047">https://arxiv.org/abs/2409.09047</a></span></li>
+<li><span class="citation" data-cites="luckin2024double">Luckin, R. (2024). <em>The double-edged sword of <span>AI</span> in education: 3 critical risks and how to address them</em>. Brookings Institution. <a href="https://web.archive.org/web/20240723045822/https://www.brookings.edu/articles/the-double-edged-sword-of-ai-in-education/">https://web.archive.org/web/20240723045822/https://www.brookings.edu/articles/the-double-edged-sword-of-ai-in-education/</a></span></li>
+<li><span class="citation" data-cites="neumann2023we">Neumann, M., Rauschenberger, M., &amp; Schön, E.-M. (2023). <span>“<span>W</span>e need to talk about <span>C</span>hat<span>G</span>PT”</span>: The future of <span>AI</span> and higher education. <em>2023 IEEE/ACM 5th International Workshop on Software Engineering Education for the Next Generation (SEENG)</em>, 29–32. <a href="https://doi.org/10.25968/opus-2467">https://doi.org/10.25968/opus-2467</a></span></li>
+<li>📌 <span class="citation" data-cites="oberlinluddite2025luddite">The Oberlin Luddite Club, McLaughlin, C., Lane, L., McGreivey, M. C., Puchner-Noel, S., Blantz, M., &amp; Van Dyck, S. (2025). <em>Luddite club implores oberlin to opt out of <span>AI</span></em>. The Oberlin Review. <a href="https://oberlinreview.org/35718/opinions/luddite-club-implores-oberlin-to-opt-out-of-ai/">https://oberlinreview.org/35718/opinions/luddite-club-implores-oberlin-to-opt-out-of-ai/</a></span></li>
+<li><span class="citation" data-cites="sarat2026">Sarat, A. (2026). <em>Many college students already have well‑formed cheating habits - that, not AI, is the real problem</em>. theconversation.com. <a href="https://theconversation.com/many-college-students-already-have-well-formed-cheating-habits-that-not-ai-is-the-real-problem-285334">https://theconversation.com/many-college-students-already-have-well-formed-cheating-habits-that-not-ai-is-the-real-problem-285334</a></span></li>
+<li>📌 <span class="citation" data-cites="shirky2025students">Shirky, C. (2025). <em>Students hate them. Universities need them. The only real solution to the <span>A.I.</span> Cheating crisis</em>. The New York Times. <a href="https://www.nytimes.com/2025/08/26/opinion/culture/ai-chatgpt-college-cheating-medieval.html">https://www.nytimes.com/2025/08/26/opinion/culture/ai-chatgpt-college-cheating-medieval.html</a></span></li>
+<li><span class="citation" data-cites="singer2025welcome">Singer, N. (2025). <em>Welcome to campus. Here’s your <span>ChatGPT</span></em>. The New York Times. <a href="https://www.nytimes.com/2025/06/07/technology/chatgpt-openai-colleges.html">https://www.nytimes.com/2025/06/07/technology/chatgpt-openai-colleges.html</a></span></li>
+<li>📌 <span class="citation" data-cites="stanford2023">Stanford HCAI (2023). <em>AI will transform teaching and learning. Let’s get it right</em>. <a href="https://hai.stanford.edu/news/ai-will-transform-teaching-and-learning-lets-get-it-right">https://hai.stanford.edu/news/ai-will-transform-teaching-and-learning-lets-get-it-right</a></span></li>
+<li>📌 <span class="citation" data-cites="walsh2025everyone">Walsh, J. D. (2025). <em>Everyone is cheating their way through college: <span>ChatGPT</span> has unraveled the entire academic project</em>. New York Magazine. <a href="https://nymag.com/intelligencer/article/openai-chatgpt-ai-cheating-education-college-students-school.html">https://nymag.com/intelligencer/article/openai-chatgpt-ai-cheating-education-college-students-school.html</a></span></li>
+</ol>
+</section>
+<section id="ai-and-science-education" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-science-education">AI and science education</h2>
+<ol type="1">
+<li><span class="citation" data-cites="cooper2023examining">Cooper, G. (2023). Examining science education in <span>C</span>hat<span>GPT</span>: An exploratory study of generative artificial intelligence. <em>Journal of Science Education and Technology</em>, <em>32</em>(3), 444–452. <a href="https://doi.org/10.1007/s10956-023-10039-y">https://doi.org/10.1007/s10956-023-10039-y</a></span></li>
+<li><span class="citation" data-cites="ferguson2025researcher">Ferguson, C. (2025). A researcher’s journey to the use of <span>AI</span> for qualitative data analysis: Findings from a test case with <span>C</span>hat<span>GPT</span>. <em>Issues in Educational Research</em>, <em>35</em>(1), 126–141. <a href="https://search.informit.org/doi/abs/10.3316/informit.T2025050800002900585199456">https://search.informit.org/doi/abs/10.3316/informit.T2025050800002900585199456</a></span></li>
+</ol>
+</section>
+<section id="ai-and-data-science-ethics" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-data-science-ethics">AI and data science ethics</h2>
+<ol type="1">
+<li><span class="citation" data-cites="science2026aiagents">Jones, N. (2026). <span>AI</span> agents may be skilled researchers—but not always honest ones. In <em>Science</em>. American Association for the Advancement of Science. <a href="https://doi.org/10.1126/science.aei6154">https://doi.org/10.1126/science.aei6154</a></span></li>
+<li><span class="citation" data-cites="lewis2022teaching">Lewis, A., &amp; Stoyanovich, J. (2022). Teaching responsible data science: Charting new pedagogical territory. <em>International Journal of Artificial Intelligence in Education</em>, <em>32</em>(3), 783–807. <a href="https://doi.org/10.1007/s40593-021-00241-7">https://doi.org/10.1007/s40593-021-00241-7</a></span></li>
+<li><span class="citation" data-cites="stoyanovich2022teaching">Stoyanovich, J. (2022). Teaching responsible data science. <em>Proceedings of the 1st <span>ACM</span> <span>SIGMOD</span> International Workshop on Data Systems Education: Bridging Education Practice with Education Research</em>, 4–9. <a href="https://doi.org/10.1145/3531060.3534568">https://doi.org/10.1145/3531060.3534568</a></span></li>
+</ol>
+</section>
+<section id="ai-and-mathematics-education" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-mathematics-education">AI and mathematics education</h2>
+<ol type="1">
+<li><span class="citation" data-cites="avendano2024impacto">Avendaño-López, P. D. U., González Torres, A., &amp; Figueroa-Anzures, C. (2024). El impacto del aprendizaje basado en aplicaciones m<span>ó</span>viles y <span>IA</span> en la comprensi<span>ó</span>n de variables aleatorias discretas [<span>T</span>he impact of mobile app-based learning and <span>AI</span> on understanding discrete random variables]. <em>Revista Eduweb</em>, <em>18</em>(4), 219–240. <a href="https://doi.org/10.46502/issn.1856-7576/2024.18.04.15">https://doi.org/10.46502/issn.1856-7576/2024.18.04.15</a></span></li>
+<li><span class="citation" data-cites="trindade2025teaching">Trindade, M. A. M., Edirisinghe, G. S., &amp; Luo, L. (2025). Teaching mathematical concepts in management with generative artificial intelligence: The power of human oversight in <span>AI</span>-driven learning. <em>The International Journal of Management Education</em>, <em>23</em>(2), 101104. <a href="https://doi.org/10.1016/j.ijme.2024.101104">https://doi.org/10.1016/j.ijme.2024.101104</a></span></li>
+<li><span class="citation" data-cites="wardat2023chatgpt">Wardat, Y., Tashtoush, M. A., AlAli, R., &amp; Jarrah, A. M. (2023). <span>C</span>hat<span>GPT</span>: A revolutionary tool for teaching and learning mathematics. <em>Eurasia Journal of Mathematics, Science and Technology Education</em>, <em>19</em>(7), em2286. <a href="https://doi.org/10.29333/ejmste/13272">https://doi.org/10.29333/ejmste/13272</a></span></li>
+</ol>
+</section>
+<section id="ai-and-engineering-education" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-engineering-education">AI and engineering education</h2>
+<ol type="1">
+<li><span class="citation" data-cites="bravo2024engineering">Bravo, F. A., &amp; Cruz-Bohorquez, J. M. (2024). Engineering education in the age of <span>AI</span>: Analysis of the impact of chatbots on learning in engineering. <em>Education Sciences</em>, <em>14</em>(5), 484. <a href="https://doi.org/10.3390/educsci14050484">https://doi.org/10.3390/educsci14050484</a></span></li>
+<li><span class="citation" data-cites="erez2025how">Erez, Y., &amp; Hazzan, O. (2025). <em>How <span>S</span>cience and <span>E</span>ngineering <span>S</span>tudents <span>U</span>se <span>G</span>en<span>AI</span> <span>T</span>ools <span>T</span>hroughout <span>T</span>heir <span>A</span>cademic <span>J</span>ourney: <span>A</span> <span>F</span>our-<span>Y</span>ear <span>A</span>nalysis</em>. BLOG@CACM, Association for Computing Machinery. <a href="https://cacm.acm.org/blogcacm/how-science-and-engineering-students-use-genai-tools-throughout-their-academic-journey-a-four-year-analysis/">https://cacm.acm.org/blogcacm/how-science-and-engineering-students-use-genai-tools-throughout-their-academic-journey-a-four-year-analysis/</a></span></li>
+</ol>
+</section>
+<section id="teaching-neural-networks" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-neural-networks">Teaching neural networks</h2>
+<ol type="1">
+<li><span class="citation" data-cites="tian2025practice">Tian, J. (2025). A practice-oriented computational thinking framework for teaching neural networks to working professionals. <em>AI</em>, <em>6</em>(7), 140. <a href="https://doi.org/10.3390/ai6070140">https://doi.org/10.3390/ai6070140</a></span></li>
+</ol>
+</section>
+<section id="ai-and-research" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-research">AI and research</h2>
+<ol type="1">
+<li>📌 <span class="citation" data-cites="runge2025">Runge, T. (2025). <em>AI, data science, and the transformation of scientific research: A primer</em>. <a href="https://grow.cals.wisc.edu/departments/front-list/ai-data-science-and-the-transformation-of-scientific-research-a-primer">https://grow.cals.wisc.edu/departments/front-list/ai-data-science-and-the-transformation-of-scientific-research-a-primer</a></span></li>
+</ol>
+<p>Last updated August 28, 2026</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/beanumber\.github\.io\/aalac2026\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Created by Benjamin Baumer.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/beanumber/aalac2026/edit/main/reading.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/beanumber/aalac2026/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/beanumber/aalac2026/">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

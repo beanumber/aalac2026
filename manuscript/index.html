@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ming-Wen An">
+<meta name="author" content="Benjamin S. Baumer">
+<meta name="author" content="Logan Dancey">
+<meta name="author" content="Richard De Veaux">
+<meta name="author" content="Daryl DeFord">
+<meta name="author" content="Erika Franklin Fowler">
+<meta name="author" content="Stephen Freund">
+<meta name="author" content="Sorelle Friedler">
+<meta name="author" content="Maryam Gooyabadi">
+<meta name="author" content="Douglas Hall">
+<meta name="author" content="Brianna Heggeseth">
+<meta name="author" content="Nicholas J. Horton">
+<meta name="author" content="Emmanuel Kaparakis">
+<meta name="author" content="Antonio Laverghetta Jr.">
+<meta name="author" content="Victoria Manfredi">
+<meta name="author" content="Valerie Nazzaro">
+<meta name="author" content="Thao Nguyen">
+<meta name="author" content="Cassandra Pattanayak">
+<meta name="author" content="Anna Plantinga">
+<meta name="author" content="Alex Reinhart">
+<meta name="author" content="Lynne Steuerle Schofield">
+<meta name="author" content="Marc Schulz">
+<meta name="author" content="Sarah Supp">
+<meta name="author" content="Anjali Thapar">
+<meta name="author" content="Elizabeth Upton">
+<meta name="author" content="Zhe Wang">
+<meta name="keywords" content="Generative AI, higher education, learning science, data science education">
+
+<title>Generative AI hasn’t changed learning: It’s still hard to become an expert</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-b89755862c00f08386c47aeabbd074f3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+
+
+<meta name="citation_title" content="Generative AI hasn&amp;amp;#039;t changed learning: It's still hard to become an expert">
+<meta name="citation_abstract" content="Generative AI is having a substantial impact on higher education. Amid a growing body of research about that impact, we articulate an emerging consensus about how generative AI affects student learning that is supported by established educational theories. Specifically, we find that while generative AI appears to be helpful to experts, it is not similarly helpful to novices in developing their expertise. Students (novices) need a foundation of disciplinary knowledge to become experts and even critical thinkers, and their use of generative AI to provide answers, rather than help them refine their understanding, hinders their progress on the path from novice to expert. We connect these dots, communicate this view to various constituencies, and discuss paths forward for higher education. While we write from our perspective as statisticians, data scientists, and computer scientists at liberal arts colleges, we believe that our findings will resonate across other disciplines and institutions of higher education.
+">
+<meta name="citation_keywords" content="Generative AI, higher education, learning science, data science education">
+<meta name="citation_author" content="Ming-Wen An">
+<meta name="citation_author" content="Benjamin S. Baumer">
+<meta name="citation_author" content="Logan Dancey">
+<meta name="citation_author" content="Richard De Veaux">
+<meta name="citation_author" content="Daryl DeFord">
+<meta name="citation_author" content="Erika Franklin Fowler">
+<meta name="citation_author" content="Stephen Freund">
+<meta name="citation_author" content="Sorelle Friedler">
+<meta name="citation_author" content="Maryam Gooyabadi">
+<meta name="citation_author" content="Douglas Hall">
+<meta name="citation_author" content="Brianna Heggeseth">
+<meta name="citation_author" content="Nicholas J. Horton">
+<meta name="citation_author" content="Emmanuel Kaparakis">
+<meta name="citation_author" content="Antonio Laverghetta Jr.">
+<meta name="citation_author" content="Victoria Manfredi">
+<meta name="citation_author" content="Valerie Nazzaro">
+<meta name="citation_author" content="Thao Nguyen">
+<meta name="citation_author" content="Cassandra Pattanayak">
+<meta name="citation_author" content="Anna Plantinga">
+<meta name="citation_author" content="Alex Reinhart">
+<meta name="citation_author" content="Lynne Steuerle Schofield">
+<meta name="citation_author" content="Marc Schulz">
+<meta name="citation_author" content="Sarah Supp">
+<meta name="citation_author" content="Anjali Thapar">
+<meta name="citation_author" content="Elizabeth Upton">
+<meta name="citation_author" content="Zhe Wang">
+<meta name="citation_language" content="en">
+<meta name="citation_reference" content="citation_title=Measuring the economic value of a liberal education;,citation_author=Kyle Gray;,citation_author=Daniel Rossman;,citation_author=Elizabeth Davidson Pisacreta;,citation_author=Catharine Bond Hill;,citation_author=Madeline Trimble;,citation_publication_date=2025;,citation_cover_date=2025;,citation_year=2025;,citation_doi=10.18665/sr.323160;,citation_journal_title=ITHAKA S+R;,citation_publisher=ITHAKA S+R;">
+<meta name="citation_reference" content="citation_title=Why AI makes a liberal arts education even more invaluable;,citation_author=Robin Holmes-Sullivan;,citation_publication_date=2026-01-23;,citation_cover_date=2026-01-23;,citation_year=2026;,citation_fulltext_html_url=https://www.usnews.com/opinion/articles/2026-01-20/college-ai-education-career-liberal-arts-opinion;,citation_publisher=U.S. News and World Report;">
+<meta name="citation_reference" content="citation_title=Unlearning aristotelian physics: A study of knowledge-based learning;,citation_author=Andrea A DiSessa;,citation_publication_date=1982;,citation_cover_date=1982;,citation_year=1982;,citation_issue=1;,citation_doi=10.1207/s15516709cog0601_2;,citation_volume=6;,citation_journal_title=Cognitive science;,citation_publisher=Elsevier;">
+<meta name="citation_reference" content="citation_title=Causal models and experimentation strategies in scientific reasoning;,citation_author=Leona Schauble;,citation_author=Robert Glaser;,citation_author=Kalyani Raghavan;,citation_author=Miriam Reiner;,citation_publication_date=1991;,citation_cover_date=1991;,citation_year=1991;,citation_issue=2;,citation_doi=10.1207/s15327809jls0102_3;,citation_volume=1;,citation_journal_title=The Journal of the Learning Sciences;,citation_publisher=Taylor &amp;amp;amp; Francis;">
+<meta name="citation_reference" content="citation_title=Cognitive load theory in health professional education: Design principles and strategies;,citation_author=Jeroen JG Van Merriënboer;,citation_author=John Sweller;,citation_publication_date=2010;,citation_cover_date=2010;,citation_year=2010;,citation_issue=1;,citation_doi=10.1111/j.1365-2923.2009.03498.x;,citation_volume=44;,citation_journal_title=Medical education;,citation_publisher=Wiley Online Library;">
+<meta name="citation_reference" content="citation_title=Peak: Secrets from the new science of expertise;,citation_author=Anders Ericsson;,citation_author=Robert Pool;,citation_publication_date=2017-04-11;,citation_cover_date=2017-04-11;,citation_year=2017;,citation_isbn=978-0544947221;">
+<meta name="citation_reference" content="citation_title=Developing students’ statistical expertise through writing in the age of AI;,citation_author=Laura S DeLuca;,citation_author=Alex Reinhart;,citation_author=Gordon Weinberg;,citation_author=Michael Laudenbach;,citation_author=Sydney Miller;,citation_author=David West Brown;,citation_publication_date=2025;,citation_cover_date=2025;,citation_year=2025;,citation_issue=3;,citation_doi=10.1080/26939169.2025.2497547;,citation_volume=33;,citation_journal_title=Journal of Statistics and Data Science Education;">
+<meta name="citation_reference" content="citation_title=StatEval: A comprehensive benchmark for large language models in statistics;,citation_author=Yuchen Lu;,citation_author=Run Yang;,citation_author=Yichen Zhang;,citation_author=Shuguang Yu;,citation_author=Ziwei Wang;,citation_author=Jiayi Xiang;,citation_author=Changyu Zhu;,citation_author=Fan Zhou;,citation_author=others;,citation_publication_date=2025;,citation_cover_date=2025;,citation_year=2025;,citation_doi=10.48550/arXiv.2510.09517;,citation_journal_title=arXiv preprint arXiv:2510.09517;">
+<meta name="citation_reference" content="citation_title=Y code when ai?;,citation_author=Hadley Wickham;,citation_publication_date=2026-07-24;,citation_cover_date=2026-07-24;,citation_year=2026;,citation_fulltext_html_url=https://tidydesign.substack.com/p/y-code-when-ai;,citation_publisher=Substack: &amp;amp;amp;lt;i&amp;gt;Tidy design principles&amp;lt;/i&amp;gt;;">
+<meta name="citation_reference" content="citation_title=AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting;,citation_author=Greg Kestin;,citation_author=Kelly Miller;,citation_author=Anna Klales;,citation_author=Timothy Milbourne;,citation_author=Gregorio Ponti;,citation_publication_date=2025;,citation_cover_date=2025;,citation_year=2025;,citation_issue=1;,citation_doi=10.1038/s41598-025-97652-6;,citation_volume=15;,citation_journal_title=Scientific Reports;,citation_publisher=Nature Publishing Group UK London;">
+<meta name="citation_reference" content="citation_title=Generative AI without guardrails can harm learning: Evidence from high school mathematics;,citation_author=Hamsa Bastani;,citation_author=Osbert Bastani;,citation_author=Alp Sungu;,citation_author=Haosen Ge;,citation_author=Özge Kabakcı;,citation_author=Rei Mariman;,citation_publication_date=2025;,citation_cover_date=2025;,citation_year=2025;,citation_issue=26;,citation_doi=10.1073/pnas.2422633122;,citation_volume=122;,citation_journal_title=Proceedings of the National Academy of Sciences;,citation_publisher=National Academy of Sciences;">
+<meta name="citation_reference" content="citation_title=Critical thinking: Why is it so hard to teach?;,citation_author=Daniel T Willingham;,citation_publication_date=2008;,citation_cover_date=2008;,citation_year=2008;,citation_issue=4;,citation_doi=10.3200/AEPR.109.4.21-32;,citation_volume=109;,citation_journal_title=Arts education policy review;,citation_publisher=Taylor &amp;amp;amp; Francis;">
+<meta name="citation_reference" content="citation_title=Critical thinking in education: A review;,citation_author=Robert T Pithers;,citation_author=Rebecca Soden;,citation_publication_date=2000;,citation_cover_date=2000;,citation_year=2000;,citation_issue=3;,citation_doi=10.1080/001318800440579;,citation_volume=42;,citation_journal_title=Educational research;,citation_publisher=Taylor &amp;amp;amp; Francis;">
+<meta name="citation_reference" content="citation_title=Domain-specific knowledge and why teaching generic skills does not work;,citation_author=André Tricot;,citation_author=John Sweller;,citation_publication_date=2014;,citation_cover_date=2014;,citation_year=2014;,citation_issue=2;,citation_doi=10.1007/s10648-013-9243-1;,citation_volume=26;,citation_journal_title=Educational psychology review;,citation_publisher=Springer;">
+<meta name="citation_reference" content="citation_title=Who is using AI to code? Global diffusion and impact of generative AI;,citation_author=Simone Daniotti;,citation_author=Johannes Wachs;,citation_author=Xiangnan Feng;,citation_author=Frank Neffke;,citation_publication_date=2026;,citation_cover_date=2026;,citation_year=2026;,citation_doi=10.1126/science.adz9311;,citation_journal_title=Science;,citation_publisher=American Association for the Advancement of Science;">
+<meta name="citation_reference" content="citation_title=“It’s weird that it knows what i want”: Usability and interactions with copilot for novice programmers;,citation_author=James Prather;,citation_author=Brent N Reeves;,citation_author=Paul Denny;,citation_author=Brett A Becker;,citation_author=Juho Leinonen;,citation_author=Andrew Luxton-Reilly;,citation_author=Garrett Powell;,citation_author=James Finnie-Ansley;,citation_author=Eddie Antonio Santos;,citation_publication_date=2023;,citation_cover_date=2023;,citation_year=2023;,citation_issue=1;,citation_doi=10.1145/3617367;,citation_volume=31;,citation_journal_title=ACM transactions on computer-human interaction;,citation_publisher=ACM New York, NY;">
+<meta name="citation_reference" content="citation_title=The widening gap: The benefits and harms of generative AI for novice programmers;,citation_author=James Prather;,citation_author=Brent N Reeves;,citation_author=Juho Leinonen;,citation_author=Stephen MacNeil;,citation_author=Arisoa S Randrianasolo;,citation_author=Brett A Becker;,citation_author=Bailey Kimmel;,citation_author=Jared Wright;,citation_author=Ben Briggs;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_doi=10.1145/3632620.3671116;,citation_conference_title=Proceedings of the 2024 ACM conference on international computing education research-volume 1;">
+<meta name="citation_reference" content="citation_title=Beware of metacognitive laziness: Effects of generative artificial intelligence on learning motivation, processes, and performance;,citation_author=Yizhou Fan;,citation_author=Luzhen Tang;,citation_author=Huixiao Le;,citation_author=Kejie Shen;,citation_author=Shufang Tan;,citation_author=Yueying Zhao;,citation_author=Yuan Shen;,citation_author=Xinyu Li;,citation_author=Dragan Gašević;,citation_publication_date=2025;,citation_cover_date=2025;,citation_year=2025;,citation_issue=2;,citation_doi=10.1111/bjet.13544;,citation_volume=56;,citation_journal_title=British Journal of Educational Technology;,citation_publisher=Wiley Online Library;">
+<meta name="citation_reference" content="citation_title=AI assistance reduces persistence and hurts independent performance;,citation_author=Grace Liu;,citation_author=Brian Christian;,citation_author=Tsvetomira Dumbalska;,citation_author=Michiel A Bakker;,citation_author=Rachit Dubey;,citation_publication_date=2026;,citation_cover_date=2026;,citation_year=2026;,citation_doi=10.48550/arXiv.2604.04721;,citation_journal_title=arXiv preprint arXiv:2604.04721;">
+<meta name="citation_reference" content="citation_title=University students feel ’anxious, confused and distrustful’ about AI in the classroom and among their peers;,citation_author=Elise Silva;,citation_publication_date=2025-07-16;,citation_cover_date=2025-07-16;,citation_year=2025;,citation_fulltext_html_url=https://theconversation.com/university-students-feel-anxious-confused-and-distrustful-about-ai-in-the-classroom-and-among-their-peers-258665;,citation_publisher=The Conversation;">
+<meta name="citation_reference" content="citation_title=’All roads lead to ChatGPT’: How generative AI is eroding social interactions and student learning communities;,citation_author=Irene Hou;,citation_author=Owen Man;,citation_author=Kate Hamilton;,citation_author=Srishty Muthusekaran;,citation_author=Jeffin Johnykutty;,citation_author=Leili Zadeh;,citation_author=Stephen MacNeil;,citation_publication_date=2025;,citation_cover_date=2025;,citation_year=2025;,citation_doi=10.1145/3724363.3729024;,citation_conference_title=Proceedings of the 30th ACM conference on innovation and technology in computer science education v. 1;">
+<meta name="citation_reference" content="citation_title=A tutor, a tool, and a sounding board: How statistics students use generative AI;,citation_author=Mark Glickman;,citation_author=Jun Yan;,citation_author=Nalisnick Eric;,citation_author=Mine Çetinkaya-Rundel;,citation_publication_date=2026;,citation_cover_date=2026;,citation_year=2026;,citation_issue=2;,citation_doi=10.1080/09332480.2026.2698398;,citation_volume=39;,citation_journal_title=CHANCE;,citation_publisher=Taylor &amp;amp;amp; Francis;">
+<meta name="citation_reference" content="citation_title=Expert thinking with generative chatbots.;,citation_author=Megan N Imundo;,citation_author=Micah Watanabe;,citation_author=Andrew H Potter;,citation_author=Jiachen Gong;,citation_author=Tracy Arner;,citation_author=Danielle S McNamara;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;,citation_issue=4;,citation_doi=10.1037/mac0000199;,citation_volume=13;,citation_journal_title=Journal of Applied Research in Memory and Cognition;,citation_publisher=Educational Publishing Foundation;">
+<meta name="citation_reference" content="citation_title=This big university system is embracing AI. Students and faculty aren’t all on board;,citation_author=Lee V. Gaines;,citation_publication_date=2026-05-25;,citation_cover_date=2026-05-25;,citation_year=2026;,citation_fulltext_html_url=https://www.npr.org/2026/05/25/nx-s1-5772820/artificial-intelligence-education-technology-california-state-university;,citation_publisher=NPR;">
+<meta name="citation_reference" content="citation_title=More students use AI for homework, and more believe it harms critical thinking;,citation_author=H Schwartz;,citation_author=M Diliberti;,citation_publication_date=2026;,citation_cover_date=2026;,citation_year=2026;,citation_fulltext_html_url=https://www.rand.org/pubs/research\_reports/RRA4742-1.html;,citation_publisher=Rand Corporation;">
+<meta name="citation_reference" content="citation_title=Teaching: How to respond when students don’t want to work with AI;,citation_author=Beth McMurtrie;,citation_publication_date=2025-12-11;,citation_cover_date=2025-12-11;,citation_year=2025;,citation_fulltext_html_url=https://www.chronicle.com/newsletter/teaching/2025-12-11;,citation_publisher=The Chronicle of Higher Education;">
+<meta name="citation_reference" content="citation_title=AI’s impact on education at CMU and beyond;,citation_author=Michelle Yang;,citation_publication_date=2026-02-09;,citation_cover_date=2026-02-09;,citation_year=2026;,citation_fulltext_html_url=https://the-tartan.org/2026/02/09/ais-impact-on-education-at-cmu-and-beyond/;,citation_publisher=The Tartan;">
+<meta name="citation_reference" content="citation_title=The turbulent AI era is here. The choices we make now are critical.;,citation_author=Bill Gates;,citation_publication_date=2026-08-26;,citation_cover_date=2026-08-26;,citation_year=2026;,citation_fulltext_html_url=https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/expanding-access-to-health-care-through-ai;,citation_publisher=GatesNotes;">
+<meta name="citation_reference" content="citation_title=AI tools in society: Impacts on cognitive offloading and the future of critical thinking;,citation_author=Michael Gerlich;,citation_publication_date=2025;,citation_cover_date=2025;,citation_year=2025;,citation_issue=1;,citation_doi=https://doi.org/10.3390/soc15010006;,citation_volume=15;,citation_journal_title=Societies;,citation_publisher=Multidisciplinary Digital Publishing Institute;">
+<meta name="citation_reference" content="citation_title=Report of MIT’s ad hoc committee on AI use in teaching, learning, and research training;,citation_author=Eric Klopfer;,citation_author=Sam Madden;,citation_publication_date=2026-08-13;,citation_cover_date=2026-08-13;,citation_year=2026;,citation_fulltext_html_url=https://aiandeducation.mit.edu/report/;,citation_technical_report_institution=Massachusetts Institute of Technology;">
+</head>
+
+<body class="quarto-light">
+
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Generative AI hasn’t changed learning: It’s still hard to become an expert</h1>
+          </div>
+
+    
+    <div class="quarto-title-meta-container">
+      <div class="quarto-title-meta-column-start">
+            <div class="quarto-title-meta-author">
+          <div class="quarto-title-meta-heading">Authors</div>
+          <div class="quarto-title-meta-heading">Affiliations</div>
+          
+                <div class="quarto-title-meta-contents">
+            <p class="author">Ming-Wen An <a href="mailto:mian@vassar.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0001-9064-3189" class="quarto-title-author-orcid" aria-label="ORCID profile for Ming-Wen An"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Vassar College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Benjamin S. Baumer <a href="mailto:bbaumer@smith.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-3279-0516" class="quarto-title-author-orcid" aria-label="ORCID profile for Benjamin S. Baumer"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Smith College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Logan Dancey <a href="mailto:ldancey@wesleyan.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-5348-5369" class="quarto-title-author-orcid" aria-label="ORCID profile for Logan Dancey"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Wesleyan University
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Richard De Veaux <a href="mailto:rdeveaux@williams.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Williams College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Daryl DeFord <a href="mailto:ddeford@vassar.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-2032-3168" class="quarto-title-author-orcid" aria-label="ORCID profile for Daryl DeFord"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Vassar College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Erika Franklin Fowler <a href="mailto:efowler@wesleyan.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-3141-572X" class="quarto-title-author-orcid" aria-label="ORCID profile for Erika Franklin Fowler"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Wesleyan University
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Stephen Freund <a href="mailto:sfreund@williams.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0000-6992-199X" class="quarto-title-author-orcid" aria-label="ORCID profile for Stephen Freund"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Williams College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Sorelle Friedler <a href="mailto:sorelle@cs.haverford.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0001-6023-1597" class="quarto-title-author-orcid" aria-label="ORCID profile for Sorelle Friedler"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Haverford College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Maryam Gooyabadi <a href="mailto:mgooyabadi@wesleyan.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0004-1269-4633" class="quarto-title-author-orcid" aria-label="ORCID profile for Maryam Gooyabadi"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Wesleyan University
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Douglas Hall <a href="mailto:dhall@amherst.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-2829-6272" class="quarto-title-author-orcid" aria-label="ORCID profile for Douglas Hall"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Amherst College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Brianna Heggeseth <a href="mailto:bheggese@macalester.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-3946-1715" class="quarto-title-author-orcid" aria-label="ORCID profile for Brianna Heggeseth"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Macalester College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Nicholas J. Horton <a href="mailto:nhorton@amherst.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-3332-4311" class="quarto-title-author-orcid" aria-label="ORCID profile for Nicholas J. Horton"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Amherst College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Emmanuel Kaparakis <a href="mailto:mkaparakis@wesleyan.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Wesleyan University
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Antonio Laverghetta Jr. <a href="mailto:alaverghetta@wesleyan.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-0523-5362" class="quarto-title-author-orcid" aria-label="ORCID profile for Antonio Laverghetta Jr."> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Wesleyan University
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Victoria Manfredi <a href="mailto:vumanfredi@wesleyan.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-2792-6287" class="quarto-title-author-orcid" aria-label="ORCID profile for Victoria Manfredi"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Wesleyan University
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Valerie Nazzaro <a href="mailto:vnazzaro@wesleyan.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Wesleyan University
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Thao Nguyen <a href="mailto:tnguyen3@haverford.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-5016-2230" class="quarto-title-author-orcid" aria-label="ORCID profile for Thao Nguyen"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Haverford College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Cassandra Pattanayak <a href="mailto:cpattanayak@wellesley.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0008-5400-7028" class="quarto-title-author-orcid" aria-label="ORCID profile for Cassandra Pattanayak"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Wellesley College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Anna Plantinga <a href="mailto:amp9@williams.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0001-6281-7727" class="quarto-title-author-orcid" aria-label="ORCID profile for Anna Plantinga"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Williams College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Alex Reinhart <a href="mailto:areinhar@stat.cmu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-6658-514X" class="quarto-title-author-orcid" aria-label="ORCID profile for Alex Reinhart"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Carnegie Mellon University
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Lynne Steuerle Schofield <a href="mailto:lschofi1@swarthmore.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-2961-8213" class="quarto-title-author-orcid" aria-label="ORCID profile for Lynne Steuerle Schofield"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Swarthmore College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Marc Schulz <a href="mailto:mschulz@brynmawr.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-5179-2584" class="quarto-title-author-orcid" aria-label="ORCID profile for Marc Schulz"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Bryn Mawr College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Sarah Supp <a href="mailto:supps@denison.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-0072-029X" class="quarto-title-author-orcid" aria-label="ORCID profile for Sarah Supp"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Denison University
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Anjali Thapar <a href="mailto:athapar@brynmawr.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-4384-5228" class="quarto-title-author-orcid" aria-label="ORCID profile for Anjali Thapar"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Bryn Mawr College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Elizabeth Upton <a href="mailto:emu1@williams.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-1219-846X" class="quarto-title-author-orcid" aria-label="ORCID profile for Elizabeth Upton"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Williams College
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Zhe Wang <a href="mailto:wangz@denison.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0001-7307-8819" class="quarto-title-author-orcid" aria-label="ORCID profile for Zhe Wang"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Denison University
+                      </p>
+                  </div>
+                    </div>
+        
+        <div class="quarto-title-meta">
+
+                      
+          
+                
+              </div>
+      </div>
+      <div class="quarto-title-meta-column-end quarto-other-formats-target">
+      <div class="quarto-alternate-formats"><div class="quarto-title-meta-heading">Other Formats</div><div class="quarto-title-meta-contents"><p><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></p></div><div class="quarto-title-meta-contents"><p><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF (jasa)</a></p></div></div></div>
+    </div>
+
+    <div>
+      <div class="abstract">
+        <div class="block-title">Abstract</div>
+        <p>Generative AI is having a substantial impact on higher education. Amid a growing body of research about that impact, we articulate an emerging consensus about how generative AI affects student learning that is supported by established educational theories. Specifically, we find that while generative AI appears to be helpful to experts, it is not similarly helpful to novices in developing their expertise. Students (novices) need a foundation of disciplinary knowledge to become experts and even critical thinkers, and their use of generative AI to provide answers, rather than help them refine their understanding, hinders their progress on the path from novice to expert. We connect these dots, communicate this view to various constituencies, and discuss paths forward for higher education. While we write from our perspective as statisticians, data scientists, and computer scientists at liberal arts colleges, we believe that our findings will resonate across other disciplines and institutions of higher education.</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="keywords">
+        <div class="block-title">Keywords</div>
+        <p>Generative AI, higher education, learning science, data science education</p>
+      </div>
+    </div>
+
+    <div class="quarto-other-links-text-target">
+    </div>  </div>
+</header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#our-vision-of-a-liberal-arts-education" id="toc-our-vision-of-a-liberal-arts-education" class="nav-link" data-scroll-target="#our-vision-of-a-liberal-arts-education">Our vision of a liberal arts education</a></li>
+  </ul></li>
+  <li><a href="#how-is-generative-ai-affecting-learning" id="toc-how-is-generative-ai-affecting-learning" class="nav-link" data-scroll-target="#how-is-generative-ai-affecting-learning">How is generative AI affecting learning?</a>
+  <ul class="collapse">
+  <li><a href="#what-is-learning" id="toc-what-is-learning" class="nav-link" data-scroll-target="#what-is-learning">What is learning?</a></li>
+  <li><a href="#early-returns-on-learning-with-generative-ai" id="toc-early-returns-on-learning-with-generative-ai" class="nav-link" data-scroll-target="#early-returns-on-learning-with-generative-ai">Early returns on learning with generative AI</a></li>
+  </ul></li>
+  <li><a href="#what-our-key-constituencies-need-to-know-about-learning-with-genai" id="toc-what-our-key-constituencies-need-to-know-about-learning-with-genai" class="nav-link" data-scroll-target="#what-our-key-constituencies-need-to-know-about-learning-with-genai">What our key constituencies need to know about learning with GenAI</a>
+  <ul class="collapse">
+  <li><a href="#sec-students" id="toc-sec-students" class="nav-link" data-scroll-target="#sec-students">Students</a></li>
+  <li><a href="#parents" id="toc-parents" class="nav-link" data-scroll-target="#parents">Parents</a></li>
+  <li><a href="#colleagues" id="toc-colleagues" class="nav-link" data-scroll-target="#colleagues">Colleagues</a></li>
+  <li><a href="#trustees-and-administrators" id="toc-trustees-and-administrators" class="nav-link" data-scroll-target="#trustees-and-administrators">Trustees and administrators</a></li>
+  </ul></li>
+  <li><a href="#conclusion-and-paths-forward" id="toc-conclusion-and-paths-forward" class="nav-link" data-scroll-target="#conclusion-and-paths-forward">Conclusion and Paths Forward</a>
+  <ul class="collapse">
+  <li><a href="#sec-workshop" id="toc-sec-workshop" class="nav-link" data-scroll-target="#sec-workshop">Acknowledgements</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+  
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>We write as a group of 26 statistics, data science, and computer science educators at 11 liberal arts colleges and one R1 university. We convened in July 2026 (see <a href="#sec-workshop" class="quarto-xref">Section&nbsp;4.1</a>) to discuss the opportunities and challenges facing undergraduate higher education brought on by the rapid adoption of generative artificial intelligence (GenAI, hereafter) tools, and their impact upon our students. Our goal in this paper is to present a research-informed view of how GenAI is affecting our educational objectives – for better and for worse – and to communicate that perspective succinctly to important stakeholders, including students, colleagues, trustees, and parents. As statistics, data science, and computer science educators from liberal arts colleges, we focus our attention on the environments that we know best, but we believe that what we write will resonate across much of higher education. While we recognize that our disciplines and our institutions do not fully represent higher education at large, we hope our careful thinking will have value to everyone connected to these enterprises. As liberal arts college educators, we feel well-positioned to lead on this notable challenge, and suggest that liberal arts colleges, where faculty are deeply engaged with both research and teaching, can serve as ideal incubators for novel pedagogical strategies to address GenAI.</p>
+<p>While we are critical of the most optimistic claims about GenAI’s role in undergraduate education, we are not technophobes. Neither do we have our heads buried in the proverbial sand, nor are we afraid of change. Most of us have doctorates in statistics, computer science, or closely-related fields, some of us have research interests that include subdomains of artificial intelligence, and all of us use, create, or examine GenAI to some extent in our work. Many of us have been recognized as classroom innovators within our disciplines. We are not of one mind: our approaches to dealing with GenAI in our classes run the gamut from “let’s ban it” to “let’s embrace it.” And yet, after three and a half days of discussion, we arrived at a largely shared conception of <em>how</em> GenAI is currently affecting our students, our classes, and our profession.</p>
+<p>In what follows, we articulate that shared conception – which is supported by peer-reviewed research and rooted in longstanding theories of learning – and reflect on pedagogical alignment in the presence of GenAI. Our analysis hinges on the differential utility of GenAI for novices versus experts:</p>
+<blockquote class="blockquote">
+<p><strong>Generative AI amplifies existing expertise, but its unchecked adoption by students hinders their ability to develop that expertise.</strong></p>
+</blockquote>
+<section id="our-vision-of-a-liberal-arts-education" class="level3">
+<h3 class="anchored" data-anchor-id="our-vision-of-a-liberal-arts-education">Our vision of a liberal arts education</h3>
+<p>An undergraduate education is an investment in the student to whom it pays lifelong dividends. Our students are the product of our classes, not only as future professionals or scholars, but as human members of society. We assert that the lasting artifact(s) of a collegiate course is not the homework assignment, group project, or final exam completed by the student, but rather the multifaceted development that occurred within the student during the creation and process of doing the course work. Within our respective disciplines, our responsibility as educators is to help our students move along a path from novice to expert.</p>
+<p>This focus on the holistic development of the student is explicit in the mission statements of our respective institutions, which exhort us to guide students to “lead lives of meaning and purpose” (<a href="https://www.williams.edu/about/mission-values/">Williams College</a>), to “educate women of promise for lives of distinction and purpose” (<a href="https://www.smith.edu/discover-smith/history-traditions">Smith College</a>), and to “educate our students to become autonomous thinkers, discerning moral agents and active citizens of a democratic society” (<a href="https://catalog.denison.edu/catalog/history-mission-values/mission/">Denison University</a>), while emphasizing “holistic individual and community development, student leadership, individual responsibility, advocacy of academic inquiry, and freedom of thought, opinion and expression in the spirit of mutual respect” (<a href="https://www.wesleyan.edu/reslife/office/Mission%20Statement1.html">Wesleyan University</a>). (All of our institutions have similar themes in their mission statements.) While graduates of liberal arts colleges have had excellent employment prospects relative to their peers <span class="citation" data-cites="gray2025measuring">(<a href="#ref-gray2025measuring" role="doc-biblioref">Gray et al. 2025</a>)</span>, their employability is as much a by-product of a well-rounded, humanistic education as it is an end in itself. Setting students up to have better options and make better choices is a foreground priority.</p>
+<p>Moreover, the skills that make liberal arts graduates such valuable employees are not limited to the course content they absorbed. Instead, it is their ability and determination to solve difficult problems, to deploy multiple analytical approaches, to pose trenchant questions, to summon the collective wisdom of previous scholars, to apply moral and ethical reasoning from an informed perspective, to collaborate and communicate effectively across multiple audiences with multiple viewpoints, to adapt to new situations, and perhaps above all else, to continue to learn on their own and to value the expertise of themselves and others that make them such valuable employees <span class="citation" data-cites="holmes2026ai">(<a href="#ref-holmes2026ai" role="doc-biblioref">Holmes-Sullivan 2026</a>)</span>. Rather than being confined to a single application, their skills translate across adjacent domains.</p>
+<p>The world continues to change ever more rapidly (higher education is no different!) and at this moment in time, GenAI is in the eye of the storm. Other moments in time brought the advent of the Internet and the arrival of cell phones, and we do not know what future developments will require. We convened to discuss the impact of GenAI on the teaching of statistics, data science, and computer science at liberal arts colleges in the present moment, and left convinced that while GenAI will disrupt some of our practices (as other inventions have), it will not alter the fundamental relationship between our students and the world that we have just described. Just as with other new technological changes, we will continue to help our students develop as whole persons belonging to a lineage and community of thinkers, and prepare them for the unknowable challenges of tomorrow, as best we can.</p>
+<p>To do so requires an in-depth conversation about how generative AI impacts learning.</p>
+</section>
+</section>
+<section id="how-is-generative-ai-affecting-learning" class="level2">
+<h2 class="anchored" data-anchor-id="how-is-generative-ai-affecting-learning">How is generative AI affecting learning?</h2>
+<section id="what-is-learning" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-learning">What is learning?</h3>
+<p>We know from the learning sciences that what people need to understand their world is a working mental model of the systems with which they interact <span class="citation" data-cites="disessa1982unlearning schauble1991causal">(<a href="#ref-disessa1982unlearning" role="doc-biblioref">DiSessa 1982</a>; <a href="#ref-schauble1991causal" role="doc-biblioref">Schauble et al. 1991</a>)</span>. This is true for everyone: the doctor and the medical assistant, the receptionist and the executive, the plumber and the chemist. These mental models allow people to employ causal reasoning, such as making a prediction about what will happen and then testing that prediction against reality, an act that may result in an update to the mental model. The more accurate the mental model of the system, the more competent the professional is.</p>
+<p>Moreover, humans develop expertise by committing their working understanding (i.e., schemas) to long-term memory, such that routine tasks become automated <span class="citation" data-cites="van2010cognitive">(<a href="#ref-van2010cognitive" role="doc-biblioref">Van Merriënboer and Sweller 2010</a>)</span>. Learning is the result of this automation. Think of the way you can brush your teeth, tie your shoes, or work the foot pedals in a car without thinking about what you are doing, or further, while thinking about something else entirely. Building these automated schemas requires deliberate, repeated practice <span class="citation" data-cites="ericsson2016peak">(<a href="#ref-ericsson2016peak" role="doc-biblioref">Ericsson and Pool 2017</a>)</span>.</p>
+<p>In statistics and data science, we often work with a variety of systems that include the data context, statistical models (e.g., a linear regression model<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>), and computational software (e.g., R or Python). Because fitting and interpreting linear regression models is a standard practice in scientific literature, GenAI can produce many factually accurate statements about linear regression models. It can also write the R code necessary to fit and visualize these models. We are not blind to the fact that it can do nearly all of the tasks that we ask our introductory statistics students to do <span class="citation" data-cites="deluca2025developing lu2025stateval">(<a href="#ref-deluca2025developing" role="doc-biblioref">DeLuca et al. 2025</a>; <a href="#ref-lu2025stateval" role="doc-biblioref"><span class="nocase">Lu et al.</span> 2025</a>)</span>.</p>
+<p>What then is the value of learning statistics when GenAI can “do data analysis” for you? Let’s first recognize that there is a difference between a person who understands statistics (i.e., has a working mental model of regression committed to long-term memory) and a person who can use GenAI to perform statistical tasks (i.e., knows how to prompt AI to get the requested information). We might call the former “human intelligence” and the latter “human-guided artificial intelligence”.</p>
+<p>An analogy to music might help. GenAI amplifies existing skills <span class="citation" data-cites="wickham2026ai">(<a href="#ref-wickham2026ai" role="doc-biblioref">Wickham 2026</a>)</span> the same way an incredible new amp could have expanded Jimi Hendrix’s or B. B. King’s (possibly two of the greatest guitarists to ever play) sounds and techniques in a way that would have been prohibitively expensive in terms of time, money, or both when they were alive. However, for the novice who is just learning to play, having a fancy amp might be cool, but it doesn’t really help them play any better. The evidence for the efficacy of GenAI-based tutoring is mixed at best <span class="citation" data-cites="kestin2025ai bastani2025generative">(<a href="#ref-kestin2025ai" role="doc-biblioref">Kestin et al. 2025</a>; <a href="#ref-bastani2025generative" role="doc-biblioref">Bastani et al. 2025</a>)</span>, and there is simply no substitute for good old-fashioned practice <span class="citation" data-cites="ericsson2016peak">(<a href="#ref-ericsson2016peak" role="doc-biblioref">Ericsson and Pool 2017</a>)</span>. Without an automated mental model of scales, chord progressions, timing, and without the physical ability to repeat accurate fingerings and strumming, the novice will never be able to play in a band, let alone improvise and jam the way Hendrix or King could. Even a promising high school or college musician with the new amp won’t be at the level of Hendrix or King <em>without simultaneous and rigorous dedication to practice and learning</em>. Nobody gets better at playing a musical instrument<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> by sitting on the couch—you have to put in the work, and the work is hard.</p>
+<p>We also know from the learning sciences that while “critical thinking” is perhaps the most durable skill that we can help our students develop, it is really a complex collection of skills that cannot be developed in the absence of methodological content and subject matter context <span class="citation" data-cites="willingham2008critical pithers2000critical tricot2014domain">(<a href="#ref-willingham2008critical" role="doc-biblioref">Willingham 2008</a>; <a href="#ref-pithers2000critical" role="doc-biblioref">Pithers and Soden 2000</a>; <a href="#ref-tricot2014domain" role="doc-biblioref">Tricot and Sweller 2014</a>)</span>. That is, students need both fundamental disciplinary knowledge and domain expertise in order to apply critical thinking. Thus, it’s not possible to think critically about a regression model for home sales until you know something about regression models <em>and</em> something about the real estate market. You can’t be <a href="https://en.wikipedia.org/wiki/Symphony_No._94_(Haydn)">surprised by a symphony</a> until you’ve developed a mental model for what symphonies are supposed to sound like. You can’t be fooled by a curveball until you’ve learned to hit a fastball by anticipating its trajectory and coordinating your swing to meet that expectation.</p>
+<p>Proponents of GenAI would have you believe that interacting with a chatbot can help you build these foundational skills, but these claims would require strong experimental evidence (which is scant <span class="citation" data-cites="gerlich2025ai">(<a href="#ref-gerlich2025ai" role="doc-biblioref">Gerlich 2025</a>)</span>), and if you accept our analogy, they defy logic. As educators, we have been helping students develop foundational skills much in the manner that music teachers have: first we explain, then we demonstrate, then students practice and receive feedback. As any music teacher will tell you, this process doesn’t work if students don’t build muscle memory (i.e., automate their schema) through practice. For many students, the use of GenAI is impeding that practice – not enhancing it – by giving them a largely effortless way to accomplish tasks without actually refining their mental models and muscle memories.</p>
+</section>
+<section id="early-returns-on-learning-with-generative-ai" class="level3">
+<h3 class="anchored" data-anchor-id="early-returns-on-learning-with-generative-ai">Early returns on learning with generative AI</h3>
+<p>The students who most recently graduated from our institutions began their college experience shortly before ChatGPT kicked off the current wave of chatbot-based GenAI. If the loftiest claims about GenAI were true, we might expect that student work would have improved noticeably in this period. However, we can say anecdotally, but confidently, that we are not seeing such an improvement in what they are submitting. While it is difficult to untangle all of the cohort effects these students have experienced—growing up with smartphones and social media, the COVID-19 pandemic disrupting their high school experience, and now the rapid expansion of GenAI—lessons from the learning sciences can help us unpack the real-world impact of GenAI on student learning processes.</p>
+<p>A growing body of research supports the conclusion that for a variety of reasons, while GenAI can help experts leverage their knowledge and experience to perform tasks faster and more efficiently, the opposite is true for novices <span class="citation" data-cites="daniotti2026using">(<a href="#ref-daniotti2026using" role="doc-biblioref">Daniotti et al. 2026</a>)</span>. By definition, novices don’t have the background knowledge that prepares them to ask the right questions or identify the structure of a problem, and thus chatbots often lead them on a circuitous path to an answer to the wrong question. Because they lack the knowledge that allows them to accurately judge the veracity of GenAI output, novices are generally ill-equipped to navigate chatbot responses that produce false statements. Novices also lack the experience that helps experts quickly triage promising and doomed suggested routes to solve a problem. Moreover, novices suffer from metacognitive failures that experts escape: they are more likely to believe that conversations with GenAI are deepening their understanding, even while their assessed performance is declining <span class="citation" data-cites="prather2023s prather2024widening fan2025beware">(<a href="#ref-prather2023s" role="doc-biblioref">Prather et al. 2023</a>, <a href="#ref-prather2024widening" role="doc-biblioref">2024</a>; <a href="#ref-fan2025beware" role="doc-biblioref">Fan et al. 2025</a>)</span>. These insights help to explain why novices often end up chasing their tail when using GenAI.</p>
+<p>Furthermore, reliance on GenAI accustoms novices with habits that erode the development of the skills of liberal arts graduates we identified above that set them up for success post-college. GenAI’s ability to provide quick, easy answers to difficult problems is alluring to novices in the short-term, but it may impede their ability to build persistence, a far more important quality for their long-term success <span class="citation" data-cites="liu2026ai">(<a href="#ref-liu2026ai" role="doc-biblioref">Liu et al. 2026</a>)</span>. Novices who rely heavily on GenAI assistance may also fail to cultivate the mentoring and peer relationships that reinforce learning and propel them into future career success <span class="citation" data-cites="silva2025ai hou2025all">(<a href="#ref-silva2025ai" role="doc-biblioref">Silva 2025</a>; <a href="#ref-hou2025all" role="doc-biblioref">Hou et al. 2025</a>)</span>—relationships which experts have already had the time and experience to develop. As they become more dependent on GenAI, students concomitantly become less likely to seek out human-centric supports for learning (e.g., office hours, tutoring, study groups, etc.), leaving them even more isolated and disconnected from their learning community <span class="citation" data-cites="hou2025all glickman2026tutor">(<a href="#ref-hou2025all" role="doc-biblioref">Hou et al. 2025</a>; <a href="#ref-glickman2026tutor" role="doc-biblioref">Glickman et al. 2026</a>)</span>.</p>
+<p>This disjunction in the usefulness of GenAI between experts and novices offers an explanation of how two seemingly contradictory observations can simultaneously be true. GenAI <em>is</em> useful to those with experience and training, and it may very well lead to a realization of many of the claims being made by AI companies and its proponents. Long-stubborn <a href="https://www.nytimes.com/2026/07/23/science/fields-medals-pardon-deng-wang-tsimerman.html">math problems <em>are</em> being solved</a> thanks to assistance from GenAI. <a href="https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html">New possibilities for entrepreneurship</a> <em>are</em> being fueled by GenAI. And yet the critics of AI also stand on firm ground. Rampant, ill-advised use of GenAI is <em>not</em> helping a generation of students build the very expertise that they will need to benefit from this newly ubiquitous technology, even as we and they are well-aware of its growing role in their future careers <span class="citation" data-cites="imundo2024expert">(<a href="#ref-imundo2024expert" role="doc-biblioref">Imundo et al. 2024</a>)</span>.</p>
+<p>Thus, GenAI is working primarily as an amplifier (or multiplier) of the skills that one already has.</p>
+<p>We see mounting evidence that GenAI is hindering our students’ ability to move along the path from novice to expert, thus delaying, or even preventing, their ability to access both the level of students’ historical achievements and growth as well as the increased productivity that GenAI promises. Students are beginning to realize this <span class="citation" data-cites="gaines2026ai schwartz2026more">(<a href="#ref-gaines2026ai" role="doc-biblioref">Gaines 2026</a>; <a href="#ref-schwartz2026more" role="doc-biblioref">Schwartz and Diliberti 2026</a>)</span>, and we observe increasing signs of their resentment towards GenAI, in the <a href="https://www.npr.org/2026/05/20/nx-s1-5822419/ai-colleges-commencement-booing">heckling of graduation speakers</a>, the formation of <a href="https://oberlinreview.org/35718/opinions/luddite-club-implores-oberlin-to-opt-out-of-ai/">student clubs</a> and <a href="https://www.bloomberg.com/news/articles/2026-05-19/ai-on-college-campuses-sparks-pushback-protests-booing-at-graduation">protests against AI</a>, and outright refusal to use AI <span class="citation" data-cites="mcmurtrie2025ai">(<a href="#ref-mcmurtrie2025ai" role="doc-biblioref">McMurtrie 2025</a>)</span>. Rather than using GenAI because they see it as the best tool for their learning, many students report feeling compelled <span class="citation" data-cites="yang2026ai">(<a href="#ref-yang2026ai" role="doc-biblioref">Yang 2026</a>)</span> to use GenAI due to shifting norms, competition with peers, stress, desperation, or what we view as a misguided attempt to prepare themselves for a workplace in which they will inevitably be asked to use GenAI.</p>
+</section>
+</section>
+<section id="what-our-key-constituencies-need-to-know-about-learning-with-genai" class="level2">
+<h2 class="anchored" data-anchor-id="what-our-key-constituencies-need-to-know-about-learning-with-genai">What our key constituencies need to know about learning with GenAI</h2>
+<p>In this rapidly changing landscape, we hope that this document will help all of us (students, faculty, trustees, parents, administrators, alums, and industry professionals) re-center our perspectives on higher education and GenAI’s role within it <span class="citation" data-cites="mit2026ai">(<a href="#ref-mit2026ai" role="doc-biblioref">Klopfer and Madden 2026</a>)</span>. This will require realignment from all parties, most notably including students and faculty. The remainder of this paper addresses four key constituencies separately, building upon the state-of-the-world we have articulated in this Introduction.</p>
+<section id="sec-students" class="level3">
+<h3 class="anchored" data-anchor-id="sec-students">Students</h3>
+<p>We want our students to understand that we care about them, their future, and their learning. We don’t want to have adversarial relationships with them as the cheating police. As articulated above, our goal is to move them along the path from novice to expert and help them develop as humans.</p>
+<p>The evidence and our experience tell us that in order to develop expertise, students need to build accurate mental models of the systems they are studying atop a foundation of facts, and then continue to refine and adorn those models through repeated practice and exposure to new material. This practice has many forms, both newfangled and old-fashioned, including homework problem sets, in-class lectures and activities, and textbook readings. This practice may be difficult and time consuming, but it is a necessary component of the learning process.</p>
+<p>While GenAI may be useful for some students in some cases, especially in more advanced courses where some expertise has already been developed, the evidence is mounting that the vast majority of GenAI use among college students is hindering their ability to build and refine their understanding of the material they are studying, which in turn, perhaps ironically, leaves them <em>less</em> well-prepared to access the benefits of GenAI that experienced professionals report <span class="citation" data-cites="gates2026ai">(<a href="#ref-gates2026ai" role="doc-biblioref">Gates 2026</a>)</span>.</p>
+<p>As a consequence, we are re-orienting our courses around assessments that take place in AI-free environments: oral presentations and exams, in-class pencil-and-paper quizzes and tests. We want our students to understand that this shift in assessment aligns with our learning goals for them, and is designed to best prepare them for success in their future endeavors, which we acknowledge will likely involve GenAI.</p>
+<p>Lastly, we want our students to come to class and office hours, work with their classmates, and engage fully in the challenging process of learning. We encourage them to be active partners in their education and cultivate strong relationships with faculty and peers. The community we build creates lifelong bonds while supporting the learning process and unlocking unexpected future paths. Ultimately, these interpersonal dynamics foster human-centered capabilities that GenAI simply cannot replicate.</p>
+</section>
+<section id="parents" class="level3">
+<h3 class="anchored" data-anchor-id="parents">Parents</h3>
+<p>We want parents to understand that we know why they are asking hard questions about the value of a college education amid the current headwinds of skyrocketing costs, an uncertain job market, and new technology (including GenAI) that is rapidly changing virtually every industry. We know that parents want their children to be “successful” in life (however that is defined). As highlighted in our mission statements, we affirm that our goal is to set their children up for adult lives in which they have better choices and make better decisions. We can do this by filling their minds, bodies, and spirits with knowledge, the ability to think critically about the world, and the courage to apply moral and ethical reasoning to the unknowable challenges they will face.</p>
+<p>We understand that most of our graduates will be hired into positions in which they will be expected to leverage GenAI in the workplace. But because of the argument we have laid out above, we don’t believe that allowing them unfettered access to GenAI during their undergraduate years is the best way to prepare them for that future. To the contrary, we believe that the best way to prepare them for a future in which they will use GenAI productively is to concentrate our efforts on leveraging our expertise to develop their mental models, primarily in AI-free environments. We believe that welcoming them, as whole persons, into our existing communities of scholarship and learning is the best way to position them for a lifetime of success, happiness, and gratification.</p>
+<p>Encouraging your children to be fully present, active partners in their education (see <a href="#sec-students" class="quarto-xref">Section&nbsp;3.1</a>) is the best way to help them navigate this challenging period of their lives.</p>
+</section>
+<section id="colleagues" class="level3">
+<h3 class="anchored" data-anchor-id="colleagues">Colleagues</h3>
+<p>We want our colleagues to know that we share their frustration with and worry about the challenges that GenAI is bringing to our jobs. We acknowledge that GenAI is having a profound impact on our teaching, our relationships with our students, and our sense of satisfaction with our jobs. We, too, experience moments of deep unease about the contours of the future of higher education, and what that means for us as teachers, scholars, and employees.</p>
+<p>However, we also want our colleagues to understand that we see a research-driven consensus emerging about the way that GenAI is affecting the learning that we facilitate in our courses. As we gain a clearer understanding of the role that GenAI plays in higher education, we see several paths forward that, in the best-case scenario, could lead to a reinvigoration of the liberal arts mission and leave us in a place where students and faculty are aligned on their respective goals about learning. It is up to us to delineate the boundaries of GenAI’s role in that world and to conduct the education research that shows how it can and cannot productively be used. If we fail to act, others will do this work for us. While we disagree (constructively and collegially) about how best to adapt our courses to GenAI, we <em>do</em> agree about what is going on and what we want for our students, and we hope this unity can sustain us as we tackle the oncoming challenges. Continued active communication among us can facilitate the novel tactics and techniques we will need.</p>
+</section>
+<section id="trustees-and-administrators" class="level3">
+<h3 class="anchored" data-anchor-id="trustees-and-administrators">Trustees and administrators</h3>
+<p>We want our trustees and administrators to know that we are grateful for their support of our institutions and our core educational missions. We recognize the value of their experiences beyond academia and our joint commitment to educating our students. We value what they love about our liberal arts colleges and the education they received: deep and critical engagement with complex and challenging ideas, the ability to express oneself fully, lifelong friendships with fellow students and mentorship from professors, and the cultivation of a love of learning. These core values at the center of a liberal arts education endure even as technology continues to evolve.</p>
+<p>Our aim – as we consider how best to teach our students – is to preserve these values and the spirit of learning that our institutions cultivate. We’re confident that future generations of graduates can and will go on to lives of purpose and meaning, successful careers, and important leadership positions. Because of the research-informed view described above, we believe that in order for students to realize their potential they must move towards mastering the core ideas of our subjects without the compromises to their learning brought on by GenAI.</p>
+<p>We recognize that trustees and administrators are hearing from all sides that GenAI is revolutionizing many industries, and that they are feeling pressure to adapt our curricula to prepare graduates to enter that world. We <em>are</em> doing this adaptive work, and we won’t abdicate our responsibility and authority to determine learning goals and curricula to other constituencies. As teacher-scholars and career educators, we need the support of our trustees and administrators now more than ever as we meet the new challenges and opportunities that accompany GenAI.</p>
+</section>
+</section>
+<section id="conclusion-and-paths-forward" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-and-paths-forward">Conclusion and Paths Forward</h2>
+<p>For many students, the use of GenAI early in their educational careers is impeding – not enhancing – their development from novice to expert. GenAI gives them a largely effortless way to accomplish tasks that diminishes their ability to refine their mental models of complex systems. Reliance on GenAI decreases their efforts in building learning communities (professors, peers, and friends) that will support them in the long term. Using GenAI to quickly answer hard problems that would have previously taken them hours, days, or even weeks to solve, stunts the development of their persistence and endurance that they will likely need in their careers and lives post-schooling.</p>
+<p>In fairness, it is likely we, teachers, have failed to impress upon students this philosophy of practice and the benefits of educational communities. Students may feel that some of our more time-consuming assignments (e.g., problem sets with by-hand calculations) are pointless “busywork”. We must do more to both align our assignments with our learning goals, and to convince our students that practice, especially with their peers and with us, while occasionally repetitive, is a necessary component of learning. The question then, is how we redirect student behavior so that sufficient practice continues to occur.</p>
+<p>We also may need to rethink how we distribute time in relation to the assessments that we give. <em>All of us</em> are increasingly interested in implementing in-person assessments that take place in AI-free environments (e.g., oral exams, in-class proctored exams, etc.). Emphasizing in-classroom assessments balanced with fewer summative assessments outside of class raises challenges about effective teaching strategies. As we think through when to assess, we must also reimagine what we assess. Just as our classwork and homework assignments should align to our learning goals, so too must our assessments match that which we claim to believe is important.</p>
+<p>Ultimately, our imperative is to re-incentivize the student behaviors that will help them move from novice to expert so that they can eventually use GenAI and/or any future technological advancement to amplify their skills as intellectually independent contributors to the wider world.</p>
+<section id="sec-workshop" class="level3">
+<h3 class="anchored" data-anchor-id="sec-workshop">Acknowledgements</h3>
+<p>This paper was incubated at the <a href="https://beanumber.github.io/aalac2026/"><em>Generative AI and Data Analysis: implications for data science curriculum and pedagogy</em> workshop</a> sponsored by the Alliance to Advance Liberal Arts Colleges (AALAC) and held at Wesleyan University from June 19-22, 2026.</p>
+<p>Workshop participants were provided with a reading list of nearly 60 items, most of which were recently published studies about GenAI in higher education. During the workshop, participants heard from various speakers about how GenAI use was affecting higher education. This included a plenary talk given by Alex Reinhart of Carnegie Mellon University entitled “The role of AI in statistics and data science education.” We also heard from Nicole Stanton (Provost and Senior Vice-President for Academic Affairs at Wesleyan) about the administration’s perspective on GenAI, Rachel Barlow (Director for the Center for Faculty Career Development at Wesleyan) about how students are using and feeling about GenAI, Casey Pattanayak (Jack and Sandra Polk Guthman ’65 Director of the Quantitative Analysis Institute at Wellesley) about student use of AI in statistics and data science courses, Zhe Wang (Denison) about AI Sentiment in the Classroom, and Alex Reinhart again about the differences between student writing and LLM writing. Each day, participants reacted to written statements about GenAI, and those results were shared with the group the following day, which helped us build consensus around some ideas while laying bare a lack of consensus on others. Many conversations, breakout sessions, and debates occurred in both formal and informal settings.</p>
+<p>Participants included: Ming-Wen An, Benjamin Baumer, Logan Dancey, Richard De Veaux, Daryl DeFord, Erika Franklin Fowler, Stephen Freund, Sorelle Friedler, Maryam Gooyabadi, Douglas Hall, Brianna Heggeseth, Nicholas Horton, Emmanuel Kaparakis, Antonio Laverghetta Jr., Victoria Manfredi, Valerie Nazzaro, Thao Nguyen, Pavel Oleinikov, Cassandra Pattanayak, Anna Plantinga, Alex Reinhart, Jennifer Rose, Lynne Steuerle Schofield, Marc Schulz, Sarah Supp, Anjali Thapar, Elizabeth Upton, and Zhe Wang.</p>
+<p>We are grateful to Martha Besade for extensive administrative and logistical support for the workshop.</p>
+</section>
+</section>
+<section id="references" class="level2 unnumbered">
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bastani2025generative" class="csl-entry" role="listitem">
+Bastani, Hamsa, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman. 2025. <span>“Generative <span>AI</span> Without Guardrails Can Harm Learning: Evidence from High School Mathematics.”</span> <em>Proceedings of the National Academy of Sciences</em> 122 (26): e2422633122. <a href="https://doi.org/10.1073/pnas.2422633122">https://doi.org/10.1073/pnas.2422633122</a>.
+</div>
+<div id="ref-daniotti2026using" class="csl-entry" role="listitem">
+Daniotti, Simone, Johannes Wachs, Xiangnan Feng, and Frank Neffke. 2026. <span>“Who Is Using <span>AI</span> to Code? Global Diffusion and Impact of Generative <span>AI</span>.”</span> <em>Science</em>, 831–35. <a href="https://doi.org/10.1126/science.adz9311">https://doi.org/10.1126/science.adz9311</a>.
+</div>
+<div id="ref-deluca2025developing" class="csl-entry" role="listitem">
+DeLuca, Laura S, Alex Reinhart, Gordon Weinberg, Michael Laudenbach, Sydney Miller, and David West Brown. 2025. <span>“Developing Students’ Statistical Expertise Through Writing in the Age of <span>AI</span>.”</span> <em>Journal of Statistics and Data Science Education</em> 33 (3): 266–78. <a href="https://doi.org/10.1080/26939169.2025.2497547">https://doi.org/10.1080/26939169.2025.2497547</a>.
+</div>
+<div id="ref-disessa1982unlearning" class="csl-entry" role="listitem">
+DiSessa, Andrea A. 1982. <span>“Unlearning Aristotelian Physics: A Study of Knowledge-Based Learning.”</span> <em>Cognitive Science</em> 6 (1): 37–75. <a href="https://doi.org/10.1207/s15516709cog0601_2">https://doi.org/10.1207/s15516709cog0601_2</a>.
+</div>
+<div id="ref-ericsson2016peak" class="csl-entry" role="listitem">
+Ericsson, Anders, and Robert Pool. 2017. <em>Peak: Secrets from the New Science of Expertise</em>. HarperOne.
+</div>
+<div id="ref-fan2025beware" class="csl-entry" role="listitem">
+Fan, Yizhou, Luzhen Tang, Huixiao Le, et al. 2025. <span>“Beware of Metacognitive Laziness: Effects of Generative Artificial Intelligence on Learning Motivation, Processes, and Performance.”</span> <em>British Journal of Educational Technology</em> 56 (2): 489–530. <a href="https://doi.org/10.1111/bjet.13544">https://doi.org/10.1111/bjet.13544</a>.
+</div>
+<div id="ref-gaines2026ai" class="csl-entry" role="listitem">
+Gaines, Lee V. 2026. <em>This Big University System Is Embracing <span>AI</span>. Students and Faculty Aren’t All on Board</em>. NPR. <a href="https://www.npr.org/2026/05/25/nx-s1-5772820/artificial-intelligence-education-technology-california-state-university">https://www.npr.org/2026/05/25/nx-s1-5772820/artificial-intelligence-education-technology-california-state-university</a>.
+</div>
+<div id="ref-gates2026ai" class="csl-entry" role="listitem">
+Gates, Bill. 2026. <em>The Turbulent <span>AI</span> Era Is Here. The Choices We Make Now Are Critical.</em> GatesNotes. <a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/expanding-access-to-health-care-through-ai">https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/expanding-access-to-health-care-through-ai</a>.
+</div>
+<div id="ref-gerlich2025ai" class="csl-entry" role="listitem">
+Gerlich, Michael. 2025. <span>“AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking.”</span> <em>Societies</em> 15 (1): 6. https://doi.org/<a href="https://doi.org/10.3390/soc15010006">https://doi.org/10.3390/soc15010006</a>.
+</div>
+<div id="ref-glickman2026tutor" class="csl-entry" role="listitem">
+Glickman, Mark, Jun Yan, Nalisnick Eric, and Mine Çetinkaya-Rundel. 2026. <span>“A Tutor, a Tool, and a Sounding Board: How Statistics Students Use Generative <span>AI</span>.”</span> <em>CHANCE</em> 39 (2): 39–44. <a href="https://doi.org/10.1080/09332480.2026.2698398">https://doi.org/10.1080/09332480.2026.2698398</a>.
+</div>
+<div id="ref-gray2025measuring" class="csl-entry" role="listitem">
+Gray, Kyle, Daniel Rossman, Elizabeth Davidson Pisacreta, Catharine Bond Hill, and Madeline Trimble. 2025. <span>“Measuring the Economic Value of a Liberal Education.”</span> <em>ITHAKA S+R</em>, ahead of print. <a href="https://doi.org/10.18665/sr.323160">https://doi.org/10.18665/sr.323160</a>.
+</div>
+<div id="ref-holmes2026ai" class="csl-entry" role="listitem">
+Holmes-Sullivan, Robin. 2026. <em>Why <span>AI</span> Makes a Liberal Arts Education Even More Invaluable</em>. U.S. News and World Report. <a href="https://www.usnews.com/opinion/articles/2026-01-20/college-ai-education-career-liberal-arts-opinion">https://www.usnews.com/opinion/articles/2026-01-20/college-ai-education-career-liberal-arts-opinion</a>.
+</div>
+<div id="ref-hou2025all" class="csl-entry" role="listitem">
+Hou, Irene, Owen Man, Kate Hamilton, et al. 2025. <span>“’All Roads Lead to ChatGPT’: How Generative <span>AI</span> Is Eroding Social Interactions and Student Learning Communities.”</span> <em>Proceedings of the 30th ACM Conference on Innovation and Technology in Computer Science Education v. 1</em>, 79–85. <a href="https://doi.org/10.1145/3724363.3729024">https://doi.org/10.1145/3724363.3729024</a>.
+</div>
+<div id="ref-imundo2024expert" class="csl-entry" role="listitem">
+Imundo, Megan N, Micah Watanabe, Andrew H Potter, Jiachen Gong, Tracy Arner, and Danielle S McNamara. 2024. <span>“Expert Thinking with Generative Chatbots.”</span> <em>Journal of Applied Research in Memory and Cognition</em> 13 (4): 465. <a href="https://doi.org/10.1037/mac0000199">https://doi.org/10.1037/mac0000199</a>.
+</div>
+<div id="ref-kestin2025ai" class="csl-entry" role="listitem">
+Kestin, Greg, Kelly Miller, Anna Klales, Timothy Milbourne, and Gregorio Ponti. 2025. <span>“<span>AI</span> Tutoring Outperforms in-Class Active Learning: An <span>RCT</span> Introducing a Novel Research-Based Design in an Authentic Educational Setting.”</span> <em>Scientific Reports</em> 15 (1): 17458. <a href="https://doi.org/10.1038/s41598-025-97652-6">https://doi.org/10.1038/s41598-025-97652-6</a>.
+</div>
+<div id="ref-mit2026ai" class="csl-entry" role="listitem">
+Klopfer, Eric, and Sam Madden. 2026. <em>Report of <span>MIT</span>’s Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training</em>. Massachusetts Institute of Technology. <a href="https://aiandeducation.mit.edu/report/">https://aiandeducation.mit.edu/report/</a>.
+</div>
+<div id="ref-liu2026ai" class="csl-entry" role="listitem">
+Liu, Grace, Brian Christian, Tsvetomira Dumbalska, Michiel A Bakker, and Rachit Dubey. 2026. <span>“<span>AI</span> Assistance Reduces Persistence and Hurts Independent Performance.”</span> <em>arXiv Preprint arXiv:2604.04721</em>, ahead of print. <a href="https://doi.org/10.48550/arXiv.2604.04721">https://doi.org/10.48550/arXiv.2604.04721</a>.
+</div>
+<div id="ref-lu2025stateval" class="csl-entry" role="listitem">
+<span class="nocase">Lu, Yuchen, Run Yang, Yichen Zhang, et al.</span> 2025. <span>“<span>StatEval</span>: A Comprehensive Benchmark for Large Language Models in Statistics.”</span> <em>arXiv Preprint arXiv:2510.09517</em>, ahead of print. <a href="https://doi.org/10.48550/arXiv.2510.09517">https://doi.org/10.48550/arXiv.2510.09517</a>.
+</div>
+<div id="ref-mcmurtrie2025ai" class="csl-entry" role="listitem">
+McMurtrie, Beth. 2025. <em>Teaching: How to Respond When Students Don’t Want to Work with <span>AI</span></em>. The Chronicle of Higher Education. <a href="https://www.chronicle.com/newsletter/teaching/2025-12-11">https://www.chronicle.com/newsletter/teaching/2025-12-11</a>.
+</div>
+<div id="ref-pithers2000critical" class="csl-entry" role="listitem">
+Pithers, Robert T, and Rebecca Soden. 2000. <span>“Critical Thinking in Education: A Review.”</span> <em>Educational Research</em> 42 (3): 237–49. <a href="https://doi.org/10.1080/001318800440579">https://doi.org/10.1080/001318800440579</a>.
+</div>
+<div id="ref-prather2023s" class="csl-entry" role="listitem">
+Prather, James, Brent N Reeves, Paul Denny, et al. 2023. <span>“<span>‘It’s Weird That It Knows What i Want’</span>: Usability and Interactions with Copilot for Novice Programmers.”</span> <em>ACM Transactions on Computer-Human Interaction</em> 31 (1): 1–31. <a href="https://doi.org/10.1145/3617367">https://doi.org/10.1145/3617367</a>.
+</div>
+<div id="ref-prather2024widening" class="csl-entry" role="listitem">
+Prather, James, Brent N Reeves, Juho Leinonen, et al. 2024. <span>“The Widening Gap: The Benefits and Harms of Generative <span>AI</span> for Novice Programmers.”</span> <em>Proceedings of the 2024 ACM Conference on International Computing Education Research-Volume 1</em>, 469–86. <a href="https://doi.org/10.1145/3632620.3671116">https://doi.org/10.1145/3632620.3671116</a>.
+</div>
+<div id="ref-schauble1991causal" class="csl-entry" role="listitem">
+Schauble, Leona, Robert Glaser, Kalyani Raghavan, and Miriam Reiner. 1991. <span>“Causal Models and Experimentation Strategies in Scientific Reasoning.”</span> <em>The Journal of the Learning Sciences</em> 1 (2): 201–38. <a href="https://doi.org/10.1207/s15327809jls0102_3">https://doi.org/10.1207/s15327809jls0102_3</a>.
+</div>
+<div id="ref-schwartz2026more" class="csl-entry" role="listitem">
+Schwartz, H, and M Diliberti. 2026. <em>More Students Use <span>AI</span> for Homework, and More Believe It Harms Critical Thinking</em>. Rand Corporation. <a href="https://www.rand.org/pubs/research\_reports/RRA4742-1.html">https://www.rand.org/pubs/research\_reports/RRA4742-1.html</a>.
+</div>
+<div id="ref-silva2025ai" class="csl-entry" role="listitem">
+Silva, Elise. 2025. <em>University Students Feel ’Anxious, Confused and Distrustful’ about <span>AI</span> in the Classroom and Among Their Peers</em>. The Conversation. <a href="https://theconversation.com/university-students-feel-anxious-confused-and-distrustful-about-ai-in-the-classroom-and-among-their-peers-258665">https://theconversation.com/university-students-feel-anxious-confused-and-distrustful-about-ai-in-the-classroom-and-among-their-peers-258665</a>.
+</div>
+<div id="ref-tricot2014domain" class="csl-entry" role="listitem">
+Tricot, André, and John Sweller. 2014. <span>“Domain-Specific Knowledge and Why Teaching Generic Skills Does Not Work.”</span> <em>Educational Psychology Review</em> 26 (2): 265–83. <a href="https://doi.org/10.1007/s10648-013-9243-1">https://doi.org/10.1007/s10648-013-9243-1</a>.
+</div>
+<div id="ref-van2010cognitive" class="csl-entry" role="listitem">
+Van Merriënboer, Jeroen JG, and John Sweller. 2010. <span>“Cognitive Load Theory in Health Professional Education: Design Principles and Strategies.”</span> <em>Medical Education</em> 44 (1): 85–93. <a href="https://doi.org/10.1111/j.1365-2923.2009.03498.x">https://doi.org/10.1111/j.1365-2923.2009.03498.x</a>.
+</div>
+<div id="ref-wickham2026ai" class="csl-entry" role="listitem">
+Wickham, Hadley. 2026. <em>Y Code When Ai?</em> Substack: <em>Tidy design principles</em>. <a href="https://tidydesign.substack.com/p/y-code-when-ai">https://tidydesign.substack.com/p/y-code-when-ai</a>.
+</div>
+<div id="ref-willingham2008critical" class="csl-entry" role="listitem">
+Willingham, Daniel T. 2008. <span>“Critical Thinking: Why Is It so Hard to Teach?”</span> <em>Arts Education Policy Review</em> 109 (4): 21–32. <a href="https://doi.org/10.3200/AEPR.109.4.21-32">https://doi.org/10.3200/AEPR.109.4.21-32</a>.
+</div>
+<div id="ref-yang2026ai" class="csl-entry" role="listitem">
+Yang, Michelle. 2026. <em><span>AI</span>’s Impact on Education at CMU and Beyond</em>. The Tartan. <a href="https://the-tartan.org/2026/02/09/ais-impact-on-education-at-cmu-and-beyond/">https://the-tartan.org/2026/02/09/ais-impact-on-education-at-cmu-and-beyond/</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://en.wikipedia.org/wiki/Linear_regression">Linear regression</a> is a flexible and powerful way to predict an outcome as a function of a set of predictor variables.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>We chose the guitar-playing analogy for alignment and accessibility, but considered many others, including playing the violin, hitting a baseball, composing a photograph, drawing/painting/sculpting a work of art, crafting a piece of furniture, scaling a mountain, etc. These are all activities in which expensive equipment can help experts achieve their goals more efficiently, but will not help novices achieve theirs.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
