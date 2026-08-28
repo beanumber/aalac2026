@@ -296,7 +296,7 @@ To do so requires an in-depth conversation about how generative AI impacts learn
 ### What is learning?
 
 We know from the learning sciences that what people need to understand their world is a working mental model of the systems with which they interact [@disessa1982unlearning; @schauble1991causal]. 
-This is true for everyone: the doctor and the physician’s assistant, the receptionist and the executive, the plumber and the chemist. 
+This is true for everyone: the doctor and the medical assistant, the receptionist and the executive, the plumber and the chemist. 
 These mental models allow people to employ causal reasoning, such as making a prediction about what will happen and then testing that prediction against reality, an act that may result in an update to the mental model. 
 The more accurate the mental model of the system, the more competent the professional is. 
 
@@ -409,7 +409,7 @@ However, we also want our colleagues to understand that we see a research-driven
 As we gain a clearer understanding of the role that GenAI plays in higher education, we see several paths forward that, in the best-case scenario, could lead to a reinvigoration of the liberal arts mission and leave us in a place where students and faculty are aligned on their respective goals about learning. 
 It is up to us to delineate the boundaries of GenAI’s role in that world and to conduct the education research that shows how it can and cannot productively be used. 
 If we fail to act, others will do this work for us. 
-While we don’t agree (constructively and collegially) about how best to adapt our courses to GenAI, we do agree about what is going on and what we want for our students, and we hope this unity can sustain us as we tackle the oncoming challenges.  
+While we disagree (constructively and collegially) about how best to adapt our courses to GenAI, we *do* agree about what is going on and what we want for our students, and we hope this unity can sustain us as we tackle the oncoming challenges.  
 
 ### Trustees and administrators
 
