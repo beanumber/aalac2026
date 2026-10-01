@@ -1,0 +1,16 @@
+/* Custom styles for AALAC 2026 website */
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.quarto-title-block .quarto-title h1 {
+  color: #2c3e50;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
