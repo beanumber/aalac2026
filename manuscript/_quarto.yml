@@ -10,7 +10,8 @@ format:
       hypothesis: true
   docx: default
 #  acm-pdf: 
-  jasa-pdf:
+  hdsr-pdf:
+    notebook-links: false
     keep-tex: true
 #  arxiv-pdf:
 #    authorcols: true
